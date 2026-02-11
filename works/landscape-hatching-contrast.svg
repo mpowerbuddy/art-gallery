@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- Applied: Landscape with Hatching Contrast -->
+  <g fill="none" stroke="#1a1a1a" stroke-width="0.35" stroke-linecap="round">
+    
+    <text x="200" y="20" font-family="sans-serif" font-size="10" text-anchor="middle">Applied: Sky=hatch, Mid=hatch+, Close=cross-hatch</text>
+    
+    <!-- Sky: very sparse hatching -->
+    <g stroke-width="0.25" opacity="0.4">
+      <line x1="20" y1="40" x2="20" y2="90"/>
+      <line x1="60" y1="35" x2="60" y2="100"/>
+      <line x1="100" y1="30" x2="100" y2="105"/>
+      <line x1="140" y1="28" x2="140" y2="108"/>
+      <line x1="180" y1="30" x2="180" y2="105"/>
+      <line x1="220" y1="28" x2="220" y2="108"/>
+      <line x1="260" y1="32" x2="260" y2="100"/>
+      <line x1="300" y1="38" x2="300" y2="95"/>
+      <line x1="340" y1="42" x2="340" y2="88"/>
+      <line x1="380" y1="48" x2="380" y2="82"/>
+    </g>
+    
+    <!-- Horizon -->
+    <path d="M20,145 Q100,142 200,144 Q300,146 380,143"/>
+    
+    <!-- Distant mountains: light hatching -->
+    <g stroke-width="0.3" opacity="0.6">
+      <path d="M0,145 L50,100 L100,130 L150,95 L200,120 L250,90 L300,115 L350,85 L400,120"/>
+      <line x1="30" y1="120" x2="70" y2="120"/>
+      <line x1="80" y1="115" x2="120" y2="115"/>
+      <line x1="130" y1="108" x2="170" y2="108"/>
+      <line x1="180" y1="105" x2="220" y2="105"/>
+      <line x1="230" y1="102" x2="270" y2="102"/>
+      <line x1="280" y1="100" x2="320" y2="100"/>
+      <line x1="330" y1="98" x2="370" y2="98"/>
+    </g>
+    
+    <!-- Mid-distance trees: closer hatching -->
+    <g>
+      <path d="M0,175 Q20,165 40,170 Q60,175 80,165 Q100,158 120,168"/>
+      <path d="M140,178 Q160,170 180,175 Q200,180 220,172"/>
+      <path d="M260,176 Q280,168 300,173 Q320,178 340,170"/>
+      <g stroke-width="0.3">
+        <line x1="10" y1="168" x2="30" y2="168"/>
+        <line x1="50" y1="165" x2="70" y2="165"/>
+        <line x1="90" y1="162" x2="110" y2="162"/>
+        <line x1="130" y1="160" x2="150" y2="160"/>
+      </g>
+    </g>
+    
+    <!-- FOCAL PINE: Cross-hatching for contrast -->
+    <g>
+      <text x="295" y="165" font-family="sans-serif" font-size="7" text-anchor="middle">FOCAL</text>
+      <path d="M290,228 Q288,208 293,188 Q289,168 292,148 Q290,128 293,108"/>
+      <g stroke-width="0.3">
+        <line x1="287" y1="130" x2="298" y2="130"/>
+        <line x1="285" y1="150" x2="300" y2="150"/>
+        <line x1="287" y1="170" x2="298" y2="170"/>
+        <line x1="285" y1="190" x2="300" y2="190"/>
+        <line x1="287" y1="210" x2="298" y2="210"/>
+        <!-- Cross -->
+        <line x1="287" y1="130" x2="300" y2="210"/>
+        <line x1="293" y1="130" x2="292" y2="210"/>
+      </g>
+      <path d="M290,170 Q270,162 250,155"/>
+      <path d="M292,145 Q315,138 340,132"/>
+      <g stroke-width="0.3">
+        <line x1="250" y1="155" x2="260" y2="155"/>
+        <line x1="340" y1="132" x2="350" y2="132"/>
+      </g>
+    </g>
+    
+    <!-- Ground -->
+    <path d="M0,285 Q100,282 200,284 Q300,286 400,283"/>
+  </g>
+</svg>
