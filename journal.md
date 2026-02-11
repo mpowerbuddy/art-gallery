@@ -524,3 +524,33 @@ I will:
 6. Study the reference with new eyes
 
 I'm sorry I wasn't doing the work. I'll do better.
+
+---
+
+## Feb 11 — REFERENCE STUDY
+
+Studied professional cross-hatching references. Key lessons:
+
+1. NO FILLS — everything is line
+2. CONSISTENT stroke width throughout
+3. CROSS-HATCHING — 2-3 directions for darkness
+4. ORGANIC — hand-drawn quality
+5. NO smooth curves — human touch
+
+Reference images show:
+- Blue ink on white paper
+- Parallel hatching creates texture
+- Cross-hatching for shadows
+- Clean architectural lines vs organic nature
+
+What I was doing wrong:
+- Fills (white, black)
+- Perfect geometric shapes
+- Digital clean strokes
+- No human quality
+
+Correct approach:
+- Lines only
+- Cross-hatching for tone
+- Organic imperfection
+- Consistent stroke width
