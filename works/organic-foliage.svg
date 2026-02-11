@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- Organic Foliage — NOT scallops, just marks -->
+  <g fill="none" stroke="#1a1a1a">
+    <!-- Tree 1 — left side -->
+    <g>
+      <!-- Trunk -->
+      <path d="M70,290 Q65,240 75,180 Q80,140 70,100" stroke-width="2.0" stroke-linecap="round"/>
+      
+      <!-- Branches -->
+      <path d="M72,160 Q50,140 35,120" stroke-width="1.2"/>
+      <path d="M68,180 Q40,170 25,155" stroke-width="1.0"/>
+      <path d="M75,130 Q95,110 120,100" stroke-width="1.1"/>
+      <path d="M72,150 Q90,135 115,125" stroke-width="0.9"/>
+      
+      <!-- Foliage — NOT scalloped pattern -->
+      <!-- Just confident marks sweeping out -->
+      <path d="M35,120 Q20,90 40,60" stroke-width="1.0" stroke-linecap="round"/>
+      <path d="M45,115 Q35,80 60,55" stroke-width="0.95"/>
+      <path d="M55,110 Q50,70 80,50" stroke-width="1.05"/>
+      <path d="M70,105 Q70,60 105,45" stroke-width="1.0"/>
+      <path d="M85,100 Q95,60 130,55" stroke-width="0.9"/>
+      <path d="M100,105 Q120,75 155,85" stroke-width="0.85"/>
+      
+      <!-- Lower sweeps -->
+      <path d="M25,155 Q15,145 10,135" stroke-width="0.6"/>
+      <path d="M120,100 Q130,95 140,90" stroke-width="0.55"/>
+    </g>
+    
+    <!-- Tree 2 — right side -->
+    <g>
+      <!-- Trunk -->
+      <path d="M320,295 Q330,240 315,190 Q310,150 325,100" stroke-width="1.8" stroke-linecap="round"/>
+      
+      <!-- Branches -->
+      <path d="M322,170 Q350,150 375,130" stroke-width="1.0"/>
+      <path d="M318,200 Q345,190 370,175" stroke-width="1.2"/>
+      <path d="M310,140 Q290,120 265,110" stroke-width="0.9"/>
+      <path d="M320,160 Q295,145 270,135" stroke-width="1.05"/>
+      
+      <!-- Foliage -->
+      <path d="M375,130 Q395,100 380,65" stroke-width="1.0" stroke-linecap="round"/>
+      <path d="M365,140 Q390,110 370,75" stroke-width="0.95"/>
+      <path d="M350,150 Q365,115 350,80" stroke-width="1.1"/>
+      <path d="M330,155 Q340,120 330,85" stroke-width="1.0"/>
+      <path d="M310,155 Q295,125 275,115" stroke-width="0.85"/>
+      <path d="M265,110 Q250,90 245,70" stroke-width="0.9"/>
+      
+      <!-- Lower -->
+      <path d="M370,175 Q385,165 395,155" stroke-width="0.6"/>
+      <path d="M270,135 Q255,128 245,120" stroke-width="0.55"/>
+    </g>
+    
+    <!-- Ground — barely there -->
+    <path d="M50,285 Q200,280 350,288" stroke-width="0.6"/>
+  </g>
+</svg>

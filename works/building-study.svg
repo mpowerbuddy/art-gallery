@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- Building Study — Clean lines, no hesitation -->
+  <g fill="none" stroke="#1a1a1a">
+    <!-- Main structure -->
+    <path d="M140,240 L140,140 L120,140 L115,120 L240,120 L235,140 L235,240 Z" 
+          stroke-width="1.6" stroke-linejoin="round"/>
+    
+    <!-- Door — clean rectangle -->
+    <path d="M170,240 L170,180 L205,180 L205,240" stroke-width="1.2"/>
+    
+    <!-- Windows — simple -->
+    <rect x="150" y="155" width="25" height="20" stroke-width="1.0"/>
+    <rect x="185" y="155" width="25" height="20" stroke-width="1.0"/>
+    
+    <!-- Roof line — single confident stroke -->
+    <line x1="115" y1="120" x2="240" y2="120" stroke-width="1.4"/>
+    
+    <!-- Siding — parallel, even, CLEAN -->
+    <g stroke-width="0.8">
+      <line x1="148" y1="140" x2="148" y2="240"/>
+      <line x1="160" y1="140" x2="160" y2="240"/>
+      <line x1="172" y1="140" x2="172" y2="240"/>
+      <line x1="184" y1="140" x2="184" y2="240"/>
+      <line x1="196" y1="140" x2="196" y2="240"/>
+      <line x1="208" y1="140" x2="208" y2="240"/>
+      <line x1="220" y1="140" x2="220" y2="240"/>
+    </g>
+    
+    <!-- Foundation — simple line -->
+    <line x1="120" y1="240" x2="255" y2="240" stroke-width="1.2"/>
+    
+    <!-- Chimney — clean rectangle -->
+    <path d="M195,120 L195,90 L215,90 L215,120" stroke-width="1.4"/>
+    
+    <!-- Smoke — loose suggestion -->
+    <g stroke-width="0.4" opacity="0.5">
+      <path d="M205,85 Q215,75 210,60" stroke-linecap="round"/>
+      <path d="M200,80 Q195,65 205,50" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>

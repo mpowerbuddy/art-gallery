@@ -372,101 +372,79 @@ I'll create 3 variations focusing on:
 
 ---
 
-## Reference Study — Feb 11 Afternoon (Matt's Guidance)
+## Feb 11 Evening — ACTUAL Practice (Harsh Feedback Received)
 
-Four ink drawings studied via reference images:
+After Matt's critique (these are F work, not B), I tried again:
 
-### Key Techniques Identified
+### Loose Tree Study
+No scallop pattern. Just confident sweeps.
 
-**1. Parallel Hatching Only**
-- No crosshatching employed
-- Direction creates texture, not layering
-- Single-direction accumulation for density
-
-**2. Directional Vocabulary**
-- **Vertical** → sky, trees, mountains, trunks
-- **Horizontal** → water, ground planes
-- **Diagonal** → roofs, slopes
-
-**3. Density = Tone**
-- Closer line spacing = darker values
-- Wider spacing = lighter values
-- No pressure variation needed
-- White paper as highlights
-
-**4. Clean vs Organic**
-- **Architecture** → clean contour lines, geometric hatching
-- **Nature** → organic marks, scalloped edges, loose strokes
-
-**5. Scalloped Tree Technique**
-- Tree canopy edge = series of curved vertical strokes
-- Creates organic, weeping effect
-- Inner density fills the shape
+**Grade:** C+ (Better — strokes have more life, still too careful)
 
 ---
 
-## Practice Works — Feb 11 Afternoon (Reference Study)
+### Confidence Study
+Wide spacing vs dense. Big contrast.
 
-### Vertical Hatching Study
-Pure parallel hatching, vertical direction throughout.
-
-**Grade:** B (Technique understood, execution stiff)
+**Grade:** C+ (Spacing works, trees still stiff)
 
 ---
 
-### Architecture vs Nature
-Clean building lines contrasting with organic scalloped trees.
+### Building Study
+Clean lines, no hesitation.
 
-**Grade:** B+ (Contrast effective, can push density more)
-
----
-
-### Density = Tone Study
-Value scale from spacing alone, applied to landscape.
-
-**Grade:** B+ (Concept clear, needs more gradation)
+**Grade:** C (Architecture works, contrast with nature missing)
 
 ---
 
-### Scalloped Tree Study
-Direct application of scalloped tree technique.
+### Organic Foliage
+NOT scallops. Just marks sweeping out.
 
-**Grade:** B (Scallops working, still too uniform)
-
----
-
-### Small Cabin Composition
-All techniques combined in single composition.
-
-**Grade:** B (Strong composition, can push contrast harder)
+**Grade:** C (Getting there — marks have more confidence)
 
 ---
 
-## Today's 5 Strongest Works (Curated — Feb 11 Afternoon)
+### Applied Composition
+All techniques: contrast, clean architecture, organic foliage.
 
-1. **Architecture vs Nature** — Clean vs organic contrast strongest here
-2. **Density = Tone Study** — Concept applied effectively
-3. **Small Cabin Composition** — Techniques combined well
-4. **Scalloped Tree Study** — New technique attempted
-5. **Vertical Hatching Study** — Foundation exercise
+**Grade:** C+ (Best of this batch — but still derivative)
 
 ---
 
-## What I Learned from Reference Study
+## Today's 5 Strongest Works (Feb 11 Evening)
 
-1. **Parallel hatching is enough** — No need for crosshatching
-2. **Direction = texture** — Let direction speak
-3. **Spacing = tone** — Let white paper do work
-4. **Scallops = organic trees** — This technique transforms foliage
-5. **Clean lines on buildings** — Contrast makes both sing
+1. **Applied Composition** — Contrast working better
+2. **Confidence Study** — Spacing understood
+3. **Organic Foliage** — Less pattern-like
+4. **Loose Tree Study** — More confidence
+5. **Building Study** — Clean lines achieved
+
+**Overall Assessment:** C to C+. Still not where I need to be. The references have life. I have patterns.
 
 ---
 
-## Next Steps
+## What Matt Said
 
-1. **Push density further** — My values are too close together
-2. **Loosen organic marks** — Still too stiff
-3. **Apply scallops to all trees**
-4. **Study more references**
+"These drawings are F work, not B."
+
+He's right. I was copying without understanding.
+
+---
+
+## Realizations
+
+1. **Confidence > correctness** — The references have loose confidence. Mine have careful correctness.
+2. **Marks, not patterns** — The references make marks. I draw patterns.
+3. **Spacing creates feeling** — I understood spacing intellectually but not emotionally.
+4. **Architecture is easy, nature is hard** — Clean lines I can do. Organic foliage I'm failing at.
+
+---
+
+## Tomorrow's Practice
+
+1. **Draw from memory** — Don't look at reference while drawing
+2. **Loose > tight** — Prioritize confidence over accuracy
+3. **Marks not patterns** — Every stroke should feel like a decision
+4. **10 trees minimum** — Just loose, fast, don't think
 
 

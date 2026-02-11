@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- Loose Tree Study — Confidence, not careful -->
+  <g fill="none" stroke="#1a1a1a">
+    <!-- Tree 1 — loose, confident strokes -->
+    <g>
+      <!-- Trunk -->
+      <path d="M80,280 Q78,240 85,200 Q90,160 80,120" stroke-width="1.8" stroke-linecap="round"/>
+      <path d="M82,200 Q95,180 110,150" stroke-width="1.2"/>
+      <path d="M78,180 Q65,160 50,140" stroke-width="1.0"/>
+      
+      <!-- Canopy — NOT scalloped, just marks -->
+      <!-- The reference has confident sweeps, not pattern -->
+      <path d="M50,140 Q30,100 50,60" stroke-width="1.0" stroke-linecap="round"/>
+      <path d="M60,130 Q45,90 65,50" stroke-width="0.9"/>
+      <path d="M75,115 Q65,70 90,45" stroke-width="1.1"/>
+      <path d="M90,100 Q90,55 120,50" stroke-width="1.0"/>
+      <path d="M105,95 Q115,55 145,60" stroke-width="0.95"/>
+      <path d="M115,110 Q135,80 160,90" stroke-width="0.85"/>
+      
+      <!-- Lower sweeps -->
+      <path d="M50,140 Q35,130 25,120" stroke-width="0.7"/>
+      <path d="M60,150 Q40,145 30,140" stroke-width="0.65"/>
+      <path d="M110,150 Q90,145 80,140" stroke-width="0.7"/>
+      <path d="M130,130 Q130,120 135,110" stroke-width="0.6"/>
+    </g>
+    
+    <!-- Tree 2 — different character -->
+    <g>
+      <!-- Trunk — leaning -->
+      <path d="M280,285 Q290,230 285,180 Q280,140 300,100" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M288,220 Q310,200 330,180" stroke-width="1.1"/>
+      <path d="M282,190 Q260,170 245,150" stroke-width="0.9"/>
+      
+      <!-- Canopy — different rhythm -->
+      <path d="M245,150 Q220,100 250,55" stroke-width="1.0" stroke-linecap="round"/>
+      <path d="M265,130 Q250,85 280,50" stroke-width="1.1"/>
+      <path d="M285,115 Q285,65 320,60" stroke-width="0.95"/>
+      <path d="M300,110 Q320,75 355,85" stroke-width="0.85"/>
+      
+      <!-- Lower -->
+      <path d="M245,160 Q225,155 210,145" stroke-width="0.6"/>
+      <path d="M330,140 Q340,125 350,110" stroke-width="0.55"/>
+    </g>
+    
+    <!-- Ground — barely suggested -->
+    <path d="M20,275 Q150,270 380,278" stroke-width="0.5"/>
+  </g>
+</svg>
