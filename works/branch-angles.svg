@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- Branch Angle Study — How do branches actually grow? -->
+  <g fill="none" stroke="#1a1a1a" stroke-linecap="round">
+    <text x="200" y="20" font-family="sans-serif" font-size="10" text-anchor="middle" stroke="none">Branches grow at SPECIFIC angles, not random</text>
+    
+    <!-- Type 1: Upward 45 degrees -->
+    <g>
+      <path d="M50,280 L50,200" stroke-width="2.5"/>
+      <path d="M50,220 Q30,200 20,180" stroke-width="1.5"/>
+      <path d="M50,200 Q30,180 25,160" stroke-width="1.2"/>
+      <line x1="50" y1="220" x2="10" y2="180" stroke-width="0.8" opacity="0.5"/>
+      <line x1="50" y1="200" x2="15" y2="160" stroke-width="0.8" opacity="0.5"/>
+      <text x="50" y="295" font-family="sans-serif" font-size="8" text-anchor="middle">~45°</text>
+    </g>
+    
+    <!-- Type 2: Horizontal -->
+    <g>
+      <path d="M150,280 L150,200" stroke-width="2.5"/>
+      <path d="M150,220 Q130,218 110,220" stroke-width="1.5"/>
+      <path d="M150,200 Q130,198 115,200" stroke-width="1.2"/>
+      <line x1="150" y1="220" x2="90" y2="220" stroke-width="0.8" opacity="0.5"/>
+      <line x1="150" y1="200" x2="95" y2="200" stroke-width="0.8" opacity="0.5"/>
+      <text x="150" y="295" font-family="sans-serif" font-size="8" text-anchor="middle">~90°</text>
+    </g>
+    
+    <!-- Type 3: Downward droop -->
+    <g>
+      <path d="M250,280 L250,200" stroke-width="2.5"/>
+      <path d="M250,220 Q240,240 230,260" stroke-width="1.5"/>
+      <path d="M250,200 Q245,225 240,250" stroke-width="1.2"/>
+      <line x1="250" y1="220" x2="210" y2="270" stroke-width="0.8" opacity="0.5"/>
+      <line x1="250" y1="200" x2="220" y2="265" stroke-width="0.8" opacity="0.5"/>
+      <text x="250" y="295" font-family="sans-serif" font-size="8" text-anchor="middle">>90° droop</text>
+    </g>
+    
+    <!-- Type 4: Zigzag -->
+    <g>
+      <path d="M350,280 L350,200" stroke-width="2.5"/>
+      <path d="M350,220 Q330,210 320,220" stroke-width="1.5"/>
+      <path d="M350,200 Q340,190 330,200" stroke-width="1.2"/>
+      <path d="M320,220 Q310,230 300,220" stroke-width="0.9"/>
+      <text x="350" y="295" font-family="sans-serif" font-size="8" text-anchor="middle">zigzag</text>
+    </g>
+    
+    <!-- Key insight -->
+    <text x="200" y="260" font-family="sans-serif" font-size="8" text-anchor="middle" opacity="0.7">Young branches = sharper angles. Old branches = droop.</text>
+  </g>
+</svg>

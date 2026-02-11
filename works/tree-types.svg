@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- Quick Study: 10 Trees in 5 Minutes -->
+  <g fill="none" stroke="#1a1a1a" stroke-linecap="round">
+    
+    <!-- 1. Pine: Christmas tree shape, layered -->
+    <g>
+      <path d="M40,280 L40,100" stroke-width="2.0"/>
+      <path d="M40,140 Q20,130 15,110" stroke-width="1.2"/>
+      <path d="M40,110 Q20,100 20,80" stroke-width="1.0"/>
+      <path d="M40,85 Q25,78 28,60" stroke-width="0.8"/>
+    </g>
+    
+    <!-- 2. Oak: rounded crown -->
+    <g>
+      <path d="M90,285 Q85,240 95,180 Q105,140 90,100" stroke-width="2.5"/>
+      <path d="M92,200 Q70,190 55,180" stroke-width="1.4"/>
+      <path d="M96,160 Q115,150 130,145" stroke-width="1.2"/>
+    </g>
+    
+    <!-- 3. Willow: drooping, sad -->
+    <g>
+      <path d="M140,285 Q145,240 140,200 Q135,160 145,120" stroke-width="2.2"/>
+      <path d="M142,180 Q130,200 120,240" stroke-width="1.0"/>
+      <path d="M145,160 Q135,180 130,210" stroke-width="0.9"/>
+      <path d="M143,200 Q155,220 165,250" stroke-width="0.8"/>
+    </g>
+    
+    <!-- 4. Birch: white bark, black marks -->
+    <g>
+      <path d="M190,285 Q188,240 195,180 Q198,140 192,100" stroke-width="1.8"/>
+      <line x1="188" y1="200" x2="195" y2="200" stroke-width="0.5"/>
+      <line x1="187" y1="170" x2="194" y2="170" stroke-width="0.4"/>
+      <line x1="189" y1="140" x2="196" y2="140" stroke-width="0.4"/>
+    </g>
+    
+    <!-- 5. Poplar: tall, skinny, triangle crown -->
+    <g>
+      <path d="M240,285 Q238,200 245,120 Q250,90 242,70" stroke-width="1.6"/>
+      <path d="M242,180 Q225,175 215,172" stroke-width="1.0"/>
+      <path d="M244,150 Q260,148 275,145" stroke-width="0.9"/>
+    </g>
+    
+    <!-- 6. Elm: vase shape, drooping branches -->
+    <g>
+      <path d="M290,285 Q295,240 288,200 Q280,160 290,120" stroke-width="2.4"/>
+      <path d="M290,220 Q275,225 260,230" stroke-width="1.3"/>
+      <path d="M288,180 Q305,185 315,195" stroke-width="1.1"/>
+      <path d="M286,150 Q275,160 265,175" stroke-width="0.9"/>
+    </g>
+    
+    <!-- 7. Maple: rounded, dense -->
+    <g>
+      <path d="M340,285 Q335,240 345,190 Q355,150 342,110" stroke-width="2.3"/>
+      <path d="M344,210 Q325,200 310,195" stroke-width="1.2"/>
+      <path d="M346,170 Q365,160 375,155" stroke-width="1.1"/>
+      <path d="M342,140 Q328,135 318,130" stroke-width="1.0"/>
+    </g>
+    
+    <!-- Ground line -->
+    <path d="M10,282 Q200,278 390,284" stroke-width="0.6"/>
+    
+    <!-- Notes -->
+    <text x="40" y="295" font-family="sans-serif" font-size="7" text-anchor="middle">pine</text>
+    <text x="90" y="295" font-family="sans-serif" font-size="7" text-anchor="middle">oak</text>
+    <text x="140" y="295" font-family="sans-serif" font-size="7" text-anchor="middle">willow</text>
+    <text x="190" y="295" font-family="sans-serif" font-size="7" text-anchor="middle">birch</text>
+    <text x="240" y="295" font-family="sans-serif" font-size="7" text-anchor="middle">poplar</text>
+    <text x="290" y="295" font-family="sans-serif" font-size="7" text-anchor="middle">elm</text>
+    <text x="340" y="295" font-family="sans-serif" font-size="7" text-anchor="middle">maple</text>
+  </g>
+</svg>
