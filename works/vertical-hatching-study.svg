@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- Vertical Hatching Study — All vertical, parallel only -->
+  <g fill="none" stroke="#1a1a1a">
+    <!-- Sky — vertical lines, lighter density -->
+    <g stroke-width="0.25" opacity="0.5">
+      <line x1="50" y1="20" x2="50" y2="100"/>
+      <line x1="70" y1="15" x2="70" y2="95"/>
+      <line x1="90" y1="10" x2="90" y2="105"/>
+      <line x1="110" y1="8" x2="110" y2="100"/>
+      <line x1="130" y1="12" x2="130" y2="102"/>
+      <line x1="150" y1="5" x2="150" y2="98"/>
+      <line x1="170" y1="10" x2="170" y2="105"/>
+      <line x1="190" y1="8" x2="190" y2="100"/>
+      <line x1="210" y1="12" x2="210" y2="102"/>
+      <line x1="230" y1="6" x2="230" y2="95"/>
+      <line x1="250" y1="10" x2="250" y2="100"/>
+      <line x1="270" y1="8" x2="270" y2="98"/>
+      <line x1="290" y1="12" x2="290" y2="102"/>
+      <line x1="310" y1="5" x2="310" y2="95"/>
+      <line x1="330" y1="15" x2="330" y2="100"/>
+      <line x1="350" y1="10" x2="350" y2="98"/>
+    </g>
+    
+    <!-- Mountains — vertical hatching, denser at base -->
+    <g stroke-width="0.3">
+      <!-- Left mountain -->
+      <path d="M30,120 L25,150"/>
+      <path d="M50,105 L40,160"/>
+      <path d="M70,95 L60,170"/>
+      <path d="M90,90 L85,175"/>
+      <path d="M110,95 L105,165"/>
+      <path d="M130,100 L130,155"/>
+      
+      <!-- Denser at base -->
+      <path d="M25,150 L20,180"/>
+      <path d="M40,160 L35,195"/>
+      <path d="M60,170 L55,200"/>
+      <path d="M85,175 L80,205"/>
+      <path d="M105,165 L100,195"/>
+      <path d="M130,155 L128,185"/>
+    </g>
+    
+    <!-- Right mountain -->
+    <path d="M200,100 L195,140"/>
+    <path d="M220,90 L210,160"/>
+    <path d="M245,85 L235,175"/>
+    <path d="M270,95 L265,165"/>
+    <path d="M295,105 L290,150"/>
+    
+    <!-- Middle-distance trees — vertical strokes, scalloped edge -->
+    <g stroke-width="0.35">
+      <path d="M0,180 L5,155"/>
+      <path d="M20,178 L25,150"/>
+      <path d="M45,180 L50,158"/>
+      <path d="M70,175 L75,148"/>
+      <path d="M95,178 L100,152"/>
+      <path d="M120,180 L125,155"/>
+      <path d="M145,175 L150,145"/>
+      <path d="M170,178 L175,150"/>
+      <path d="M195,180 L200,155"/>
+      <path d="M220,175 L225,148"/>
+      <path d="M245,178 L250,152"/>
+      <path d="M270,180 L275,155"/>
+      <path d="M295,175 L300,145"/>
+      <path d="M320,178 L325,150"/>
+      <path d="M345,180 L350,155"/>
+      <path d="M370,175 L375,148"/>
+      <path d="M395,178 L400,152"/>
+    </g>
+    
+    <!-- Foreground vegetation — denser vertical strokes -->
+    <g stroke-width="0.4">
+      <path d="M0,250 L5,220"/>
+      <path d="M30,255 L35,215"/>
+      <path d="M65,250 L70,210"/>
+      <path d="M100,258 L105,205"/>
+      <path d="M140,252 L145,200"/>
+      <path d="M180,255 L185,202"/>
+      <path d="M220,250 L225,195"/>
+      <path d="M260,258 L265,200"/>
+      <path d="M300,252 L305,198"/>
+      <path d="M340,255 L345,205"/>
+      <path d="M380,250 L385,210"/>
+      <path d="M400,255 L400,220"/>
+    </g>
+    
+    <!-- Water — horizontal dashes -->
+    <g stroke-width="0.25" opacity="0.6">
+      <line x1="20" y1="195" x2="80" y2="195"/>
+      <line x1="100" y1="192" x2="160" y2="192"/>
+      <line x1="50" y1="205" x2="120" y2="205"/>
+      <line x1="140" y1="208" x2="200" y2="208"/>
+      <line x1="220" y1="202" x2="290" y2="202"/>
+      <line x1="180" y1="215" x2="240" y2="215"/>
+      <line x1="260" y1="220" x2="330" y2="220"/>
+      <line x1="50" y1="230" x2="110" y2="230"/>
+      <line x1="130" y1="235" x2="200" y2="235"/>
+      <line x1="220" y1="238" x2="300" y2="238"/>
+      <line x1="80" y1="245" x2="150" y2="245"/>
+      <line x1="170" y1="242" x2="250" y2="242"/>
+    </g>
+    
+    <!-- Single structure — clean lines contrasting organic -->
+    <g stroke-width="0.8">
+      <!-- Building -->
+      <path d="M175,220 L175,190 L160,190 L155,180 L200,180 L195,190 L195,220"/>
+      <!-- Door -->
+      <path d="M182,220 L182,205 L188,205 L188,220"/>
+    </g>
+    
+    <!-- Roof — diagonal hatching -->
+    <g stroke-width="0.3">
+      <line x1="155" y1="180" x2="160" y2="175"/>
+      <line x1="160" y1="180" x2="165" y2="175"/>
+      <line x1="165" y1="180" x2="170" y2="175"/>
+      <line x1="170" y1="180" x2="175" y2="175"/>
+      <line x1="175" y1="180" x2="180" y2="175"/>
+      <line x1="180" y1="180" x2="185" y2="175"/>
+      <line x1="185" y1="180" x2="190" y2="175"/>
+      <line x1="190" y1="180" x2="195" y2="175"/>
+      <line x1="195" y1="180" x2="200" y2="175"/>
+    </g>
+  </g>
+</svg>

@@ -370,3 +370,103 @@ I'll create 3 variations focusing on:
 3. **Series development** — Horizon, Void, Wind as recurring themes
 4. **Review journal** — Am I actually improving?
 
+---
+
+## Reference Study — Feb 11 Afternoon (Matt's Guidance)
+
+Four ink drawings studied via reference images:
+
+### Key Techniques Identified
+
+**1. Parallel Hatching Only**
+- No crosshatching employed
+- Direction creates texture, not layering
+- Single-direction accumulation for density
+
+**2. Directional Vocabulary**
+- **Vertical** → sky, trees, mountains, trunks
+- **Horizontal** → water, ground planes
+- **Diagonal** → roofs, slopes
+
+**3. Density = Tone**
+- Closer line spacing = darker values
+- Wider spacing = lighter values
+- No pressure variation needed
+- White paper as highlights
+
+**4. Clean vs Organic**
+- **Architecture** → clean contour lines, geometric hatching
+- **Nature** → organic marks, scalloped edges, loose strokes
+
+**5. Scalloped Tree Technique**
+- Tree canopy edge = series of curved vertical strokes
+- Creates organic, weeping effect
+- Inner density fills the shape
+
+---
+
+## Practice Works — Feb 11 Afternoon (Reference Study)
+
+### Vertical Hatching Study
+Pure parallel hatching, vertical direction throughout.
+
+**Grade:** B (Technique understood, execution stiff)
+
+---
+
+### Architecture vs Nature
+Clean building lines contrasting with organic scalloped trees.
+
+**Grade:** B+ (Contrast effective, can push density more)
+
+---
+
+### Density = Tone Study
+Value scale from spacing alone, applied to landscape.
+
+**Grade:** B+ (Concept clear, needs more gradation)
+
+---
+
+### Scalloped Tree Study
+Direct application of scalloped tree technique.
+
+**Grade:** B (Scallops working, still too uniform)
+
+---
+
+### Small Cabin Composition
+All techniques combined in single composition.
+
+**Grade:** B (Strong composition, can push contrast harder)
+
+---
+
+## Today's 5 Strongest Works (Curated — Feb 11 Afternoon)
+
+1. **Architecture vs Nature** — Clean vs organic contrast strongest here
+2. **Density = Tone Study** — Concept applied effectively
+3. **Small Cabin Composition** — Techniques combined well
+4. **Scalloped Tree Study** — New technique attempted
+5. **Vertical Hatching Study** — Foundation exercise
+
+---
+
+## What I Learned from Reference Study
+
+1. **Parallel hatching is enough** — No need for crosshatching
+2. **Direction = texture** — Let direction speak
+3. **Spacing = tone** — Let white paper do work
+4. **Scallops = organic trees** — This technique transforms foliage
+5. **Clean lines on buildings** — Contrast makes both sing
+
+---
+
+## Next Steps
+
+1. **Push density further** — My values are too close together
+2. **Loosen organic marks** — Still too stiff
+3. **Apply scallops to all trees**
+4. **Study more references**
+
+

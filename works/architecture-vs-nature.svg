@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- Architecture vs Nature — Clean vs Organic -->
+  <g fill="none" stroke="#1a1a1a">
+    <!-- The structure — clean, precise lines -->
+    <g stroke-width="1.0">
+      <!-- Main building -->
+      <path d="M160,200 L160,140 L140,140 L135,125 L200,125 L195,140 L195,200 Z"/>
+      <!-- Door -->
+      <path d="M172,200 L172,170 L184,170 L184,200"/>
+      <!-- Window -->
+      <path d="M165,155 L165,148 L180,148 L180,155"/>
+    </g>
+    
+    <!-- Roof — diagonal hatching following roof angle -->
+    <g stroke-width="0.35">
+      <line x1="135" y1="125" x2="142" y2="118"/>
+      <line x1="142" y1="125" x2="149" y2="118"/>
+      <line x1="149" y1="125" x2="156" y2="118"/>
+      <line x1="156" y1="125" x2="163" y2="118"/>
+      <line x1="163" y1="125" x2="170" y2="118"/>
+      <line x1="170" y1="125" x2="177" y2="118"/>
+      <line x1="177" y1="125" x2="184" y2="118"/>
+      <line x1="184" y1="125" x2="191" y2="118"/>
+      <line x1="191" y1="125" x2="198" y2="118"/>
+      <line x1="198" y1="125" x2="205" y2="118"/>
+    </g>
+    
+    <!-- Building siding — vertical parallel lines -->
+    <g stroke-width="0.2">
+      <line x1="160" y1="140" x2="160" y2="200"/>
+      <line x1="165" y1="140" x2="165" y2="200"/>
+      <line x1="170" y1="140" x2="170" y2="200"/>
+      <line x1="175" y1="140" x2="175" y2="200"/>
+      <line x1="180" y1="140" x2="180" y2="200"/>
+      <line x1="185" y1="140" x2="185" y2="200"/>
+      <line x1="190" y1="140" x2="190" y2="200"/>
+    </g>
+    
+    <!-- Surrounding trees — organic, scalloped vertical marks -->
+    <g stroke-width="0.4">
+      <!-- Left tree mass -->
+      <path d="M50,200 L55,150"/>
+      <path d="M65,200 L70,155"/>
+      <path d="M80,200 L85,145"/>
+      <path d="M95,200 L100,155"/>
+      <path d="M110,200 L115,160"/>
+      
+      <!-- Right tree mass -->
+      <path d="M240,200 L245,155"/>
+      <path d="M260,200 L265,145"/>
+      <path d="M280,200 L285,150"/>
+      <path d="M300,200 L305,155"/>
+      <path d="M320,200 L325,160"/>
+      <path d="="350,200 L355,170"/>
+    </g>
+    
+    <!-- Foreground grass — scattered vertical flicks -->
+    <g stroke-width="0.35">
+      <path d="M20,250 L25,230"/>
+      <path d="M40,255 L42,235"/>
+      <path d="M60,252 L65,228"/>
+      <path d="M85,258 L88,235"/>
+      <path d="M110,250 L115,225"/>
+      <path d="M140,255 L142,230"/>
+      <path d="M210,252 L215,225"/>
+      <path d="M240,258 L243,232"/>
+      <path d="M275,250 L280,228"/>
+      <path d="M305,255 L308,235"/>
+      <path d="M335,252 L340,230"/>
+      <path d="M365,258 L368,238"/>
+      <path d="M385,250 L390,232"/>
+    </g>
+    
+    <!-- Ground plane — horizontal dashes -->
+    <g stroke-width="0.2" opacity="0.5">
+      <line x1="20" y1="240" x2="100" y2="240"/>
+      <line x1="120" y1="242" x2="200" y2="242"/>
+      <line x1="220" y1="240" x2="300" y2="240"/>
+      <line x1="320" y1="238" x2="380" y2="238"/>
+    </g>
+    
+    <!-- Distance — lighter, sparser vertical marks -->
+    <g stroke-width="0.2" opacity="0.4">
+      <line x1="0" y1="160" x2="5" y2="150"/>
+      <line x1="30" y1="155" x2="35" y2="142"/>
+      <line x1="60" y1="150" x2="68" y2="135"/>
+      <line x1="95" y1="148" x2="100" y2="132"/>
+      <line x1="130" y1="152" x2="138" y2="138"/>
+      <line x1="170" y1="150" x2="175" y2="135"/>
+      <line x1="210" y1="148" x2="218" y2="132"/>
+      <line x1="250" y1="152" x2="258" y2="138"/>
+      <line x1="295" y1="150" x2="300" y2="135"/>
+      <line x1="335" y1="155" x2="342" y2="140"/>
+      <line x1="375" y1="158" x2="380" y2="145"/>
+    </g>
+  </g>
+</svg>
