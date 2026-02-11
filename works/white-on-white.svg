@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- White on White — What if everything is white except ONE black line? -->
+  <g fill="none" stroke="#1a1a1a">
+    <!-- Everything white except: -->
+    
+    <!-- One black tree, center -->
+    <path d="M200,285 Q198,240 205,200 Q208,160 198,120 
+             M202,190 Q180,175 155,165
+             M206,160 Q230,145 255,140
+             M155,165 Q145,155 135,148
+             M255,140 Q265,132 275,125"
+          stroke-width="1.2" stroke-linecap="round"/>
+    
+    <!-- One black branch -->
+    <path d="M200,120 Q190,100 195,80" stroke-width="0.8"/>
+    <path d="M205,115 Q215,95 210,75" stroke-width="0.7"/>
+    
+    <!-- One black leaf -->
+    <path d="M195,80 Q185,70 190,60" stroke-width="0.5"/>
+    <path d="M210,75 Q220,65 215,55" stroke-width="0.5"/>
+    
+    <!-- Everything else is white. -->
+    <!-- No ground line. -->
+    <!-- No sky. -->
+    <!-- No texture. -->
+    <!-- Just one tree in void. -->
+  </g>
+</svg>

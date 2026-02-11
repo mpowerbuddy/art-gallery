@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- Five Lines — Reduction to essentials -->
+  <g fill="none" stroke="#1a1a1a" stroke-linecap="round">
+    <!-- Line 1: Trunk -->
+    <path d="M200,290 L200,150" stroke-width="3.0"/>
+    
+    <!-- Line 2: Left branch -->
+    <path d="M200,200 Q160,190 130,180" stroke-width="2.0"/>
+    
+    <!-- Line 3: Right branch -->
+    <path d="M200,170 Q240,160 270,155" stroke-width="1.8"/>
+    
+    <!-- Line 4: Left twigs -->
+    <path d="M130,180 Q120,175 110,170" stroke-width="0.8"/>
+    <path d="M160,195 Q150,190 140,188" stroke-width="0.6"/>
+    
+    <!-- Line 5: Right twigs -->
+    <path d="M270,155 Q280,150 290,145" stroke-width="0.7"/>
+    <path d="M240,165 Q250,160 260,158" stroke-width="0.55"/>
+    
+    <!-- That's five lines. -->
+    <!-- That's a tree. -->
+  </g>
+</svg>
