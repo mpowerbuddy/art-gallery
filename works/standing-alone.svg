@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- Standing Alone — Solitude in landscape -->
+  <g fill="none" stroke="#1a1a1a" stroke-linecap="round">
+    
+    <!-- Horizon — barely there -->
+    <line x1="50" y1="200" x2="350" y2="200" stroke-width="0.3"/>
+    
+    <!-- Single oak — center, small -->
+    <path d="M195,205 Q192,160 200,120 Q205,90 195,70" stroke-width="1.8"/>
+    <path d="M198,150 Q175,140 155,135" stroke-width="1.0"/>
+    <path d="M202,130 Q225,120 245,115" stroke-width="0.9"/>
+    <path d="M155,135 Q145,130 138,125" stroke-width="0.5"/>
+    <path d="M245,115 Q255,110 265,105" stroke-width="0.5"/>
+    
+    <!-- Crown — rounded, sparse -->
+    <g stroke-width="0.8" opacity="0.9">
+      <ellipse cx="195" cy="85" rx="30" ry="25"/>
+      <ellipse cx="175" cy="75" rx="20" ry="18"/>
+      <ellipse cx="215" cy="78" rx="18" ry="16"/>
+    </g>
+    
+    <!-- Human figure — tiny, back view -->
+    <g stroke-width="0.6">
+      <ellipse cx="210" cy="198" rx="3" ry="4"/>
+      <path d="M210,202 Q212,215 208,225"/>
+      <path d="M210,212 Q205,220 200,225"/>
+      <path d="M210,212 Q215,220 220,225"/>
+    </g>
+    
+    <!-- Distance suggestions -->
+    <g stroke-width="0.15" opacity="0.4">
+      <line x1="80" y1="200" x2="80" y2="202"/>
+      <line x1="150" y1="200" x2="150" y2="202"/>
+      <line x1="280" y1="200" x2="280" y2="202"/>
+      <line x1="330" y1="200" x2="330" y2="202"/>
+    </g>
+    
+    <!-- Vastness — empty space dominates -->
+    <!-- What this feels like: smallness, solitude, peace -->
+  </g>
+</svg>

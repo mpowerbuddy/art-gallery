@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- Winter Solitude — Cold, empty, quiet -->
+  <g fill="none" stroke="#1a1a1a" stroke-linecap="round">
+    
+    <!-- Sky — cold, pale -->
+    <g stroke-width="0.2" opacity="0.5">
+      <line x1="0" y1="20" x2="400" y2="20"/>
+      <line x1="0" y1="60" x2="400" y2="60"/>
+      <line x1="0" y1="100" x2="400" y2="100"/>
+    </g>
+    
+    <!-- Snow ground — flat, white -->
+    <path d="M0,220 Q200,215 400,225" stroke-width="0.8"/>
+    <path d="M0,250 Q200,245 400,255" stroke-width="0.5" opacity="0.6"/>
+    
+    <!-- Dead tree — skeleton -->
+    <g>
+      <path d="M100,225 Q98,180 105,140 Q108,110 98,80" stroke-width="2.2"/>
+      <path d="M102,170 Q80,160 60,155" stroke-width="1.2"/>
+      <path d="M104,140 Q85,135 70,132" stroke-width="1.0"/>
+      <path d="M105,130 Q125,125 140,122" stroke-width="0.9"/>
+      <path d="M98,110 Q120,105 138,102" stroke-width="0.8"/>
+      <path d="M98,80 Q85,75 75,72" stroke-width="0.6"/>
+      <path d="M102,85 Q115,82 125,80" stroke-width="0.6"/>
+    </g>
+    
+    <!-- Bird — tiny, solitary -->
+    <g stroke-width="0.5">
+      <ellipse cx="65" cy="78" rx="3" ry="2"/>
+      <path d="M62,78 Q58,80 55,78" />
+      <path d="M68,78 Q72,80 75,78" />
+    </g>
+    
+    <!-- Footprints — leading away -->
+    <g stroke-width="0.4" opacity="0.6">
+      <ellipse cx="200" cy="230" rx="4" ry="1.5"/>
+      <ellipse cx="220" cy="228" rx="4" ry="1.5"/>
+      <ellipse cx="240" cy="226" rx="4" ry="1.5"/>
+      <ellipse cx="260" cy="224" rx="4" ry="1.5"/>
+      <ellipse cx="280" cy="222" rx="4" ry="1.5"/>
+    </g>
+    
+    <!-- Distance — sparse trees -->
+    <g stroke-width="0.8" opacity="0.3">
+      <path d="M320,225 Q318,190 325,160" />
+      <path d="M350,228 Q348,195 355,170" />
+      <path d="M380,230 Q378,200 385,175" />
+    </g>
+    
+    <!-- What this feels like: -->
+    <!-- Cold, isolation, silence -->
+    <!-- Time passing, nothing moving -->
+  </g>
+</svg>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- After Rain — Wet earth, fresh smell -->
+  <g fill="none" stroke="#1a1a1a" stroke-linecap="round">
+    
+    <!-- Ground — dark, wet -->
+    <g stroke="none" fill="#1a1a1a" opacity="0.15">
+      <rect x="0" y="200" width="400" height="100"/>
+    </g>
+    
+    <!-- Wet ground texture -->
+    <g stroke-width="0.3" opacity="0.4">
+      <path d="M20,210 Q100,205 180,212"/>
+      <path d="M60,225 Q140,220 220,228"/>
+      <path d="M100,240 Q180,235 260,242"/>
+      <path d="M160,255 Q240,250 320,258"/>
+      <path d="M220,270 Q300,265 380,272"/>
+    </g>
+    
+    <!-- Puddle reflections -->
+    <g stroke-width="0.2" opacity="0.5">
+      <ellipse cx="80" cy="225" rx="25" ry="8"/>
+      <ellipse cx="180" cy="240" rx="35" ry="10"/>
+      <ellipse cx="300" cy="230" rx="30" ry="9"/>
+      <ellipse cx="350" cy="260" rx="40" ry="12"/>
+    </g>
+    
+    <!-- Water dripping from leaf -->
+    <g stroke-width="0.4">
+      <path d="M50,180 Q55,160 50,140" stroke-width="0.8"/>
+      <path d="M48,170 Q55,165 60,168" stroke-width="0.6"/>
+      <circle cx="50" cy="190" r="2" fill="#1a1a1a"/>
+    </g>
+    
+    <!-- Small plant after rain -->
+    <g>
+      <path d="M120,210 Q118,190 125,170" stroke-width="0.8"/>
+      <path d="M123,185 Q115,180 110,175" stroke-width="0.5"/>
+      <path d="M124,180 Q130,178 133,175" stroke-width="0.5"/>
+      
+      <!-- Droplets on plant -->
+      <circle cx="125" cy="170" r="1.5" fill="#1a1a1a"/>
+      <circle cx="110" cy="175" r="1" fill="#1a1a1a"/>
+      <circle cx="133" cy="175" r="1" fill="#1a1a1a"/>
+    </g>
+    
+    <!-- Steam rising -->
+    <g stroke-width="0.2" opacity="0.3">
+      <path d="M200,195 Q205,180 200,165"/>
+      <path d="M205,192 Q210,175 205,155"/>
+      <path d="M198,188 Q192,170 198,150"/>
+    </g>
+    
+    <!-- Distance trees — wet, dark -->
+    <g stroke-width="0.6" opacity="0.4">
+      <path d="M250,205 Q248,180 255,155" />
+      <path d="M255,175 Q245,172 238,170" />
+      <path d="M280,208 Q278,185 285,160" />
+      <path d="M283,178 Q275,175 268,173" />
+    </g>
+    
+    <!-- What this feels like: -->
+    <!-- Fresh, clean, smell of wet earth -->
+    <!-- Calm, peaceful, renewal -->
+  </g>
+</svg>
