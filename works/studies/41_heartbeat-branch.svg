@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300">
+  <title>Heartbeat Study - Organic Branch</title>
+  <g fill="none" stroke="#2a2a2a" stroke-width="0.35" stroke-linecap="round">
+    
+    <!-- Main trunk slightly curved -->
+    <path d="M150,290 Q145,240 155,180 Q160,120 148,60"/>
+    
+    <!-- Branch left - organic -->
+    <path d="M154,200 Q130,190 100,185"/>
+    <path d="M155,180 Q140,165 120,155"/>
+    <path d="M153,160 Q135,145 115,140"/>
+    
+    <!-- Branch right - organic -->
+    <path d="M156,220 Q180,210 210,205"/>
+    <path d="M157,190 Q175,175 195,170"/>
+    <path d="M155,150 Q170,135 190,130"/>
+    
+    <!-- Twigs - slight variation -->
+    <path d="M100,185 Q95,175 88,170" stroke-width="0.25"/>
+    <path d="M120,155 Q115,145 108,138" stroke-width="0.25"/>
+    <path d="M115,140 Q110,128 102,120" stroke-width="0.2"/>
+    
+    <path d="M210,205 Q218,195 228,188" stroke-width="0.25"/>
+    <path d="M195,170 Q202,158 212,148" stroke-width="0.25"/>
+    <path d="M190,130 Q198,118 208,108" stroke-width="0.2"/>
+    
+    <!-- Subtle texture - occasional short marks -->
+    <g opacity="0.4" stroke-width="0.2">
+      <line x1="148" y1="100" x2="152" y2="98"/>
+      <line x1="146" y1="130" x2="150" y2="128"/>
+      <line x1="149" y1="250" x2="153" y2="248"/>
+    </g>
+    
+  </g>
+</svg>
