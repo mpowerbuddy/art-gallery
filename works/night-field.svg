@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- Night Field — Dark sky, dark earth, figure in white -->
+  <g fill="none" stroke="#1a1a1a">
+    <!-- Sky — very dark, light lines through -->
+    <g stroke-width="0.25" opacity="0.7">
+      <line x1="0" y1="0" x2="400" y2="0"/>
+      <line x1="0" y1="40" x2="400" y2="40"/>
+      <line x1="0" y1="80" x2="400" y2="80"/>
+      <line x1="0" y1="120" x2="400" y2="120"/>
+      <line x1="0" y1="160" x2="400" y2="160"/>
+      <line x1="0" y1="200" x2="400" y2="200"/>
+    </g>
+    
+    <!-- Stars — sparse points -->
+    <g stroke-width="0.5">
+      <line x1="50" y1="30" x2="50" y2="25"/>
+      <line x1="120" y1="50" x2="120" y2="44"/>
+      <line x1="200" y1="25" x2="200" y2="18"/>
+      <line x1="280" y1="45" x2="280" y2="38"/>
+      <line x1="350" y1="60" x2="350" y2="53"/>
+    </g>
+    
+    <!-- Earth — dark, suggestions of texture -->
+    <g stroke-width="0.2" opacity="0.5">
+      <line x1="0" y1="260" x2="400" y2="260"/>
+      <line x1="0" y1="265" x2="400" y2="265"/>
+      <line x1="0" y1="270" x2="400" y2="270"/>
+      <line x1="0" y1="275" x2="400" y2="275"/>
+    </g>
+    
+    <!-- Figure — WHITE silhouette against dark -->
+    <!-- Standing in field, facing away -->
+    <g fill="white" stroke="none">
+      <!-- Head -->
+      <ellipse cx="195" cy="240" rx="12" ry="15"/>
+      <!-- Body -->
+      <path d="M195,255 L195,275 Q180,280 175,300 L215,300 Q210,280 205,275 L205,255 Z"/>
+    </g>
+    
+    <!-- Figure outline — thin dark line -->
+    <g stroke-width="0.8">
+      <ellipse cx="195" cy="240" rx="12" ry="15"/>
+      <path d="M195,255 L195,275 Q180,280 175,300"/>
+      <path d="M195,255 L195,275 Q210,280 215,300"/>
+    </g>
+    
+    <!-- Ground around figure — dark -->
+    <g stroke-width="0.25" opacity="0.4">
+      <line x1="140" y1="295" x2="160" y2="295"/>
+      <line x1="230" y1="295" x2="260" y2="295"/>
+      <line x1="145" y1="300" x2="170" y2="300"/>
+      <line x1="225" y1="300" x2="255" y2="300"/>
+    </g>
+    
+    <!-- Figure casts no shadow — night -->
+    <!-- Figure is light in darkness -->
+  </g>
+</svg>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- Extreme Contrast Study — Sky almost black, foreground white -->
+  <g fill="none" stroke="#1a1a1a">
+    <!-- Sky — DARK, multiple passes -->
+    <g stroke-width="0.35">
+      <line x1="0" y1="0" x2="0" y2="120"/>
+      <line x1="30" y1="0" x2="30" y2="130"/>
+      <line x1="60" y1="0" x2="60" y2="140"/>
+      <line x1="90" y1="0" x2="90" y2="145"/>
+      <line x1="120" y1="0" x2="120" y2="150"/>
+      <line x1="150" y1="0" x2="150" y2="155"/>
+      <line x1="180" y1="0" x2="180" y2="155"/>
+      <line x1="210" y1="0" x2="210" y2="152"/>
+      <line x1="240" y1="0" x2="240" y2="150"/>
+      <line x1="270" y1="0" x2="270" y2="145"/>
+      <line x1="300" y1="0" x2="300" y2="140"/>
+      <line x1="330" y1="0" x2="330" y2="135"/>
+      <line x1="360" y1="0" x2="360" y2="125"/>
+      <line x1="390" y1="0" x2="390" y2="115"/>
+    </g>
+    <g stroke-width="0.3">
+      <line x1="15" y1="0" x2="15" y2="125"/>
+      <line x1="45" y1="0" x2="45" y2="135"/>
+      <line x1="75" y1="0" x2="75" y2="142"/>
+      <line x1="105" y1="0" x2="105" y2="148"/>
+      <line x1="135" y1="0" x2="135" y2="152"/>
+      <line x1="165" y1="0" x2="165" y2="154"/>
+      <line x1="195" y1="0" x2="195" y2="153"/>
+      <line x1="225" y1="0" x2="225" y2="150"/>
+      <line x1="255" y1="0" x2="255" y2="147"/>
+      <line x1="285" y1="0" x2="285" y2="142"/>
+      <line x1="315" y1="0" x2="315" y2="137"/>
+      <line x1="345" y1="0" x2="345" y2="130"/>
+      <line x1="375" y1="0" x2="375" y2="120"/>
+    </g>
+    
+    <!-- Moon — almost nothing, just suggestion -->
+    <circle cx="320" cy="50" r="12" stroke-width="0.8" opacity="0.5"/>
+    
+    <!-- Mountain silhouette — black against dark sky -->
+    <path d="M0,180 L50,130 L100,160 L150,120 L200,150 L250,110 L300,140 L350,100 L400,160 L400,200 L0,200 Z" 
+          fill="#1a1a1a" stroke="none"/>
+    
+    <!-- Trees — BARELY visible, against white ground -->
+    <g stroke-width="0.8">
+      <path d="M50,280 Q45,240 55,200 Q60,170 50,140" stroke-width="1.0"/>
+      <path d="M52,220 Q35,210 25,195" stroke-width="0.5"/>
+      <path d="M58,190 Q75,180 90,175" stroke-width="0.45"/>
+    </g>
+    
+    <g stroke-width="0.9">
+      <path d="M150,285 Q155,240 145,200 Q140,170 155,135" stroke-width="1.1"/>
+      <path d="M148,230 Q130,220 115,210" stroke-width="0.5"/>
+      <path d="M152,200 Q170,190 185,185" stroke-width="0.45"/>
+    </g>
+    
+    <g stroke-width="0.85">
+      <path d="M280,285 Q275,245 285,210 Q290,180 280,145" stroke-width="1.0"/>
+      <path d="M282,235 Q300,225 315,215" stroke-width="0.48"/>
+      <path d="M278,205 Q260,198 245,192" stroke-width="0.42"/>
+    </g>
+    
+    <!-- Ground — WHITE -->
+    <path d="M0,275 Q200,270 400,280" stroke-width="0.4"/>
+    
+    <!-- Extreme contrast achieved: -->
+    <!-- Sky = heavy, dark, consuming -->
+    <!-- Ground = white, empty, lonely -->
+    <!-- Trees = barely there, struggling against dark -->
+  </g>
+</svg>

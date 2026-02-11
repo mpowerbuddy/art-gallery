@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- Speed Gestures — 8 trees, don't think -->
+  <g fill="none" stroke="#1a1a1a" stroke-linecap="round">
+    
+    <!-- 1. The survivor — leaning, sparse -->
+    <path d="M30,285 Q25,250 35,220 Q40,190 28,150" stroke-width="2.0"/>
+    <path d="M32,240 Q15,235 5,225" stroke-width="0.9"/>
+    <path d="M38,210 Q55,205 70,200" stroke-width="0.8"/>
+    
+    <!-- 2. The stump — just a stub -->
+    <path d="M90,285 Q95,260 88,240 Q82,225 95,215" stroke-width="2.5"/>
+    
+    <!-- 3. The column — straight up -->
+    <path d="M130,285 Q128,240 135,180 Q140,140 128,90" stroke-width="1.8"/>
+    <path d="M132,220 Q120,215 108,210" stroke-width="0.85"/>
+    <path d="M135,190 Q150,185 165,180" stroke-width="0.75"/>
+    <path d="M130,160 Q118,155 105,150" stroke-width="0.7"/>
+    <path d="M135,130 Q150,125 162,120" stroke-width="0.65"/>
+    
+    <!-- 4. The wanderer — curving right -->
+    <path d="M190,285 Q200,240 195,200 Q190,160 220,120" stroke-width="1.9"/>
+    <path d="M193,230 Q215,225 235,220" stroke-width="0.88"/>
+    <path d="M198,200 Q175,195 155,190" stroke-width="0.8"/>
+    <path d="M205,170 Q225,165 240,160" stroke-width="0.72"/>
+    
+    <!-- 5. The broken one — missing top -->
+    <path d="M260,285 Q258,250 265,220 Q268,200 262,185" stroke-width="2.2"/>
+    <path d="M263,240 Q245,235 230,230" stroke-width="1.0"/>
+    <path d="M265,215 Q280,210 292,205" stroke-width="0.9"/>
+    
+    <!-- 6. The twins — two trunks from base -->
+    <path d="M315,285 Q310,250 320,220 Q325,200 315,170" stroke-width="1.5"/>
+    <path d="M318,280 Q310,250 305,230" stroke-width="1.4"/>
+    <path d="M320,240 Q300,235 285,230" stroke-width="0.75"/>
+    <path d="M322,220 Q340,215 355,210" stroke-width="0.7"/>
+    <path d="M318,190 Q335,185 348,180" stroke-width="0.65"/>
+    <path d="M308,200 Q295,195 280,190" stroke-width="0.6"/>
+    
+    <!-- 7. The old one — twisted -->
+    <path d="M370,285 Q360,240 375,200 Q365,160 380,120" stroke-width="2.1"/>
+    <path d="M372,230 Q350,220 335,210" stroke-width="0.95"/>
+    <path d="M378,195 Q395,185 390,165" stroke-width="0.85"/>
+    <path d="M368,170 Q385,160 375,140" stroke-width="0.7"/>
+    
+    <!-- 8. The whip — thin and long -->
+    <path d="M395,290 Q390,250 400,200 Q395,150 385,100" stroke-width="1.3"/>
+    <path d="M397,230 Q380,225 365,220" stroke-width="0.6"/>
+    <path d="M392,190 Q408,185 395,175" stroke-width="0.55"/>
+    
+  </g>
+</svg>

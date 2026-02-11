@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- Atmosphere Through Gaps — What if the trees are HOLES in fog? -->
+  <g fill="none" stroke="#1a1a1a">
+    <!-- Fog — light vertical hatching -->
+    <g stroke-width="0.2" opacity="0.4">
+      <line x1="0" y1="50" x2="400" y2="50"/>
+      <line x1="0" y1="80" x2="400" y2="80"/>
+      <line x1="0" y1="110" x2="400" y2="110"/>
+      <line x1="0" y1="140" x2="400" y2="140"/>
+      <line x1="0" y1="170" x2="400" y2="170"/>
+      <line x1="0" y1="200" x2="400" y2="200"/>
+      <line x1="0" y1="230" x2="400" y2="230"/>
+    </g>
+    
+    <!-- Trees as NEGATIVE SPACE — fog has texture, trees are empty -->
+    <!-- Tree 1 — void in fog -->
+    <path d="M80,280 L85,200 L75,200 L70,280 Z" fill="white" stroke="none"/>
+    <path d="M73,200 Q65,150 80,100" stroke="none" fill="white"/>
+    
+    <!-- Tree 2 -->
+    <path d="M150,280 L155,220 L145,220 L140,280 Z" fill="white" stroke="none"/>
+    <path d="M148,220 Q155,180 150,140" stroke="none" fill="white"/>
+    
+    <!-- Tree 3 -->
+    <path d="M220,280 L225,190 L215,190 L210,280 Z" fill="white" stroke="none"/>
+    <path d="M218,190 Q210,140 225,90" stroke="none" fill="white"/>
+    
+    <!-- Tree 4 -->
+    <path d="M300,280 L308,230 L298,230 L295,280 Z" fill="white" stroke="none"/>
+    <path d="M305,230 Q315,190 305,150" stroke="none" fill="white"/>
+    
+    <!-- Tree 5 -->
+    <path d="M370,280 L378,210 L368,210 L362,280 Z" fill="white" stroke="none"/>
+    <path d="M375,210 Q365,160 380,110" stroke="none" fill="white"/>
+    
+    <!-- Fog continues THROUGH trees -->
+    <!-- Fog layer 3.5 -->
+    <line x1="0" y1="95" x2="400" y2="95" stroke-width="0.2" opacity="0.35"/>
+    <line x1="0" y1="125" x2="400" y2="125" stroke-width="0.2" opacity="0.35"/>
+    <line x1="0" y1="155" x2="400" y2="155" stroke-width="0.2" opacity="0.35"/>
+    <line x1="0" y1="185" x2="400" y2="185" stroke-width="0.2" opacity="0.35"/>
+    
+    <!-- Trees cut through fog -->
+    <!-- Gap lines where fog SHOULD be but ISN'T -->
+    <g stroke-width="0.15" opacity="0.3">
+      <line x1="70" y1="50" x2="90" y2="50"/>
+      <line x1="65" y1="80" x2="95" y2="80"/>
+      <line x1="68" y1="110" x2="92" y2="110"/>
+      <line x1="72" y1="140" x2="88" y2="140"/>
+      <line x1="75" y1="170" x2="85" y2="170"/>
+      
+      <line x1="140" y1="50" x2="160" y2="50"/>
+      <line x1="138" y1="80" x2="162" y2="80"/>
+      <line x1="142" y1="110" x2="158" y2="110"/>
+      <line x1="145" y1="140" x2="155" y2="140"/>
+      
+      <line x1="210" y1="50" x2="235" y2="50"/>
+      <line x1="205" y1="80" x2="240" y2="80"/>
+      <line x1="208" y1="110" x2="237" y2="110"/>
+      <line x1="212" y1="140" x2="233" y2="140"/>
+      <line x1="215" y1="170" x2="230" y2="170"/>
+      
+      <line x1="290" y1="50" x2="315" y2="50"/>
+      <line x1="288" y1="80" x2="318" y2="80"/>
+      <line x1="292" y1="110" x2="314" y2="110"/>
+      <line x1="295" y1="140" x2="310" y2="140"/>
+      
+      <line x1="355" y1="50" x2="390" y2="50"/>
+      <line x1="350" y1="80" x2="395" y2="80"/>
+      <line x1="352" y1="110" x2="393" y2="110"/>
+      <line x1="358" y1="140" x2="388" y2="140"/>
+    </g>
+    
+    <!-- Ground suggestion -->
+    <path d="M0,275 Q200,272 400,278" stroke-width="0.3"/>
+  </g>
+</svg>

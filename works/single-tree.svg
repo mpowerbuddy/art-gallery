@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- Single Tree — All attention, no decoration -->
+  <g fill="none" stroke="#1a1a1a">
+    <!-- Trunk — honest, no flourish -->
+    <path d="M200,285 Q198,240 205,200 Q208,160 198,120" 
+          stroke-width="2.8" stroke-linecap="round"/>
+    
+    <!-- Two main branches — not decorative -->
+    <path d="M202,190 Q180,175 155,165" stroke-width="1.6"/>
+    <path d="M206,160 Q230,145 255,140" stroke-width="1.4"/>
+    
+    <!-- Small twigs — minimum necessary -->
+    <path d="M155,165 Q145,155 135,148" stroke-width="0.6"/>
+    <path d="M255,140 Q265,132 275,125" stroke-width="0.55"/>
+    
+    <!-- Sparse leaves — not poufs -->
+    <g stroke-width="0.9" stroke-linecap="round">
+      <path d="M135,148 Q125,135 130,115"/>
+      <path d="M145,155 Q140,140 142,120"/>
+      
+      <path d="M255,125 Q260,115 255,100"/>
+      <path d="M265,130 Q270,120 268,105"/>
+      
+      <path d="M200,120 Q190,100 195,80" stroke-width="0.8"/>
+      <path d="M205,115 Q215,95 210,75" stroke-width="0.75"/>
+      
+      <path d="M175,165 Q165,155 168,140" stroke-width="0.65"/>
+      <path d="M230,145 Q240,135 238,120" stroke-width="0.6"/>
+    </g>
+    
+    <!-- That's it. -->
+    <!-- No ground line. -->
+    <!-- No background. -->
+    <!-- No atmosphere. -->
+    <!-- Just tree. -->
+  </g>
+</svg>
