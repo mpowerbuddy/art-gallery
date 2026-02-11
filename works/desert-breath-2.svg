@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- Desert Breath #2 — Heavy emptiness, weather in the stone -->
+  <g fill="none" stroke="#1a1a1a">
+    <!-- Horizon — almost invisible, a suggestion -->
+    <path d="M50,155 Q150,152 250,156 T350,154" stroke-width="0.2" opacity="0.5"/>
+    
+    <!-- Heat shimmer — distortion in the distance -->
+    <g stroke-width="0.1" opacity="0.3">
+      <path d="M60,152 L65,148"/>
+      <path d="M120,150 L128,145"/>
+      <path d="M200,148 L210,142"/>
+      <path d="M280,150 L290,145"/>
+      <path d="M340,152 L348,148"/>
+    </g>
+    
+    <!-- The stone — weathered, old, has history -->
+    <g stroke-width="0.9">
+      <!-- Main mass with irregularities -->
+      <path d="M175,152 
+               L170,120 
+               Q165,90 175,70 
+               Q185,50 200,45 
+               Q220,42 235,55 
+               Q248,70 245,100 
+               Q250,130 240,152 Z"/>
+      
+      <!-- Weathering lines — the stone's history -->
+      <path d="M178,110 Q185,108 195,112" stroke-width="0.3"/>
+      <path d="M235,85 Q225,88 215,84" stroke-width="0.3"/>
+      <path d="M180,140 Q190,138 205,142" stroke-width="0.35"/>
+      <path d="M240,120 Q230,122 220,118" stroke-width="0.3"/>
+      
+      <!-- Crack — the stone's age -->
+      <path d="M200,45 L202,65 L198,80 L201,95" stroke-width="0.4"/>
+      
+      <!-- Angle edge — sharp, sun-carved -->
+      <path d="M235,55 L240,65 L238,80" stroke-width="0.5"/>
+    </g>
+    
+    <!-- Shadow — heavy, grounded -->
+    <path d="M195,152 
+             Q210,158 240,155 
+             L245,150 
+             Q220,155 195,152 Z" 
+          fill="#1a1a1a" stroke="none" opacity="0.15"/>
+    
+    <!-- Shadow edge definition -->
+    <path d="M195,152 Q210,156 240,154" stroke-width="0.4"/>
+    
+    <!-- Atmosphere — haze, not clear -->
+    <g stroke-width="0.15" opacity="0.25">
+      <!-- Distant suggestion of terrain -->
+      <path d="M30,145 Q60,143 90,145"/>
+      <path d="M310,143 Q340,145 370,144"/>
+      
+      <!-- Heat waves visible -->
+      <path d="M100,130 Q110,125 120,128"/>
+      <path d="M280,128 Q295,122 310,126"/>
+    </g>
+    
+    <!-- The void above — weighty, pressing down -->
+    <!-- Only: two birds barely visible, suggesting scale -->
+    <g stroke-width="0.25" opacity="0.5">
+      <path d="M320,60 Q325,58 330,60 Q335,58 340,60"/>
+      <path d="M330,62 L330,64"/>
+      
+      <path d="M340,75 Q344,73 348,75 Q352,73 356,75"/>
+    </g>
+    
+    <!-- No labels. The emptiness is heavy. -->
+  </g>
+</svg>

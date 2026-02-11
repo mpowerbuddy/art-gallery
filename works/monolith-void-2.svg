@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- Monolith Void #2 — Giacometti-inspired elongation, light as absence -->
+  <g fill="none" stroke="#1a1a1a">
+    <!-- The void breathes — edge defined by implied light from above -->
+    
+    <!-- Left edge — heavy, shadow side -->
+    <path d="M150,40 L148,100 L145,160 L148,220 L152,270" stroke-width="1.4"/>
+    
+    <!-- Right edge — lighter, catch light -->
+    <path d="M250,40 L252,100 L255,160 L252,220 L248,270" stroke-width="0.8"/>
+    
+    <!-- Top — almost gone -->
+    <path d="M150,40 Q200,38 250,40" stroke-width="0.6"/>
+    
+    <!-- Surface texture — following light falloff -->
+    <g stroke-width="0.2" opacity="0.8">
+      <!-- Dense at top (most lit), sparse at bottom (deep shadow) -->
+      <path d="M155,50 L153,58"/>
+      <path d="M160,45 L159,51"/>
+      <path d="M170,42 L170,46"/>
+      <path d="M180,40 L181,43"/>
+      <path d="M190,39 L192,41"/>
+      <path d="M210,39 L212,41"/>
+      <path d="M220,40 L223,43"/>
+      <path d="M235,43 L238,47"/>
+      <path d="M245,50 L248,56"/>
+      
+      <path d="M153,75 L150,88"/>
+      <path d="M158,68 L156,78"/>
+      <path d="M165,60 L164,67"/>
+      <path d="M175,54 L175,59"/>
+      <path d="M225,54 L225,59"/>
+      <path d="M235,60 L234,67"/>
+      <path d="M242,68 L240,78"/>
+      <path d="M247,75 L245,88"/>
+      
+      <path d="M150,105 L146,125"/>
+      <path d="M156,95 L154,110"/>
+      <path d="M168,85 L167,95"/>
+      <path d="M232,85 L233,95"/>
+      <path d="M244,95 L242,110"/>
+      <path d="M250,105 L246,125"/>
+      
+      <path d="M148,145 L143,175"/>
+      <path d="M155,130 L152,150"/>
+      <path d="M170,115 L169,130"/>
+      <path d="M230,115 L231,130"/>
+      <path d="M245,130 L242,150"/>
+      <path d="M252,145 L247,175"/>
+      
+      <path d="M147,195 L142,235"/>
+      <path d="M154,175 L151,200"/>
+      <path d="M172,155 L171,175"/>
+      <path d="M228,155 L229,175"/>
+      <path d="M246,175 L243,200"/>
+      <path d="M253,195 L248,235"/>
+      
+      <path d="M148,255 L145,275"/>
+      <path d="M160,240 L158,255"/>
+      <path d="M240,240 L242,255"/>
+      <path d="M252,255 L250,275"/>
+    </g>
+    
+    <!-- Ground — slight suggestion -->
+    <path d="M100,275 Q200,273 300,275" stroke-width="0.3"/>
+    
+    <!-- No human. Scale felt through proportion alone. -->
+    <!-- Height:width ratio ~7:1 — uncomfortable, intentional -->
+  </g>
+</svg>

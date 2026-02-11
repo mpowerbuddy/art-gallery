@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- Erosion Mark #2 — Nature's decay, no caption needed -->
+  <g fill="none" stroke="#1a1a1a">
+    <!-- Original form — now barely a memory -->
+    <path d="M100,70 Q200,60 300,70 L310,140 Q200,130 90,140 Z" 
+          stroke-width="0.4" stroke-dasharray="4,6" opacity="0.4"/>
+    
+    <!-- Erosion front — directional, like wind or water -->
+    <path d="M95,145 
+             Q120,158 155,150 
+             T225,155 
+             Q260,165 290,152 
+             T350,158" 
+          stroke-width="1.2"/>
+    
+    <!-- Particles — size varies by distance from source -->
+    <g stroke-width="0.35">
+      <!-- Large chunks close to source -->
+      <path d="M100,160 L95,175"/>
+      <path d="M110,168 L104,185"/>
+      <path d="M130,165 L125,182"/>
+      
+      <!-- Medium chunks -->
+      <path d="M145,175 L140,192"/>
+      <path d="M165,172 L161,190"/>
+      <path d="M190,178 L185,198"/>
+      <path d="M215,180 L210,200"/>
+      
+      <!-- Small particles spreading -->
+      <path d="M240,178 L237,196"/>
+      <path d="M270,175 L267,193"/>
+      <path d="M300,170 L298,186"/>
+      
+      <!-- Fine dust far out -->
+      <path d="M330,165 L329,178"/>
+      <path d="M355,160 L354,172"/>
+    </g>
+    
+    <!-- Debris field on ground -->
+    <g stroke-width="0.25" opacity="0.7">
+      <circle cx="85" cy="220" r="1.2"/>
+      <circle cx="105" cy="235" r="0.8"/>
+      <circle cx="130" cy="225" r="1.0"/>
+      <circle cx="160" cy="242" r="0.6"/>
+      <circle cx="195" cy="230" r="1.1"/>
+      <circle cx="230" cy="245" r="0.7"/>
+      <circle cx="265" cy="235" r="0.9"/>
+      <circle cx="300" cy="248" r="0.5"/>
+      <circle cx="340" cy="238" r="0.8"/>
+    </g>
+    
+    <!-- Surface loss — follows implied wind direction (left to right) -->
+    <g stroke-width="0.2">
+      <!-- Left edge heavily damaged -->
+      <path d="M98,85 L92,100"/>
+      <path d="M95,120 L88,138"/>
+      <path d="M100,155 L93,175"/>
+      
+      <!-- Center moderate -->
+      <path d="M165,75 L162,85"/>
+      <path d="M175,90 L171,102"/>
+      <path d="M180,110 L176,124"/>
+      <path d="M175,135 L170,150"/>
+      
+      <!-- Right edge less damaged -->
+      <path d="M260,78 L258,86"/>
+      <path d="M275,92 L272,102"/>
+      <path d="M285,110 L282,120"/>
+      <path d="M290,130 L287,142"/>
+    </g>
+    
+    <!-- What remains — proud, standing -->
+    <path d="M205,68 L208,58 L215,62 L212,72 Z" stroke-width="0.6"/>
+    
+    <!-- No caption. The erosion speaks for itself. -->
+  </g>
+</svg>

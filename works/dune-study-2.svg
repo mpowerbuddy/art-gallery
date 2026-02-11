@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- Dune Study #2 — Organic crosshatching, non-parallel ridges -->
+  <g fill="none" stroke="#1a1a1a">
+    <!-- Horizon — barely a whisper -->
+    <path d="M60,145 Q120,143 180,146 T300,144 T360,147" stroke-width="0.25" opacity="0.7"/>
+    
+    <!-- Primary dune ridge — organic curve, not smooth -->
+    <path d="M40,155 Q85,148 130,152 T220,160 T300,158 T360,162" stroke-width="0.6"/>
+    
+    <!-- Crosshatching layer 1 — dark, following ridge -->
+    <g stroke-width="0.2">
+      <path d="M50,160 L45,168"/>
+      <path d="M75,158 L68,168"/>
+      <path d="M100,156 L93,167"/>
+      <path d="M130,158 L122,170"/>
+      <path d="M160,162 L152,174"/>
+      <path d="M195,164 L188,176"/>
+      <path d="M230,163 L224,175"/>
+      <path d="M265,162 L259,174"/>
+      <path d="M300,160 L295,172"/>
+      <path d="M335,163 L330,175"/>
+    </g>
+    
+    <!-- Secondary ridge — different rhythm -->
+    <path d="M35,180 Q70,172 120,178 T220,188 T320,185 T365,190" stroke-width="0.5"/>
+    
+    <!-- Crosshatching layer 2 — lighter, breaking parallel -->
+    <g stroke-width="0.18">
+      <path d="M55,185 L50,195"/>
+      <path d="M90,188 L84,200"/>
+      <path d="M130,192 L123,204"/>
+      <path d="M175,195 L168,207"/>
+      <path d="M220,194 L214,206"/>
+      <path d="M265,190 L260,202"/>
+      <path d="M310,188 L306,200"/>
+      <path d="M350,192 L346,204"/>
+    </g>
+    
+    <!-- Tertiary ridge — lowest, most detailed -->
+    <path d="M30,210 Q80,202 140,212 T260,225 T350,220" stroke-width="0.45"/>
+    
+    <!-- Deep shadow crosshatch -->
+    <g stroke-width="0.25">
+      <path d="M50,218 L42,232"/>
+      <path d="M95,222 L86,238"/>
+      <path d="M150,228 L140,244"/>
+      <path d="M210,238 L200,254"/>
+      <path d="M280,235 L272,250"/>
+      <path d="M330,230 L324,244"/>
+    </g>
+    
+    <!-- Wind texture — breaking all patterns -->
+    <g stroke-width="0.15" opacity="0.6">
+      <path d="M80,120 L75,128"/>
+      <path d="M120,115 L114,124"/>
+      <path d="M170,108 L165,118"/>
+      <path d="M230,105 L224,114"/>
+      <path d="M290,110 L284,120"/>
+      
+      <path d="M95,95 L88,105"/>
+      <path d="M150,88 L143,98"/>
+      <path d="M210,85 L204,94"/>
+      <path d="M280,90 L274,100"/>
+    </g>
+    
+    <!-- Single landmark — imperfection -->
+    <path d="M175,145 L178,138 L182,140 L180,148 Z" stroke-width="0.5"/>
+    
+    <!-- Distance markers — none, vastness implied -->
+  </g>
+</svg>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- Jazz Sketch #2 — Matisse line flow, not notation -->
+  <g fill="none" stroke="#1a1a1a">
+    <!-- Primary line — one continuous breath, never lifts -->
+    <path d="M30,250 
+             Q50,220 80,200 
+             T150,160 
+             Q180,140 200,145 
+             T260,130 
+             Q300,125 320,140 
+             T370,180" 
+          stroke-width="1.0" stroke-linecap="round"/>
+    
+    <!-- Secondary line — harmony, never parallel -->
+    <path d="M40,260 
+             Q65,240 95,225 
+             T160,195 
+             Q195,180 220,185 
+             T290,165 
+             Q330,160 350,175 
+             T385,210" 
+          stroke-width="0.7"/>
+    
+    <!-- Counter-melody — fragmented, syncopated -->
+    <g stroke-width="0.5">
+      <path d="M100,120 Q115,110 130,115"/>
+      <path d="M180,100 Q200,90 215,98"/>
+      <path d="M260,95 Q280,85 295,92"/>
+      <path d="M320,100 Q335,92 345,102"/>
+    </g>
+    
+    <!-- Accent marks — rhythmic stabs, not beats -->
+    <g stroke-width="0.8" stroke-linecap="round">
+      <line x1="110" y1="165" x2="108" y2="155"/>
+      <line x1="175" y1="150" x2="172" y2="138"/>
+      <line x1="245" y1="140" x2="242" y2="128"/>
+      <line x1="305" y1="155" x2="302" y2="145"/>
+    </g>
+    
+    <!-- Rest — space, not marks -->
+    <!-- The emptiness between lines IS the rhythm -->
+    
+    <!-- Bass suggestion — low, occasional -->
+    <g stroke-width="0.6" opacity="0.5">
+      <path d="M60,275 Q80,272 100,275"/>
+      <path d="M140,278 Q160,275 180,278"/>
+      <path d="M220,275 Q245,272 270,275"/>
+      <path d="M310,278 Q335,275 355,278"/>
+    </g>
+    
+    <!-- Tension — the unresolved -->
+    <g stroke-width="0.3" opacity="0.6">
+      <path d="M140,100 Q155,130 150,160"/>
+      <path d="M270,95 Q285,130 280,170"/>
+      <path d="M200,105 L195,145"/>
+    </g>
+    
+    <!-- No notation. Feel the music. -->
+  </g>
+</svg>
