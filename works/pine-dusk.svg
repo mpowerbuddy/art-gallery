@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- Pine at Dusk — Light direction lesson -->
+  <g fill="none" stroke="#1a1a1a" stroke-linecap="round">
+    
+    <!-- Sky — fading from dark to darker -->
+    <g stroke-width="0.2" opacity="0.6">
+      <line x1="0" y1="50" x2="400" y2="50"/>
+      <line x1="0" y1="80" x2="400" y2="80"/>
+      <line x1="0" y1="110" x2="400" y2="110"/>
+      <line x1="0" y1="140" x2="400" y2="140"/>
+    </g>
+    
+    <!-- Sun setting LEFT -->
+    <!-- Golden hour light on LEFT side of tree -->
+    
+    <!-- Left branches LIT -->
+    <g stroke-width="1.6">
+      <path d="M200,260 Q160,250 130,240" />
+      <path d="M200,220 Q165,212 140,205" />
+      <path d="M200,180 Q170,173 150,168" />
+      <path d="M200,145 Q175,140 160,135" />
+      <path d="M200,115 Q180,110 170,105" />
+    </g>
+    
+    <!-- Right branches IN SHADOW -->
+    <g stroke-width="1.6" opacity="0.25">
+      <path d="M200,260 Q240,250 270,240" />
+      <path d="M200,220 Q235,212 260,205" />
+      <path d="M200,180 Q230,173 250,168" />
+      <path d="M200,145 Q225,140 240,135" />
+      <path d="M200,115 Q220,110 230,105" />
+    </g>
+    
+    <!-- Trunk LEFT lit -->
+    <path d="M195,285 L195,100" stroke-width="4.0"/>
+    
+    <!-- Trunk RIGHT shadow -->
+    <path d="M198,100 L198,285" stroke-width="3.0" opacity="0.2"/>
+    
+    <!-- Ground reflection of light -->
+    <g stroke-width="0.4" opacity="0.5">
+      <path d="M130,282 Q160,278 200,280" />
+      <path d="M200,280 Q240,278 270,285" />
+    </g>
+    
+    <!-- Sky getting darker -->
+    <g stroke-width="0.15" opacity="0.4">
+      <line x1="0" y1="170" x2="400" y2="170"/>
+      <line x1="0" y1="200" x2="400" y2="200"/>
+    </g>
+    
+    <!-- What I learned: -->
+    <!-- Golden hour = warm glow on one side -->
+    <!-- Shadow = not black, just dark version -->
+  </g>
+</svg>

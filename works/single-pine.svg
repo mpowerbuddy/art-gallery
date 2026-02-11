@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- Single Pine — Reduction to essence -->
+  <g fill="none" stroke="#1a1a1a" stroke-linecap="round">
+    
+    <!-- Trunk — thin, straight -->
+    <path d="M195,285 L195,100" stroke-width="3.0"/>
+    
+    <!-- Layer 1: bottom branches -->
+    <path d="M195,240 Q140,230 100,220" stroke-width="1.6"/>
+    <path d="M195,240 Q250,230 290,220" stroke-width="1.6"/>
+    
+    <!-- Layer 2 -->
+    <path d="M195,200 Q150,192 120,185" stroke-width="1.4"/>
+    <path d="M195,200 Q240,192 270,185" stroke-width="1.4"/>
+    
+    <!-- Layer 3 -->
+    <path d="M195,165 Q155,158 135,152" stroke-width="1.2"/>
+    <path d="M195,165 Q235,158 255,152" stroke-width="1.2"/>
+    
+    <!-- Layer 4 -->
+    <path d="M195,135 Q160,130 145,125" stroke-width="1.0"/>
+    <path d="M195,135 Q230,130 245,125" stroke-width="1.0"/>
+    
+    <!-- Layer 5: top -->
+    <path d="M195,110 Q170,105 160,100" stroke-width="0.8"/>
+    <path d="M195,110 Q220,105 230,100" stroke-width="0.8"/>
+    
+    <!-- Top tip -->
+    <path d="M195,100 L195,85" stroke-width="1.0"/>
+    
+    <!-- Ground -->
+    <path d="M100,282 Q200,278 300,285" stroke-width="0.6"/>
+    
+    <!-- Essence: -->
+    <!-- Triangle shape -->
+    <!-- Horizontal layers -->
+    <!-- Trunk visible between layers -->
+  </g>
+</svg>

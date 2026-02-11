@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- Three Pines — Scale study -->
+  <g fill="none" stroke="#1a1a1a" stroke-linecap="round">
+    
+    <!-- Small pine (distant) -->
+    <g stroke-width="1.2" opacity="0.4">
+      <path d="M60,250 L60,180" stroke-width="1.8"/>
+      <path d="M60,230 Q40,225 30,220" />
+      <path d="M60,230 Q80,225 90,220" />
+      <path d="M60,205 Q42,200 35,196" />
+      <path d="M60,205 Q78,200 85,196" />
+      <path d="M60,185 Q45,180 40,177" />
+      <path d="M60,185 Q75,180 80,177" />
+    </g>
+    
+    <!-- Medium pine (mid) -->
+    <g stroke-width="1.4" opacity="0.6">
+      <path d="M160,270 L160,150" stroke-width="2.4"/>
+      <path d="M160,240 Q130,232 110,225" />
+      <path d="M160,240 Q190,232 210,225" />
+      <path d="M160,205 Q135,198 120,192" />
+      <path d="M160,205 Q185,198 200,192" />
+      <path d="M160,175 Q140,170 130,166" />
+      <path d="M160,175 Q180,170 190,166" />
+      <path d="M160,150 L160,130" />
+    </g>
+    
+    <!-- Large pine (close) -->
+    <g stroke-width="1.8">
+      <path d="M300,285 L300,100" stroke-width="3.5"/>
+      <path d="M300,250 Q255,238 220,228" />
+      <path d="M300,250 Q345,238 380,228" />
+      <path d="M300,200 Q260,190 235,182" />
+      <path d="M300,200 Q340,190 365,182" />
+      <path d="M300,160 Q265,152 245,146" />
+      <path d="M300,160 Q335,152 355,146" />
+      <path d="M300,125 Q275,120 265,115" />
+      <path d="M300,125 Q325,120 335,115" />
+      <path d="M300,100 L300,70" />
+    </g>
+    
+    <!-- Ground with perspective -->
+    <path d="M20,290 Q200,280 380,295" stroke-width="1.0"/>
+    
+    <!-- What I learned: -->
+    <!-- Distant = fewer layers, less detail, lighter -->
+    <!-- Close = more layers, more detail, darker -->
+  </g>
+</svg>

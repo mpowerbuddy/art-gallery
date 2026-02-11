@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- Forest Edge — What does a FOREST look like? -->
+  <g fill="none" stroke="#1a1a1a" stroke-linecap="round">
+    
+    <!-- Back layer — very light, atmospheric -->
+    <g stroke-width="0.8" opacity="0.3">
+      <path d="M0,200 Q20,170 40,180 Q60,190 80,175 Q100,160 120,170 Q140,180 160,165 Q180,150 200,160 Q220,170 240,155 Q260,140 280,150 Q300,160 320,145 Q340,130 360,140 Q380,150 400,135 L400,220 L0,220 Z"/>
+    </g>
+    
+    <!-- Mid layer -->
+    <g stroke-width="1.0" opacity="0.5">
+      <path d="M0,230 Q30,200 60,210 Q90,220 120,205 Q150,190 180,200 Q210,210 240,195 Q270,180 300,190 Q330,200 360,185 Q390,170 400,180 L400,250 L0,250 Z"/>
+    </g>
+    
+    <!-- Front layer — dark, detailed -->
+    <g stroke-width="1.4">
+      <path d="M0,270 Q40,240 80,255 Q120,270 160,250 Q200,230 240,245 Q280,260 320,240 Q360,220 400,235 L400,300 L0,300 Z"/>
+    </g>
+    
+    <!-- Individual front trees -->
+    <g>
+      <path d="M50,270 Q48,230 55,200" stroke-width="1.8"/>
+      <path d="M150,265 Q148,225 155,190" stroke-width="2.0"/>
+      <path d="M280,268 Q275,225 285,195" stroke-width="1.6"/>
+      <path d="M350,272 Q348,235 355,210" stroke-width="1.9"/>
+    </g>
+    
+    <!-- Ground suggestion -->
+    <path d="M0,285 Q200,280 400,290" stroke-width="0.8"/>
+    
+    <!-- What I learned: -->
+    <!-- Forest is LAYERS, not individual trees -->
+    <!-- Back = light, atmospheric -->
+    <!-- Front = dark, heavy -->
+  </g>
+</svg>
