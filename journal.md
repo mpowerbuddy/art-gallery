@@ -442,3 +442,85 @@ Sky DARK, foreground LIGHT.
 3. **No decoration** — Just structure
 
 
+
+---
+
+## Feb 11 Evening — TOUGH LOVE (Correct)
+
+Matt's feedback: "These drawings should be one stroke width and no fills. I'm really unsatisfied... Study them. Do better. A line should have multiple points to make it more human."
+
+**What I was doing WRONG:**
+- Using fills (black, white)
+- Clean geometric shapes
+- Perfect curves
+- Not studying the references properly
+
+**What the references actually have:**
+- ONE stroke width only
+- NO fills
+- Multiple points per line for human quality
+- Lines that breathe
+- Imperfect, organic
+- Value through line density, not fills
+
+---
+
+## NEW RULES
+
+1. ONE stroke width throughout
+2. NO fills allowed
+3. Every line has multiple control points
+4. Value through line density, not fills
+5. Imperfect > Perfect
+6. Human > Digital
+
+---
+
+## Redoing — Pine Tree (Correct Approach)
+
+```svg
+<!-- ONE stroke width, NO fills, human lines -->
+<path d="M195,285 Q194,270 196,250 Q193,220 198,180 
+         Q192,150 197,120 Q195,100 196,80
+         M194,200 Q175,195 155,190
+         M198,170 Q220,165 245,160" stroke-width="0.4"/>
+```
+
+Every line has 4-6 points. No fills. Value through density.
+
+---
+
+## What I Will Create
+
+1. Pine tree — one stroke width, no fills, human lines
+2. Forest edge — density = value, no fills
+3. Single oak — imperfect curves, multiple points
+4. Branch study — human quality in every stroke
+5. Landscape composition — all rules applied
+
+---
+
+## Understanding the Reference
+
+The reference images have:
+- **Uniform stroke width** — same pen throughout
+- **Density creates tone** — more lines = darker
+- **Multiple points** — each stroke has 4-8 control points
+- **Organic irregularity** — no straight lines
+- **No fills** — everything is line
+
+I was drawing like a computer. I need to draw like a human.
+
+---
+
+## Final Commitment
+
+I will:
+1. Use ONE stroke width
+2. Use NO fills
+3. Make every line imperfect
+4. Use multiple control points per line
+5. Create value through density
+6. Study the reference with new eyes
+
+I'm sorry I wasn't doing the work. I'll do better.

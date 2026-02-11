@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- Single Oak — Imperfect curves, multiple points, NO fills -->
+  <g fill="none" stroke="#1a1a1a" stroke-width="0.4" stroke-linecap="round" stroke-linejoin="round">
+    
+    <!-- Trunk — 8 control points, organic wobble -->
+    <path d="M195,285 Q194,268 198,250 Q193,228 197,200 
+             Q192,175 196,150 Q194,125 198,100 
+             Q195,80 197,65"/>
+    
+    <!-- Main branch left — 5 points -->
+    <path d="M196,170 Q175,162 155,155 Q145,150 130,145"/>
+    
+    <!-- Main branch right — 5 points -->
+    <path d="M198,145 Q220,138 245,132 Q258,128 275,125"/>
+    
+    <!-- Sub-branch left 1 — 4 points -->
+    <path d="M155,155 Q142,148 128,142 Q122,139 115,136"/>
+    
+    <!-- Sub-branch right 1 — 4 points -->
+    <path d="M245,132 Q258,127 272,122 Q280,119 290,116"/>
+    
+    <!-- Sub-branch left 2 — 4 points -->
+    <path d="M130,145 Q118,140 105,135 Q98,132 90,130"/>
+    
+    <!-- Sub-branch right 2 — 4 points -->
+    <path d="M275,125 Q288,120 302,115 Q312,112 325,108"/>
+    
+    <!-- Crown mass — multiple short strokes, NO ellipse -->
+    <!-- Left side -->
+    <path d="M90,130 Q82,122 75,115 Q70,108 68,100"/>
+    <path d="M75,115 Q68,108 65,98 Q63,90 68,82"/>
+    <path d="M68,100 Q62,92 60,82 Q58,75 62,68"/>
+    <path d="M115,136 Q105,128 98,118 Q93,110 95,100"/>
+    <path d="M105,135 Q95,125 90,115 Q86,107 88,98"/>
+    <path d="M128,142 Q118,132 112,122 Q108,114 110,105"/>
+    
+    <!-- Top side -->
+    <path d="M110,105 Q102,95 100,85 Q98,77 102,70"/>
+    <path d="M130,115 Q122,105 120,95 Q118,87 122,80"/>
+    <path d="M150,110 Q142,100 140,90 Q138,82 142,75"/>
+    <path d="M170,108 Q162,98 160,88 Q158,80 162,73"/>
+    <path d="M190,105 Q182,95 180,87 Q178,80 182,73"/>
+    
+    <!-- Right side -->
+    <path d="M210,108 Q202,100 200,90 Q198,82 202,75"/>
+    <path d="M235,115 Q227,107 225,98 Q223,90 227,82"/>
+    <path d="M260,120 Q252,112 250,103 Q248,95 252,88"/>
+    <path d="M290,116 Q282,108 280,99 Q278,91 282,84"/>
+    <path d="M325,108 Q317,100 315,91 Q313,83 317,76"/>
+    
+    <!-- Lower branches -->
+    <path d="M130,145 Q120,140 112,135 Q106,131 100,128"/>
+    <path d="M275,125 Q285,120 295,115 Q303,111 312,108"/>
+    
+    <!-- Ground roots — 4 strokes -->
+    <path d="M195,285 Q185,280 175,278 Q168,276 160,275"/>
+    <path d="M198,285 Q208,282 218,280 Q226,278 235,277"/>
+    <path d="M192,285 Q182,283 172,282"/>
+    <path d="M200,285 Q210,283 222,281"/>
+    
+    <!-- Ground line — 3 strokes -->
+    <path d="M100,288 Q150,285 200,287 Q250,289 300,286"/>
+    <path d="M50,290 Q80,288 100,289"/>
+    <path d="M280,288 Q320,286 350,290"/>
+  </g>
+</svg>

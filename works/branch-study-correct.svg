@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- Branch Study — 5 branch types, human quality -->
+  <g fill="none" stroke="#1a1a1a" stroke-width="0.4" stroke-linecap="round" stroke-linejoin="round">
+    
+    <!-- Type 1: Upward 45° -->
+    <g>
+      <text x="60" y="30" font-family="sans-serif" font-size="8" text-anchor="middle">Up 45°</text>
+      <path d="M40,100 Q38,90 42,80 Q40,70 38,60 Q36,50 40,40"/>
+      <path d="M38,80 Q30,75 25,72"/>
+      <path d="M40,70 Q32,65 28,62"/>
+      <path d="M40,60 Q35,55 30,52"/>
+    </g>
+    
+    <!-- Type 2: Horizontal -->
+    <g>
+      <text x="160" y="30" font-family="sans-serif" font-size="8" text-anchor="middle">Horizontal</text>
+      <path d="M130,100 Q135,95 140,90 Q145,85 150,82"/>
+      <path d="M140,90 Q135,88 130,85"/>
+      <path d="M145,85 Q143,82 140,78"/>
+      <path d="M150,82 Q148,78 145,74"/>
+    </g>
+    
+    <!-- Type 3: Downward droop -->
+    <g>
+      <text x="250" y="30" font-family="sans-serif" font-size="8" text-anchor="middle">Droop</text>
+      <path d="M220,100 Q218,92 222,85 Q220,78 218,70 Q216,62 220,55"/>
+      <path d="M218,85 Q210,88 205,90"/>
+      <path d="M218,78 Q212,82 208,85"/>
+      <path d="M218,70 Q214,75 210,78"/>
+    </g>
+    
+    <!-- Type 4: Zigzag -->
+    <g>
+      <text x="340" y="30" font-family="sans-serif" font-size="8" text-anchor="middle">Zigzag</text>
+      <path d="M310,100 Q312,92 308,85 Q312,78 308,70 Q312,62 308,55"/>
+      <path d="M308,85 Q300,88 295,90"/>
+      <path d="M308,70 Q300,75 295,78"/>
+    </g>
+    
+    <!-- Type 5: Curving -->
+    <g>
+      <text x="200" y="120" font-family="sans-serif" font-size="8" text-anchor="middle">S-curve</text>
+      <path d="M170,150 Q180,145 175,138 Q185,132 178,125 Q188,118 180,112"/>
+      <path d="M175,138 Q168,142 162,145"/>
+      <path d="M178,125 Q172,128 165,132"/>
+      <path d="M180,112 Q174,118 168,122"/>
+    </g>
+    
+    <!-- Type 6: Tearing/ damaged -->
+    <g>
+      <text x="200" y="200" font-family="sans-serif" font-size="8" text-anchor="middle">Damaged</text>
+      <path d="M170,230 Q172,220 168,210 Q174,200 170,190 Q166,180 172,170"/>
+      <path d="M168,210 Q160,215 155,218"/>
+      <path d="M172,200 Q165,205 160,208"/>
+      <!-- Broken end -->
+      <path d="M168,185 L172,187 L166,189 L170,191"/>
+    </g>
+    
+    <!-- Type 7: Old/drooping -->
+    <g>
+      <text x="200" y="270" font-family="sans-serif" font-size="8" text-anchor="middle">Old/droop</text>
+      <path d="M160,295 Q165,285 162,275 Q168,265 164,255 Q170,245 166,235"/>
+      <path d="M162,275 Q155,278 150,280"/>
+      <path d="M164,265 Q158,268 153,270"/>
+      <path d="M166,255 Q160,258 155,260"/>
+      <!-- Weight of age -->
+      <path d="M166,235 Q175,240 180,245"/>
+    </g>
+    
+    <!-- Lesson -->
+    <text x="200" y="295" font-family="sans-serif" font-size="7" text-anchor="middle">Every branch has 4-6 control points. No straight lines.</text>
+  </g>
+</svg>

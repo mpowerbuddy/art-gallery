@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- Pine Tree — ONE stroke width, NO fills, human lines -->
+  <g fill="none" stroke="#1a1a1a" stroke-width="0.4" stroke-linecap="round" stroke-linejoin="round">
+    
+    <!-- Trunk — 6 control points, imperfect -->
+    <path d="M195,285 Q194,270 196,250 Q193,220 198,180 
+             Q192,150 197,120 Q195,100 196,80"/>
+    
+    <!-- Branch left — 4 points, different angle -->
+    <path d="M194,200 Q175,195 155,190 Q148,188 140,185"/>
+    
+    <!-- Branch right — 4 points, slightly asymmetrical -->
+    <path d="M198,170 Q220,165 245,160 Q252,158 260,155"/>
+    
+    <!-- Branch left lower — 4 points -->
+    <path d="M195,230 Q170,222 145,215 Q138,213 130,210"/>
+    
+    <!-- Branch right lower — 4 points -->
+    <path d="M197,240 Q225,235 255,228 Q262,226 270,222"/>
+    
+    <!-- Branch mid-left — 4 points -->
+    <path d="M196,185 Q172,178 150,172 Q143,170 135,168"/>
+    
+    <!-- Branch mid-right — 4 points -->
+    <path d="M198,195 Q218,190 240,185 Q248,183 256,180"/>
+    
+    <!-- Layer 1 (bottom) — 4 strokes -->
+    <path d="M145,215 Q138,210 130,205 Q125,202 120,198"/>
+    <path d="M270,222 Q265,218 258,212 Q253,208 248,205"/>
+    
+    <!-- Layer 2 — 4 strokes -->
+    <path d="M140,185 Q135,180 128,175 Q124,172 118,168"/>
+    <path d="M260,155 Q255,150 248,145 Q243,142 238,140"/>
+    
+    <!-- Layer 3 — 4 strokes -->
+    <path d="M135,168 Q130,163 122,158 Q118,155 112,152"/>
+    <path d="M256,180 Q250,175 242,170 Q237,167 232,165"/>
+    
+    <!-- Layer 4 (top) — 4 strokes -->
+    <path d="M196,120 Q188,115 178,110 Q172,107 165,105"/>
+    <path d="M198,130 Q208,125 220,120 Q228,117 238,115"/>
+    
+    <!-- Tip -->
+    <path d="M196,80 Q195,70 197,60"/>
+    
+    <!-- Ground — 3 strokes, imperfect -->
+    <path d="M100,282 Q150,280 200,283 Q250,285 300,281"/>
+    <path d="M50,285 Q100,283 130,284"/>
+    <path d="M270,282 Q320,280 350,285"/>
+  </g>
+</svg>
