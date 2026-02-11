@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- Tree Silhouette — What if I ONLY draw silhouette? -->
+  <g fill="#1a1a1a" stroke="none">
+    <!-- Tree 1: Oak shape -->
+    <path d="M100,280 L100,200 Q80,180 60,160 Q40,140 50,110 Q60,80 100,70 Q140,60 160,90 Q180,120 160,150 Q140,180 120,200 L120,280 Z"/>
+    
+    <!-- Tree 2: Pine shape -->
+    <path d="M220,280 L220,200 Q200,180 190,140 Q185,100 200,70 Q215,40 230,60 Q245,80 240,120 Q235,160 240,200 L240,280 Z"/>
+    
+    <!-- Tree 3: Willow shape -->
+    <path d="M320,280 L320,220 Q300,200 280,180 Q260,160 270,130 Q280,100 320,90 Q360,80 380,120 Q390,160 370,200 Q350,220 340,250 L340,280 Z"/>
+    
+    <!-- Ground line -->
+    <rect x="0" y="280" width="400" height="20" fill="#1a1a1a"/>
+    
+    <!-- That's it. -->
+    <!-- No texture. -->
+    <!-- No branches shown. -->
+    <!-- Just SHAPE. -->
+    <!-- You can ID a tree by its silhouette alone. -->
+  </g>
+</svg>

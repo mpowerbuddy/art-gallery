@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- Root Study — What happens BELOW ground? -->
+  <g fill="none" stroke="#1a1a1a" stroke-linecap="round">
+    <!-- The visible tree — minimum -->
+    <path d="M200,150 L200,100" stroke-width="2.0"/>
+    <path d="M200,130 Q170,120 150,115" stroke-width="1.2"/>
+    <path d="M200,115 Q230,105 250,100" stroke-width="1.0"/>
+    
+    <!-- The ROOTS — this is what I never draw -->
+    <path d="M200,150 Q190,170 180,190 Q175,210 185,230" stroke-width="1.8"/>
+    <path d="M200,160 Q210,180 220,200 Q225,220 215,240" stroke-width="1.6"/>
+    <path d="M200,155 Q195,175 190,195 Q188,215 195,235" stroke-width="1.4"/>
+    <path d="M200,165 Q208,185 212,205 Q215,225 208,245" stroke-width="1.3"/>
+    <path d="M200,170 Q188,190 182,210 Q178,230 188,250" stroke-width="1.2"/>
+    
+    <!-- Root hairs -->
+    <path d="M185,230 Q175,240 170,250" stroke-width="0.5"/>
+    <path d="M215,240 Q225,248 232,255" stroke-width="0.5"/>
+    <path d="M195,235 Q190,245 188,255" stroke-width="0.4"/>
+    <path d="M208,245 Q215,252 220,260" stroke-width="0.4"/>
+    
+    <!-- Underground darkness -->
+    <g stroke-width="0.3" opacity="0.3">
+      <line x1="160" y1="200" x2="180" y2="200"/>
+      <line x1="220" y1="195" x2="240" y2="195"/>
+      <line x1="175" y1="220" x2="195" y2="220"/>
+      <line x1="205" y1="225" x2="225" y2="225"/>
+    </g>
+    
+    <!-- What I've been missing: -->
+    <!-- Trees are HALF underground -->
+    <!-- Roots have as much character as branches -->
+  </g>
+</svg>
