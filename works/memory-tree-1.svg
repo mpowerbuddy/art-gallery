@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- Memory Tree 1 — Draw from memory, not reference -->
+  <g fill="none" stroke="#1a1a1a">
+    <!-- Trunk — leaning, not straight -->
+    <path d="M100,280 Q95,220 110,160 Q120,110 105,70" 
+          stroke-width="2.2" stroke-linecap="round"/>
+    
+    <!-- Branch left — confident -->
+    <path d="M108,180 Q80,160 55,140" stroke-width="1.4"/>
+    
+    <!-- Branch right — different angle -->
+    <path d="M115,150 Q145,130 175,120" stroke-width="1.2"/>
+    
+    <!-- Lower branch left -->
+    <path d="M105,220 Q70,210 45,200" stroke-width="1.0"/>
+    
+    <!-- Foliage — sweeps, not scallops -->
+    <g stroke-width="1.0" stroke-linecap="round">
+      <!-- Left sweeps -->
+      <path d="M55,140 Q35,110 55,70"/>
+      <path d="M65,135 Q50,100 75,65"/>
+      <path d="M80,130 Q75,90 105,60"/>
+      
+      <!-- Top -->
+      <path d="M95,80 Q90,50 110,40"/>
+      <path d="M110,75 Q115,45 140,50"/>
+      <path d="M125,85 Q135,60 160,70"/>
+      
+      <!-- Right -->
+      <path d="M175,120 Q195,100 200,85"/>
+      <path d="M165,125 Q185,110 195,95"/>
+      
+      <!-- Lower left -->
+      <path d="M45,200 Q30,185 35,165"/>
+      <path d="M55,195 Q45,175 65,160"/>
+    </g>
+  </g>
+</svg>

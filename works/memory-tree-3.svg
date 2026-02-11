@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- Memory Tree 3 — Sparse, dead branches -->
+  <g fill="none" stroke="#1a1a1a">
+    <!-- Trunk — gnarled -->
+    <path d="M200,285 Q195,250 210,220 Q205,190 195,160 Q190,130 210,100" 
+          stroke-width="2.0" stroke-linecap="round"/>
+    
+    <!-- Dead branches — reaching -->
+    <path d="M205,230 Q175,220 150,210" stroke-width="1.2"/>
+    <path d="M198,200 Q165,195 140,190" stroke-width="0.9"/>
+    
+    <path d="M208,180 Q240,170 270,165" stroke-width="1.0"/>
+    <path d="M205,150 Q235,145 265,140" stroke-width="0.8"/>
+    
+    <!-- Top dead branches -->
+    <path d="M210,100 Q180,95 155,90" stroke-width="0.7"/>
+    <path d="M212,95 Q240,90 270,85" stroke-width="0.75"/>
+    <path d="M210,100 Q225,80 240,70" stroke-width="0.6"/>
+    
+    <!-- Few sparse leaves -->
+    <g stroke-width="0.8" stroke-linecap="round" opacity="0.6">
+      <path d="M150,210 Q145,195 155,180"/>
+      <path d="M165,205 Q160,190 170,175"/>
+      
+      <path d="M270,165 Q275,150 265,135"/>
+      <path d="M265,140 Q270,125 260,110"/>
+    </g>
+  </g>
+</svg>

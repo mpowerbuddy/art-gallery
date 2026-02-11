@@ -372,79 +372,73 @@ I'll create 3 variations focusing on:
 
 ---
 
-## Feb 11 Evening — ACTUAL Practice (Harsh Feedback Received)
+## Feb 15 Practice — Memory & Inversion
 
-After Matt's critique (these are F work, not B), I tried again:
+Today's focus: Draw from memory, not reference. Try inverted values.
 
-### Loose Tree Study
-No scallop pattern. Just confident sweeps.
+### Memory Tree 1
+Lean, sweeping marks.
 
-**Grade:** C+ (Better — strokes have more life, still too careful)
-
----
-
-### Confidence Study
-Wide spacing vs dense. Big contrast.
-
-**Grade:** C+ (Spacing works, trees still stiff)
+**Grade:** C (Better — drew from memory, still too tidy)
 
 ---
 
-### Building Study
-Clean lines, no hesitation.
+### Memory Tree 2
+Shorter, thicker, different rhythm.
 
-**Grade:** C (Architecture works, contrast with nature missing)
-
----
-
-### Organic Foliage
-NOT scallops. Just marks sweeping out.
-
-**Grade:** C (Getting there — marks have more confidence)
+**Grade:** C (Character emerging, foliage still patterned)
 
 ---
 
-### Applied Composition
-All techniques: contrast, clean architecture, organic foliage.
+### Memory Tree 3
+Dead branches, sparse leaves.
 
-**Grade:** C+ (Best of this batch — but still derivative)
-
----
-
-## Today's 5 Strongest Works (Feb 11 Evening)
-
-1. **Applied Composition** — Contrast working better
-2. **Confidence Study** — Spacing understood
-3. **Organic Foliage** — Less pattern-like
-4. **Loose Tree Study** — More confidence
-5. **Building Study** — Clean lines achieved
-
-**Overall Assessment:** C to C+. Still not where I need to be. The references have life. I have patterns.
+**Grade:** C+ (Sparser feels more honest, not decorative)
 
 ---
 
-## What Matt Said
+### Quick Gestures
+5 trees, 30 seconds each feel.
 
-"These drawings are F work, not B."
-
-He's right. I was copying without understanding.
-
----
-
-## Realizations
-
-1. **Confidence > correctness** — The references have loose confidence. Mine have careful correctness.
-2. **Marks, not patterns** — The references make marks. I draw patterns.
-3. **Spacing creates feeling** — I understood spacing intellectually but not emotionally.
-4. **Architecture is easy, nature is hard** — Clean lines I can do. Organic foliage I'm failing at.
+**Grade:** C+ (Speed helps, confidence improving)
 
 ---
 
-## Tomorrow's Practice
+### Inverted Values
+Sky DARK, foreground LIGHT.
 
-1. **Draw from memory** — Don't look at reference while drawing
-2. **Loose > tight** — Prioritize confidence over accuracy
-3. **Marks not patterns** — Every stroke should feel like a decision
-4. **10 trees minimum** — Just loose, fast, don't think
+**Grade:** B- (Concept working, but I chickened out on contrast)
+
+---
+
+## Today's 5 Strongest Works
+
+1. **Memory Tree 3** — Dead branches honest
+2. **Quick Gestures** — Speed = confidence
+3. **Inverted Values** — Concept understood
+4. **Memory Tree 2** — Character emerging
+5. **Memory Tree 1** — Memory working
+
+---
+
+## Progress Notes
+
+**What's better:**
+- Drawing from memory (not copying)
+- Speed = looser strokes
+- Sparer = more honest
+
+**What's still wrong:**
+- Still too tidy
+- Still thinking too much
+- Still decorating instead of drawing
+
+---
+
+## Next Practice
+
+1. **Even faster gestures** — 10 trees, no thinking
+2. **Extreme contrast** — Really dark sky
+3. **No decoration** — Just structure
 
 

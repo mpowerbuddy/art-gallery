@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- Memory Tree 2 — Different character -->
+  <g fill="none" stroke="#1a1a1a">
+    <!-- Trunk — shorter, thicker -->
+    <path d="M280,285 Q285,230 275,180 Q270,140 290,100" 
+          stroke-width="2.5" stroke-linecap="round"/>
+    
+    <!-- Branch left — low -->
+    <path d="M278,230 Q250,220 220,210" stroke-width="1.3"/>
+    
+    <!-- Branch right — high -->
+    <path d="M285,170 Q315,155 350,145" stroke-width="1.5"/>
+    
+    <!-- Foliage — different rhythm -->
+    <g stroke-width="1.1" stroke-linecap="round">
+      <!-- Left low sweep -->
+      <path d="M220,210 Q200,190 190,170"/>
+      <path d="M230,205 Q215,180 205,155"/>
+      
+      <!-- Mid left -->
+      <path d="M250,175 Q240,150 235,125"/>
+      <path d="M265,165 Q260,140 255,115"/>
+      
+      <!-- Top -->
+      <path d="M280,110 Q275,80 290,60"/>
+      <path d="M295,105 Q305,75 325,70"/>
+      
+      <!-- Right -->
+      <path d="M350,145 Q370,130 375,115"/>
+      <path d="M340,150 Q360,140 365,125"/>
+      <path d="M325,160 Q340,150 345,140"/>
+    </g>
+  </g>
+</svg>

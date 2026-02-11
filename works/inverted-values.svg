@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- Value Contrast Study — What if sky is DARK and foreground LIGHT? -->
+  <g fill="none" stroke="#1a1a1a">
+    
+    <!-- Sky — DENSE, dark -->
+    <g stroke-width="0.3">
+      <line x1="20" y1="20" x2="20" y2="100"/>
+      <line x1="40" y1="15" x2="40" y2="110"/>
+      <line x1="60" y1="10" x2="60" y2="120"/>
+      <line x1="80" y1="8" x2="80" y2="125"/>
+      <line x1="100" y1="5" x2="100" y2="130"/>
+      <line x1="120" y1="10" x2="120" y2="125"/>
+      <line x1="140" y1="8" x2="140" y2="120"/>
+      <line x1="160" y1="5" x2="160" y2="130"/>
+      <line x1="180" y1="10" x2="180" y2="125"/>
+      <line x1="200" y1="8" x2="200" y2="120"/>
+      <line x1="220" y1="12" x2="220" y2="118"/>
+      <line x1="240" y1="10" x2="240" y2="115"/>
+      <line x1="260" y1="15" x2="260" y2="110"/>
+      <line x1="280" y1="12" x2="280" y2="105"/>
+      <line x1="300" y1="18" x2="300" y2="100"/>
+      <line x1="320" y1="15" x2="320" y2="95"/>
+      <line x1="340" y1="20" x2="340" y2="90"/>
+      <line x1="360" y1="25" x2="360" y2="85"/>
+      <line x1="380" y1="22" x2="380" y2="80"/>
+    </g>
+    
+    <!-- Mountains — MEDIUM -->
+    <g stroke-width="0.25" opacity="0.7">
+      <line x1="0" y1="140" x2="60" y2="120"/>
+      <line x1="80" y1="135" x2="140" y2="115"/>
+      <line x1="160" y1="130" x2="220" y2="110"/>
+      <line x1="240" y1="135" x2="300" y2="115"/>
+      <line x1="320" y1="140" x2="380" y2="120"/>
+    </g>
+    
+    <!-- Midground — SPARSE -->
+    <g stroke-width="0.2" opacity="0.5">
+      <line x1="0" y1="200" x2="80" y2="190"/>
+      <line x1="120" y1="198" x2="200" y2="188"/>
+      <line x1="240" y1="195" x2="320" y2="185"/>
+      <line x1="360" y1="200" x2="400" y2="192"/>
+    </g>
+    
+    <!-- Foreground trees — BARELY THERE -->
+    <g stroke-width="0.6">
+      <!-- Left tree -->
+      <path d="M60,260 Q55,220 65,180 Q70,150 60,120" stroke-width="1.4"/>
+      <path d="M62,200 Q45,190 35,175" stroke-width="0.8"/>
+      <path d="M68,170 Q85,160 105,155" stroke-width="0.7"/>
+      
+      <!-- Right tree -->
+      <path d="M320,265 Q330,220 315,180 Q310,150 325,115" stroke-width="1.5"/>
+      <path d="M318,210 Q340,200 360,190" stroke-width="0.85"/>
+      <path d="M312,180 Q295,175 275,170" stroke-width="0.75"/>
+    </g>
+    
+    <!-- Ground — almost white -->
+    <path d="M20,270 Q200,265 380,275" stroke-width="0.4" opacity="0.3"/>
+    
+    <!-- THIS IS THE POINT: Inverted values -->
+    <!-- Sky = heavy, dark, oppressive -->
+    <!-- Foreground = light, open, airy -->
+    <!-- Opposite of "atmospheric perspective" -->
+    
+  </g>
+</svg>
