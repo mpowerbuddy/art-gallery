@@ -1,50 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
-  <!-- Shadow Study — What IS a shadow? -->
-  <g fill="none" stroke="#1a1a1a" stroke-linecap="round">
-    <text x="200" y="20" font-family="sans-serif" font-size="10" text-anchor="middle" stroke="none">Shadows are not black. They're the color of the surface.</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" width="400" height="200">
+  <title>Shadow Study - Ground Shadows</title>
+  <g fill="none" stroke="#2a2a2a" stroke-width="0.3" stroke-linecap="round">
     
-    <!-- Sun overhead: shadow directly below -->
-    <g>
-      <text x="60" y="50" font-family="sans-serif" font-size="8" text-anchor="middle">Overhead</text>
-      <!-- Tree -->
-      <path d="M60,120 L60,80" stroke-width="2.0"/>
-      <path d="M60,100 Q45,95 35,90" stroke-width="1.0"/>
-      <path d="M60,90 Q75,85 85,82" stroke-width="0.9"/>
-      <!-- Shadow: short, dark -->
-      <path d="M55,140 Q60,160 65,140" stroke-width="1.2" opacity="0.6"/>
-      <text x="60" y="155" font-family="sans-serif" font-size="6" text-anchor="middle">short</text>
+    <!-- Light source from upper left -->
+    
+    <!-- Object 1 - simple shape casting shadow -->
+    <circle cx="100" cy="80" r="20" stroke-width="0.4"/>
+    
+    <!-- Shadow - hatching in one direction -->
+    <g opacity="0.5">
+      <!-- Shadow projection to right/down -->
+      <line x1="120" y1="80" x2="180" y2="100"/>
+      <line x1="120" y1="85" x2="185" y2="108"/>
+      <line x1="120" y1="90" x2="190" y2="115"/>
+      <line x1="120" y1="95" x2="195" y2="122"/>
+      <line x1="120" y1="100" x2="200" y2="128"/>
+      <line x1="118" y1="105" x2="202" y2="135"/>
+      <line x1="115" y1="110" x2="205" y2="142"/>
+      <!-- Cross direction for shadow body -->
+      <line x1="125" y1="95" x2="135" y2="105"/>
+      <line x1="135" y1="100" x2="145" y2="110"/>
+      <line x1="145" y1="105" x2="155" y2="115"/>
+      <line x1="155" y1="110" x2="165" y2="120"/>
+      <line x1="165" y1="115" x2="175" y2="125"/>
+      <line x1="175" y1="120" x2="185" y2="130"/>
+      <line x1="185" y1="125" x2="195" y2="135"/>
     </g>
     
-    <!-- Sun low left: long shadow right -->
-    <g>
-      <text x="180" y="50" font-family="sans-serif" font-size="8" text-anchor="middle">Low Left</text>
-      <!-- Tree -->
-      <path d="M180,120 L180,80" stroke-width="2.0"/>
-      <path d="M180,100 Q165,95 155,90" stroke-width="1.0"/>
-      <path d="M180,90 Q195,85 205,82" stroke-width="0.9"/>
-      <!-- Shadow: long, stretching right -->
-      <path d="M180,135 L280,130" stroke-width="1.0" opacity="0.5"/>
-      <path d="M180,140 L275,138" stroke-width="0.8" opacity="0.4"/>
-      <path d="M180,145 L270,145" stroke-width="0.6" opacity="0.3"/>
-      <text x="230" y="165" font-family="sans-serif" font-size="6" text-anchor="middle">long, diffuse</text>
+    <!-- Object 2 - taller, longer shadow -->
+    <rect x="250" y="50" width="15" height="50" stroke-width="0.4"/>
+    
+    <!-- Shadow stretching longer -->
+    <g opacity="0.5">
+      <line x1="265" y1="50" x2="340" y2="80"/>
+      <line x1="265" y1="60" x2="350" y2="95"/>
+      <line x1="265" y1="70" x2="360" y2="110"/>
+      <line x1="265" y1="80" x2="368" y2="125"/>
+      <line x1="265" y1="90" x2="375" y2="140"/>
+      <line x1="263" y1="100" x2="380" y2="155"/>
+      <!-- Shadow texture -->
+      <line x1="275" y1="75" x2="285" y2="85"/>
+      <line x1="290" y1="85" x2="300" y2="95"/>
+      <line x1="305" y1="95" x2="315" y2="105"/>
+      <line x1="320" y1="105" x2="330" y2="115"/>
+      <line x1="335" y1="115" x2="345" y2="125"/>
     </g>
     
-    <!-- Sun right: shadow left -->
-    <g>
-      <text x="320" y="50" font-family="sans-serif" font-size="8" text-anchor="middle">Right</text>
-      <!-- Tree -->
-      <path d="M320,120 L320,80" stroke-width="2.0"/>
-      <path d="M320,100 Q305,95 295,90" stroke-width="1.0"/>
-      <path d="M320,90 Q335,85 345,82" stroke-width="0.9"/>
-      <!-- Shadow: left -->
-      <path d="M320,135 L220,138" stroke-width="1.0" opacity="0.5"/>
-      <path d="M320,140 L225,145" stroke-width="0.8" opacity="0.4"/>
-      <path d="M320,145 L230,150" stroke-width="0.6" opacity="0.3"/>
+    <!-- Object 3 - ground shape with soft shadow -->
+    <ellipse cx="175" cy="160" rx="25" ry="10" stroke-width="0.35"/>
+    
+    <g opacity="0.4">
+      <!-- Soft blur-like shadow -->
+      <line x1="200" y1="160" x2="230" y2="170"/>
+      <line x1="202" y1="162" x2="235" y2="174"/>
+      <line x1="200" y1="166" x2="238" y2="180"/>
+      <line x1="198" y1="170" x2="240" y2="186"/>
     </g>
     
-    <!-- Key insight -->
-    <text x="200" y="250" font-family="sans-serif" font-size="8" text-anchor="middle" opacity="0.7">Shadow color = ground color + a little darker</text>
-    <text x="200" y="270" font-family="sans-serif" font-size="8" text-anchor="middle" opacity="0.7">Shadow edge = soft (atmosphere) not hard</text>
+    <!-- Ground lines for reference -->
+    <g opacity="0.2">
+      <line x1="20" y1="120" x2="380" y2="120"/>
+      <line x1="20" y1="140" x2="380" y2="140"/>
+      <line x1="20" y1="160" x2="380" y2="160"/>
+      <line x1="20" y1="180" x2="380" y2="180"/>
+    </g>
+    
   </g>
 </svg>

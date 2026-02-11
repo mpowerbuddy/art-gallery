@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <title>Value Scale Study - Focal Point</title>
+  <g fill="none" stroke="#2a2a2a" stroke-width="0.35" stroke-linecap="round">
+    
+    <!-- Value scale key -->
+    <!-- 1 = sparse (lightest) -->
+    <!-- 2 = hatching -->
+    <!-- 3 = cross-hatching -->
+    <!-- 4 = tight cross (darkest) -->
+    
+    <!-- Value 1 - Sparse -->
+    <rect x="20" y="20" width="60" height="60"/>
+    <g opacity="0.3">
+      <line x1="25" y1="25" x2="75" y2="25"/>
+      <line x1="25" y1="50" x2="75" y2="50"/>
+      <line x1="25" y1="75" x2="75" y2="75"/>
+    </g>
+    <text x="50" y="95" font-size="8" text-anchor="middle" stroke="none" fill="#2a2a2a">1 - Sparse</text>
+    
+    <!-- Value 2 - Hatching -->
+    <rect x="100" y="20" width="60" height="60"/>
+    <g opacity="0.5">
+      <line x1="105" y1="25" x2="155" y2="25"/>
+      <line x1="105" y1="35" x2="155" y2="35"/>
+      <line x1="105" y1="45" x2="155" y2="45"/>
+      <line x1="105" y1="55" x2="155" y2="55"/>
+      <line x1="105" y1="65" x2="155" y2="65"/>
+      <line x1="105" y1="75" x2="155" y2="75"/>
+    </g>
+    <text x="130" y="95" font-size="8" text-anchor="middle" stroke="none" fill="#2a2a2a">2 - Hatch</text>
+    
+    <!-- Value 3 - Cross-hatching -->
+    <rect x="180" y="20" width="60" height="60"/>
+    <g opacity="0.6">
+      <!-- Diagonal one way -->
+      <line x1="185" y1="25" x2="235" y2="25"/>
+      <line x1="185" y1="38" x2="235" y2="38"/>
+      <line x1="185" y1="50" x2="235" y2="50"/>
+      <line x1="185" y1="62" x2="235" y2="62"/>
+      <line x1="185" y1="75" x2="235" y2="75"/>
+      <!-- Cross -->
+      <line x1="185" y1="25" x2="185" y2="75"/>
+      <line x1="198" y1="25" x2="198" y2="75"/>
+      <line x1="210" y1="25" x2="210" y2="75"/>
+      <line x1="222" y1="25" x2="222" y2="75"/>
+      <line x1="235" y1="25" x2="235" y2="75"/>
+    </g>
+    <text x="210" y="95" font-size="8" text-anchor="middle" stroke="none" fill="#2a2a2a">3 - Cross</text>
+    
+    <!-- Value 4 - Tight cross (darkest) -->
+    <rect x="260" y="20" width="60" height="60"/>
+    <g opacity="0.8">
+      <!-- Diagonal one way - tighter -->
+      <line x1="265" y1="25" x2="315" y2="25"/>
+      <line x1="265" y1="32" x2="315" y2="32"/>
+      <line x1="265" y1="39" x2="315" y2="39"/>
+      <line x1="265" y1="46" x2="315" y2="46"/>
+      <line x1="265" y1="53" x2="315" y2="53"/>
+      <line x1="265" y1="60" x2="315" y2="60"/>
+      <line x1="265" y1="67" x2="315" y2="67"/>
+      <line x1="265" y1="74" x2="315" y2="74"/>
+      <!-- Cross - tighter -->
+      <line x1="265" y1="25" x2="265" y2="75"/>
+      <line x1="272" y1="25" x2="272" y2="75"/>
+      <line x1="279" y1="25" x2="279" y2="75"/>
+      <line x1="286" y1="25" x2="286" y2="75"/>
+      <line x1="293" y1="25" x2="293" y2="75"/>
+      <line x1="300" y1="25" x2="300" y2="75"/>
+      <line x1="307" y1="25" x2="307" y2="75"/>
+      <line x1="315" y1="25" x2="315" y2="75"/>
+      <!-- Third direction diagonal -->
+      <line x1="270" y1="25" x2="280" y2="75"/>
+      <line x1="280" y1="25" x2="290" y2="75"/>
+      <line x1="290" y1="25" x2="300" y2="75"/>
+      <line x1="300" y1="25" x2="310" y2="75"/>
+    </g>
+    <text x="290" y="95" font-size="8" text-anchor="middle" stroke="none" fill="#2a2a2a">4 - Tight</text>
+    
+    <!-- Simple composition applying values -->
+    <!-- Background - Value 1 -->
+    <rect x="50" y="130" width="300" height="150"/>
+    
+    <!-- Midground - Value 2 -->
+    <ellipse cx="200" cy="200" rx="80" ry="40" opacity="0.5"/>
+    
+    <!-- Focal point - Value 4 -->
+    <circle cx="200" cy="190" r="30" opacity="0.9"/>
+    <circle cx="200" cy="190" r="20" opacity="1"/>
+    
+    <!-- Ground shadow - Value 3 -->
+    <ellipse cx="200" cy="225" rx="35" ry="10" opacity="0.7"/>
+    
+  </g>
+</svg>
