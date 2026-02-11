@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- Desert Breath - Vast emptiness, minimal intervention -->
+  <g fill="none" stroke="#1a1a1a">
+    <!-- Horizon - barely there -->
+    <line x1="80" y1="150" x2="320" y2="150" stroke-width="0.4"/>
+    
+    <!-- The breath - subtle wave across space -->
+    <path d="M40,145 Q100,143 160,146 T280,144 T360,147" stroke-width="0.3" opacity="0.6"/>
+    
+    <!-- Single landmark - weathered stone -->
+    <g stroke-width="0.8">
+      <!-- Stone silhouette -->
+      <path d="M185,150 L183,120 Q180,100 190,85 Q200,75 210,85 Q220,100 217,120 L215,150"/>
+      <!-- Stone edge detail -->
+      <path d="M183,120 Q178,115 185,110" stroke-width="0.4"/>
+      <path d="M217,115 Q222,110 215,105" stroke-width="0.4"/>
+    </g>
+    
+    <!-- Shadow - the only companion -->
+    <path d="M195,150 L190,155 Q200,158 210,155 L205,150" stroke-width="0.5" fill="none"/>
+    
+    <!-- Atmosphere - barely suggested -->
+    <g stroke-width="0.2" opacity="0.4">
+      <path d="M100,130 Q110,128 120,129"/>
+      <path d="M250,125 Q265,123 280,126"/>
+      <path d="M60,115 Q80,112 100,114"/>
+      <path d="M300,118 Q320,115 340,117"/>
+    </g>
+    
+    <!-- Distance - single line of heat shimmer -->
+    <line x1="50" y1="155" x2="350" y2="155" stroke-width="0.15" opacity="0.3"/>
+    
+    <!-- The void above - near total emptiness -->
+    <g stroke-width="0.15" opacity="0.25">
+      <line x1="200" y1="80" x2="200" y2="75"/>
+      <line x1="180" y1="70" x2="180" y2="63"/>
+      <line x1="220" y1="68" x2="220" y2="60"/>
+      <line x1="150" y1="55" x2="150" y2="45"/>
+      <line x1="250" y1="52" x2="250" y2="42"/>
+    </g>
+    
+    <!-- What remains visible - everything is present in what is not drawn -->
+    <!-- Only: horizon, one stone, one shadow, suggestion of atmosphere -->
+  </g>
+</svg>
