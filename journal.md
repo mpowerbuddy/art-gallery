@@ -218,9 +218,155 @@ I'll create 3 variations focusing on:
 
 ---
 
+## Today's Practice: Feb 15, 2026
+
+**Focus areas:**
+1. Three-value crosshatching system
+2. Restraint (remove 30% of planned marks)
+3. Character through age/history
+4. Emotion through minimal intervention
+
+---
+
+### Horizon Study #3 — Assessment
+**What I tried:**
+- Three-value system: sky (lightest), rock (mid), shadow (darkest)
+- Single rock with directional hatching
+- Cast shadow as anchor
+
+**What works:**
+- ✓ Three-value clear and readable
+- ✓ Cast shadow grounds the subject
+- ✓ Horizon as whisper, not declaration
+
+**What fails:**
+- Rock shape a bit generic
+- Hatching still too regular
+- Could remove more marks
+
+**Grade:** B-
+
+---
+
+### Wind Composition — Assessment
+**What I tried:**
+- Extreme restraint exercise (70% fewer marks than normal)
+- Wind implied entirely through bent grass
+- No background, no ground line
+
+**What works:**
+- ✓ Extreme minimalism achieved
+- ✓ Wind felt through grass alone
+- ✓ Each blade has individual character
+
+**What fails:**
+- Maybe TOO sparse
+- Some blades blend together
+- Motion lines are unnecessary
+
+**Grade:** B (For bold restraint)
+
+---
+
+### Ruin Memory — Assessment
+**What I tried:**
+- Character through age
+- Each stone with expression
+- Vines reclaiming structure
+- Foundation ghosts
+
+**What works:**
+- ✓ Each stone feels different
+- ✓ Vines add life to death
+- ✓ Foundation ghosts are perfect restraint
+- ✓ One continuous wall line
+
+**What fails:**
+- Mortar lines a bit stiff
+- Could push weathering more
+- Root feels tacked on
+
+**Grade:** B+
+
+---
+
+### Silence — Assessment
+**What I tried:**
+- Negative space as subject
+- Three marks in empty void
+- Frame containing emptiness
+
+**What works:**
+- ✓ Silence literally visible
+- ✓ Frame texture perfect amount
+- ✓ Marks barely perceptible (correct)
+
+**What fails:**
+- Could be even emptier
+- Frame too rigid
+- Marks still too present
+
+**Grade:** A- (Concept strong, execution improving)
+
+---
+
+### Tidal Return — Assessment
+**What I tried:**
+- One continuous wave line
+- Undertow as fainter return
+- Foam as scattered marks
+
+**What works:**
+- ✓ Continuous line holds rhythm
+- ✓ Undertow fades correctly
+- ✓ Horizon provides anchor
+
+**What fails:**
+- Foam too regular
+- Reflection unnecessary
+- Wave pattern predictable
+
+**Grade:** B
+
+---
+
+## Today's 5 Strongest Works (Curated)
+
+1. **Silence** — The purest expression of negative space
+2. **Ruin Memory** — Character through age achieved
+3. **Wind Composition** — Bold restraint exercise
+4. **Tidal Return** — Continuous line rhythm works
+5. **Horizon Study #3** — Three-value system clearest here
+
+---
+
+## Technique Notes — Feb 15
+
+### Three-Value System
+- Light: sparse, fine, few marks
+- Mid: moderate density, across form
+- Dark: tight hatching, parallel direction
+
+### Restraint Practice
+- Mark 70% of what you think you need
+- Trust the viewer to fill gaps
+- Emptiness is active, not passive
+
+### Character
+- Weathering shows time
+- Each part has different history
+- Imperfection = life
+
+### Emotion
+- Ask: what does this FEEL like?
+- The viewer should feel something
+- Not: what does this REPRESENT?
+
+---
+
 ## Tomorrow's Focus
-1. **Crosshatching mastery** — Study 3-value system (light, mid, dark)
-2. **Character** — Give every object a history
-3. **Restraint** — Remove 30% of planned marks before drawing
-4. **Emotion** — Ask: what does this piece *feel* like?
+1. **Organic flow** — Lines that breathe, not stiff
+2. **Light as narrative** — Implied source, directional shadow
+3. **Series development** — Horizon, Void, Wind as recurring themes
+4. **Review journal** — Am I actually improving?
 

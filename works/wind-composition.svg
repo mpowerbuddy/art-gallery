@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- Wind Composition — Restraint exercise, 70% less marks than planned -->
+  <g fill="none" stroke="#1a1a1a">
+    <!-- The wind itself — invisible, implied entirely by what it moves -->
+    
+    <!-- Single grass blade — bent, speaks of constant pressure -->
+    <path d="M80,250 Q75,200 95,160" stroke-width="0.8"/>
+    
+    <!-- Second blade — different angle, same direction -->
+    <path d="M100,255 Q92,210 120,175" stroke-width="0.7"/>
+    
+    <!-- Third — almost horizontal, most beaten -->
+    <path d="M125,258 Q115,230 160,205" stroke-width="0.6"/>
+    
+    <!-- Fourth — the tallest, holds its ground slightly -->
+    <path d="M60,252 Q50,220 70,170" stroke-width="0.75"/>
+    
+    <!-- Fifth — leaning on the fourth -->
+    <path d="M90,254 Q82,225 95,195" stroke-width="0.5"/>
+    
+    <!-- That's it. No background. No ground line. No texture. -->
+    <!-- The wind is felt through the grass alone. -->
+    
+    <!-- Motion lines — two, almost not there -->
+    <path d="M200,180 Q220,178 240,182" stroke-width="0.2" opacity="0.5"/>
+    <path d="M210,200 Q230,198 250,202" stroke-width="0.15" opacity="0.4"/>
+    
+    <!-- Distance suggestion — two more bent blades, barely -->
+    <path d="M280,245 Q275,220 295,200" stroke-width="0.4" opacity="0.6"/>
+    <path d="M310,250 Q305,230 325,215" stroke-width="0.35" opacity="0.5"/>
+  </g>
+</svg>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- Horizon Study #3 — Three-value system, maximum restraint -->
+  <g fill="none" stroke="#1a1a1a">
+    <!-- VALUE 1: Sky — almost nothing, the lightest -->
+    <line x1="50" y1="100" x2="350" y2="100" stroke-width="0.1" opacity="0.3"/>
+    
+    <!-- VALUE 2: Midtone — the atmosphere, barely suggested -->
+    <g stroke-width="0.15" opacity="0.4">
+      <line x1="60" y1="120" x2="340" y2="120"/>
+      <line x1="70" y1="140" x2="330" y2="140"/>
+    </g>
+    
+    <!-- VALUE 3: Horizon line — the anchor, dark contrast -->
+    <line x1="80" y1="150" x2="320" y2="150" stroke-width="0.6"/>
+    
+    <!-- The subject — a single rock, three-value study -->
+    <g>
+      <!-- Rock outline — medium value -->
+      <path d="M170,155 
+               L165,130 
+               Q160,110 175,95 
+               Q190,85 210,90 
+               Q230,88 245,105 
+               Q255,120 250,140 
+               Q255,155 245,160 
+               L235,162" 
+            stroke-width="0.8"/>
+      
+      <!-- Rock shading — darkest value, hatching across form -->
+      <g stroke-width="0.3">
+        <path d="M170,155 L165,148"/>
+        <path d="M172,145 L166,136"/>
+        <path d="M175,135 L168,124"/>
+        <path d="M180,122 L172,110"/>
+        <path d="M188,110 L180,98"/>
+        
+        <path d="M240,155 L238,145"/>
+        <path d="M242,142 L240,130"/>
+        <path d="M245,128 L244,115"/>
+        <path d="M248,112 L248,100"/>
+      </g>
+      
+      <!-- Rock highlight — lightest value, sparse dots -->
+      <g stroke-width="0.4" opacity="0.3">
+        <circle cx="195" cy="95" r="0.5"/>
+        <circle cx="210" cy="92" r="0.4"/>
+        <circle cx="225" cy="95" r="0.5"/>
+      </g>
+    </g>
+    
+    <!-- Shadow — cast by the rock, pure black anchor -->
+    <path d="M175,162 
+             Q200,168 235,165 
+             L245,175 
+             Q200,185 165,180 
+             Z" 
+          stroke-width="0.5"/>
+    
+    <!-- Shadow hatching — darkest, tightest -->
+    <g stroke-width="0.2">
+      <line x1="180" y1="178" x2="175" y2="185"/>
+      <line x1="200" y1="180" x2="195" y2="188"/>
+      <line x1="220" y1="178" x2="217" y2="186"/>
+    </g>
+    
+    <!-- Distance — the barest suggestion -->
+    <g stroke-width="0.12" opacity="0.3">
+      <line x1="120" y1="150" x2="120" y2="152"/>
+      <line x1="200" y1="150" x2="200" y2="152"/>
+      <line x1="280" y1="150" x2="280" y2="152"/>
+    </g>
+    
+    <!-- Sky — two birds, the only motion -->
+    <g stroke-width="0.3">
+      <path d="M300,70 Q305,68 310,70 Q315,68 320,70"/>
+      <line x1="305" y1="73" x2="305" y2="76"/>
+    </g>
+  </g>
+</svg>

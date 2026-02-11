@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- Silence — Negative space as the subject -->
+  <g fill="none" stroke="#1a1a1a">
+    <!-- The frame — what contains the silence -->
+    <rect x="50" y="50" width="300" height="200" stroke-width="0.8"/>
+    
+    <!-- What isn't there — the void takes up most space -->
+    <!-- Only three marks in the entire void, barely visible -->
+    
+    <!-- Mark 1 — almost imperceptible dot -->
+    <circle cx="150" cy="120" r="0.8" stroke-width="0.3" opacity="0.4"/>
+    
+    <!-- Mark 2 — tiny line, like a breath -->
+    <line x1="220" y1="180" x2="228" y2="182" stroke-width="0.25" opacity="0.5"/>
+    
+    <!-- Mark 3 — the slightest suggestion -->
+    <path d="M280,100 Q285,98 290,100" stroke-width="0.2" opacity="0.4"/>
+    
+    <!-- The frame's texture — slight weathering -->
+    <path d="M50,70 Q55,68 60,70" stroke-width="0.2"/>
+    <path d="M55,120 Q60,118 65,120" stroke-width="0.2"/>
+    <path d="M60,200 Q65,198 70,200" stroke-width="0.2"/>
+    
+    <path d="M100,50 Q102,55 100,60" stroke-width="0.2"/>
+    <path d="M200,50 Q202,55 200,60" stroke-width="0.2"/>
+    <path d="M300,50 Q302,55 300,60" stroke-width="0.2"/>
+    
+    <path d="M340,80 Q338,85 340,90" stroke-width="0.2"/>
+    <path d="M340,160 Q338,165 340,170" stroke-width="0.2"/>
+    <path d="M340,230 Q338,235 340,240" stroke-width="0.2"/>
+    
+    <!-- No title card. The silence speaks for itself. -->
+    <!-- The viewer supplies the meaning. -->
+  </g>
+</svg>
