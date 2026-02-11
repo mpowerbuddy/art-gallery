@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- Focal Point — Where does the eye go? -->
+  <g fill="none" stroke="#1a1a1a" stroke-linecap="round">
+    <text x="200" y="20" font-family="sans-serif" font-size="10" text-anchor="middle" stroke="none">Focal point = contrast + position + isolation</text>
+    
+    <!-- 1. All elements equal = no focal point -->
+    <g>
+      <text x="80" y="60" font-family="sans-serif" font-size="7" text-anchor="middle">No focus</text>
+      <circle cx="50" r="10" cy="1001.0"/>
+" stroke-width="="80" cy      <circle cx="95" r="10" stroke-width="1.0"/>
+      " r="10<circle cx="110" cy="1001.0"/>
+      <circle cx" stroke-width="="65" cy="120" r="10" stroke-width="1.0"/>
+      <circle cx="95" cy="118" r="10" stroke-width="1.0"/>
+    </g>
+    
+    <!-- 2. Darker element = focal point -->
+    <g>
+      <text x="230" y="60" font7" text--family="sans-serif" font-size="anchor="middle">Contrast</text>
+      <circle cx="200" cy="100" r="10" stroke-width="1.0"/>
+      <circle cx="230" cy="95" r="10" stroke-width="1.0"/>
+      <circle cx="10" stroke-width260" cy="100" r="="1.0"/>
+      <circle cx="215" cy="120" r="10" stroke-width="1.0"/>
+      <!-- Darker = focal -->
+      <circle cx="245" cy="118" r="12" fill="#1a1a1a" stroke="none"/>
+    </g>
+    
+    <!-- 3. Center position = focal -->
+    <g>
+      <text x="350" y="60" font-family="sans-serif" font-size="7" text-anchor="middle">Center</text>
+      <circle cx="320" cy="100" r="10" stroke-width="1.0"/>
+      <circle cx="350" cy="95" r="10" stroke-width="1.0"/>
+      <circle cx="380" cy="100" r="10" stroke-width="1.0"/>
+      <circle cx="335" cy="120" r="10" stroke-width="1.0"/>
+      <!-- Center = focal -->
+      <circle cx="365" cy="118" r="12" fill="#1a1a1a" stroke="none"/>
+    </g>
+    
+    <!-- 4. Isolated = focal -->
+    <g>
+      <text x="80" y="180" font-family="sans-serif" font-size="7" text-anchor="middle">Isolated</text>
+      <circle cx="50" cy="220" r="10" stroke-width="1.0"/>
+      <circle cx="80" cy="215" r="10" stroke-width="1.0"/>
+      <circle cx="110" cy="220" r="10" stroke-width="1.0"/>
+      <!-- Isolated = focal -->
+      <circle cx="80" cy="250" r="12" fill="#1a1a1a" stroke="none"/>
+    </g>
+    
+    <!-- 5. All three combined = strongest focal -->
+    <g>
+      <text x="230" y="180" font-family="sans-serif" font-size="7" text-anchor="middle">Combined</text>
+      <circle cx="200" cy="220" r="10" stroke-width="1.0"/>
+      <circle cx="230" cy="215" r="10" stroke-width="1.0"/>
+      <circle cx="260" cy="220" r="10" stroke-width="1.0"/>
+      <circle cx="215" cy="240" r="10" stroke-width="1.0"/>
+      <!-- Isolated, darker, off-center = FOCAL -->
+      <circle cx="245" cy="250" r="14" fill="#1a1a1a" stroke="none"/>
+    </g>
+    
+    <!-- 6. Landscape example -->
+    <g>
+      <text x="350" y="180" font-family="sans-serif" font-size="7" text-anchor="middle">Example</text>
+      <!-- Horizon -->
+      <line x1="310" y1="240" x2="390" y2="240" stroke-width="0.8"/>
+      <!-- All trees equal -->
+      <path d="M320,240 Q318,220 322,200" stroke-width="1.0"/>
+      <path d="M380,240 Q378,225 382,210" stroke-width="1.0"/>
+      <!-- Lone tree = focal -->
+      <path d="M350,240 Q347,215 353,185" stroke-width="1.5"/>
+    </g>
+    
+    <!-- Lesson -->
+    <text x="200" y="285" font-family="sans-serif" font-size="7" text-anchor="middle">In landscapes: isolate one element, make it darker or larger</text>
+  </g>
+</svg>

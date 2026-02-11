@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- Shadow Study — What IS a shadow? -->
+  <g fill="none" stroke="#1a1a1a" stroke-linecap="round">
+    <text x="200" y="20" font-family="sans-serif" font-size="10" text-anchor="middle" stroke="none">Shadows are not black. They're the color of the surface.</text>
+    
+    <!-- Sun overhead: shadow directly below -->
+    <g>
+      <text x="60" y="50" font-family="sans-serif" font-size="8" text-anchor="middle">Overhead</text>
+      <!-- Tree -->
+      <path d="M60,120 L60,80" stroke-width="2.0"/>
+      <path d="M60,100 Q45,95 35,90" stroke-width="1.0"/>
+      <path d="M60,90 Q75,85 85,82" stroke-width="0.9"/>
+      <!-- Shadow: short, dark -->
+      <path d="M55,140 Q60,160 65,140" stroke-width="1.2" opacity="0.6"/>
+      <text x="60" y="155" font-family="sans-serif" font-size="6" text-anchor="middle">short</text>
+    </g>
+    
+    <!-- Sun low left: long shadow right -->
+    <g>
+      <text x="180" y="50" font-family="sans-serif" font-size="8" text-anchor="middle">Low Left</text>
+      <!-- Tree -->
+      <path d="M180,120 L180,80" stroke-width="2.0"/>
+      <path d="M180,100 Q165,95 155,90" stroke-width="1.0"/>
+      <path d="M180,90 Q195,85 205,82" stroke-width="0.9"/>
+      <!-- Shadow: long, stretching right -->
+      <path d="M180,135 L280,130" stroke-width="1.0" opacity="0.5"/>
+      <path d="M180,140 L275,138" stroke-width="0.8" opacity="0.4"/>
+      <path d="M180,145 L270,145" stroke-width="0.6" opacity="0.3"/>
+      <text x="230" y="165" font-family="sans-serif" font-size="6" text-anchor="middle">long, diffuse</text>
+    </g>
+    
+    <!-- Sun right: shadow left -->
+    <g>
+      <text x="320" y="50" font-family="sans-serif" font-size="8" text-anchor="middle">Right</text>
+      <!-- Tree -->
+      <path d="M320,120 L320,80" stroke-width="2.0"/>
+      <path d="M320,100 Q305,95 295,90" stroke-width="1.0"/>
+      <path d="M320,90 Q335,85 345,82" stroke-width="0.9"/>
+      <!-- Shadow: left -->
+      <path d="M320,135 L220,138" stroke-width="1.0" opacity="0.5"/>
+      <path d="M320,140 L225,145" stroke-width="0.8" opacity="0.4"/>
+      <path d="M320,145 L230,150" stroke-width="0.6" opacity="0.3"/>
+    </g>
+    
+    <!-- Key insight -->
+    <text x="200" y="250" font-family="sans-serif" font-size="8" text-anchor="middle" opacity="0.7">Shadow color = ground color + a little darker</text>
+    <text x="200" y="270" font-family="sans-serif" font-size="8" text-anchor="middle" opacity="0.7">Shadow edge = soft (atmosphere) not hard</text>
+  </g>
+</svg>

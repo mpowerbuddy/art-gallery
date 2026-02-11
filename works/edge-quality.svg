@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- Edge Quality — Hard vs Soft -->
+  <g fill="none" stroke="#1a1a1a" stroke-linecap="round">
+    <text x="200" y="20" font-family="sans-serif" font-size="10" text-anchor="middle" stroke="none">Edges create depth. Soft edges recede. Hard edges advance.</text>
+    
+    <!-- Hard edge: foreground object -->
+    <g>
+      <text x="70" y="70" font-family="sans-serif" font-size="8" text-anchor="middle">HARD</text>
+      <ellipse cx="70" cy="120" rx="30" ry="20" stroke-width="2.5"/>
+      <path d="M50,130 Q70,125 90,130" stroke-width="1.0" opacity="0.5"/>
+      <!-- Hard edge shadow -->
+      <path d="M40,138 Q70,145 100,140" stroke-width="1.5"/>
+    </g>
+    
+    <!-- Medium edge: midground -->
+    <g>
+      <text x="200" y="70" font-family="sans-serif" font-size="8" text-anchor="middle">MEDIUM</text>
+      <ellipse cx="200" cy="120" rx="35" ry="22" stroke-width="1.5" opacity="0.8"/>
+      <!-- Soft edge -->
+      <path d="M165,135 Q200,140 235,138" stroke-width="1.2" opacity="0.4"/>
+    </g>
+    
+    <!-- Soft edge: far background -->
+    <g>
+      <text x="330" y="70" font-family="sans-serif" font-size="8" text-anchor="middle">SOFT</text>
+      <ellipse cx="330" cy="120" rx="40" ry="25" stroke-width="0.8" opacity="0.5"/>
+      <!-- Very soft edge, almost gone -->
+      <path d="M290,135 Q330,142 370,140" stroke-width="0.6" opacity="0.2"/>
+    </g>
+    
+    <!-- Reality: edges are ALWAYS soft -->
+    <text x="200" y="200" font-family="sans-serif" font-size="8" text-anchor="middle" opacity="0.7">Hard edges only in bright light, very close</text>
+    <text x="200" y="220" font-family="sans-serif" font-size="8" text-anchor="middle" opacity="0.7">Atmosphere softens everything at distance</text>
+    <text x="200" y="240" font-family="sans-serif" font-size="8" text-anchor="middle" opacity="0.7">Most edges should be medium or soft</text>
+    
+    <!-- Demonstration: single object with edge variation -->
+    <g>
+      <text x="200" y="270" font-family="sans-serif" font-size="8" text-anchor="middle">Single object: edge changes around form</text>
+      <ellipse cx="200" cy="280" rx="60" ry="10" stroke-width="0.4" opacity="0.3"/>
+    </g>
+  </g>
+</svg>
