@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 200" width="150" height="200">
+  <title>HB 55 - Door Study</title>
+  <g fill="none" stroke="#1a4a6e" stroke-width="0.35" stroke-linecap="round">
+    
+    <!-- Door frame -->
+    <path d="M45,190 L45,60 Q75,40 105,60 L105,190"/>
+    
+    <!-- Door panels -->
+    <rect x="52" y="70" width="40" height="50"/>
+    <rect x="52" y="125" width="40" height="55"/>
+    
+    <!-- Panel details - light vertical suggestion -->
+    <g opacity="0.2">
+      <rect x="54" y="72" width="36" height="46"/>
+      <rect x="54" y="127" width="36" height="53"/>
+    </g>
+    
+    <!-- Handle -->
+    <circle cx="88" cy="115" r="3" stroke-width="0.4"/>
+    
+    <!-- Shadow at bottom -->
+    <g opacity="0.35" stroke-width="0.22">
+      <line x1="42" y1="188" x2="50" y2="195"/>
+      <line x1="55" y1="185" x2="60" y2="192"/>
+      <line x1="75" y1="182" x2="80" y2="190"/>
+      <line x1="95" y1="185" x2="100" y2="192"/>
+      <line x1="100" y1="188" x2="108" y2="195"/>
+    </g>
+    
+  </g>
+</svg>
