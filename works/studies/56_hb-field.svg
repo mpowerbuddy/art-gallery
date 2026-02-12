@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" width="200" height="150">
+  <title>HB 56 - Field Study</title>
+  <g fill="none" stroke="#1a4a6e" stroke-width="0.35" stroke-linecap="round">
+    
+    <!-- Horizon -->
+    <path d="M0,60 Q100,58 200,60"/>
+    
+    <!-- Distant field - very light vertical suggestion -->
+    <g opacity="0.25" stroke-width="0.2">
+      <line x1="20" y1="62" x2="20" y2="68"/>
+      <line x1="50" y1="61" x2="50" y2="67"/>
+      <line x1="80" y1="63" x2="80" y2="69"/>
+      <line x1="120" y1="60" x2="120" y2="66"/>
+      <line x1="160" y1="62" x2="160" y2="68"/>
+      <line x1="180" y1="61" x2="180" y2="67"/>
+    </g>
+    
+    <!-- Mid field - medium density -->
+    <g opacity="0.4" stroke-width="0.25">
+      <line x1="10" y1="75" x2="10" y2="90"/>
+      <line x1="30" y1="78" x2="30" y2="95"/>
+      <line x1="55" y1="72" x2="55" y2="88"/>
+      <line x1="85" y1="76" x2="85" y2="92"/>
+      <line x1="115" y1="73" x2="115" y2="90"/>
+      <line x1="145" y1="78" x2="145" y2="95"/>
+      <line x1="175" y1="74" x2="175" y2="91"/>
+    </g>
+    
+    <!-- Foreground field - dense vertical hatching -->
+    <g opacity="0.55" stroke-width="0.3">
+      <line x1="5" y1="100" x2="5" y2="130"/>
+      <line x1="25" y1="98" x2="25" y2="135"/>
+      <line x1="50" y1="102" x2="50" y2="140"/>
+      <line x1="75" y1="96" x2="75" y2="132"/>
+      <line x1="100" y1="100" x2="100" y2="138"/>
+      <line x1="125" y1="98" x2="125" y2="136"/>
+      <line x1="150" y1="102" x2="150" y2="142"/>
+      <line x1="175" y1="96" x2="175" y2="135"/>
+      <line x1="195" y1="100" x2="195" y2="140"/>
+    </g>
+    
+    <!-- Occasional grass blades -->
+    <g opacity="0.35" stroke-width="0.2">
+      <path d="M15,135 Q10,125 8,115"/>
+      <path d="M60,140 Q55,128 52,118"/>
+      <path d="M140,138 Q145,125 148,112"/>
+      <path d="M185,135 Q190,122 195,110"/>
+    </g>
+    
+  </g>
+</svg>
