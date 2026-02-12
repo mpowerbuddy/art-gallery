@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" width="200" height="150">
+  <title>HB 60 - Pond Study</title>
+  <g fill="none" stroke="#1a4a6e" stroke-width="0.35" stroke-linecap="round">
+    
+    <!-- Pond edge -->
+    <ellipse cx="100" cy="110" rx="80" ry="30"/>
+    
+    <!-- Water texture - horizontal hatching -->
+    <g opacity="0.4" stroke-width="0.22">
+      <line x1="25" y1="100" x2="175" y2="100"/>
+      <line x1="20" y1="108" x2="180" y2="108"/>
+      <line x1="25" y1="116" x2="175" y2="116"/>
+      <line x1="30" y1="124" x2="170" y2="124"/>
+      <line x1="35" y1="132" x2="165" y2="132"/>
+      <line x1="40" y1="138" x2="160" y2="138"/>
+    </g>
+    
+    <!-- Shorter grasses around edge -->
+    <g opacity="0.35" stroke-width="0.2">
+      <path d="M15,100 Q10,90 8,82"/>
+      <path d="M30,95 Q25,85 20,75"/>
+      <path d="M50,90 Q48,78 45,68"/>
+      <path d="M75,88 Q72,75 68,65"/>
+      <!-- Right side -->
+      <path d="M185,100 Q190,88 195,78"/>
+      <path d="M170,92 Q175,80 180,70"/>
+      <path d="M150,90 Q155,78 160,68"/>
+      <path d="M125,88 Q130,76 135,66"/>
+    </g>
+    
+    <!-- Distant trees - very light -->
+    <g opacity="0.25" stroke-width="0.2">
+      <path d="M0,85 Q10,75 15,65"/>
+      <line x1="5" y1="80" x2="8" y2="88"/>
+      <path d="M20,82 Q25,72 28,62"/>
+      <line x1="18" y1="78" x2="22" y2="86"/>
+    </g>
+    
+  </g>
+</svg>
