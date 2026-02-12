@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" width="200" height="150">
+  <title>HB 44 - Rock Texture</title>
+  <g fill="none" stroke="#2a2a2a" stroke-width="0.35" stroke-linecap="round">
+    
+    <!-- Rock outline - organic -->
+    <path d="M30,130 Q20,100 40,70 Q60,40 100,35 Q140,30 165,55 Q185,80 180,115 Q175,140 140,145 Q100,148 60,145 Q35,142 30,130"/>
+    
+    <!-- Surface cracks - thin lines -->
+    <g opacity="0.5" stroke-width="0.2">
+      <path d="M60,130 Q70,110 65,90"/>
+      <path d="M100,140 Q105,120 95,100"/>
+      <path d="M140,135 Q135,110 145,85"/>
+      <path d="M80,70 Q90,80 85,95"/>
+      <path d="M120,60 Q110,75 125,90"/>
+    </g>
+    
+    <!-- Shadow hatching - bottom left -->
+    <g opacity="0.4">
+      <line x1="35" y1="125" x2="55" y2="130"/>
+      <line x1="40" y1="120" x2="60" y2="125"/>
+      <line x1="45" y1="115" x2="65" y2="120"/>
+      <line x1="50" y1="110" x2="70" y2="115"/>
+      <line x1="55" y1="105" x2="75" y2="110"/>
+    </g>
+    
+    <!-- Highlight area - sparse -->
+    <g opacity="0.25">
+      <line x1="130" y1="50" x2="150" y2="45"/>
+      <line x1="140" y1="55" x2="160" y2="50"/>
+      <line x1="150" y1="60" x2="165" y2="58"/>
+    </g>
+    
+  </g>
+</svg>
