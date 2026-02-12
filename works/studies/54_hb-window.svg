@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" width="200" height="150">
+  <title>HB 54 - Window Study</title>
+  <g fill="none" stroke="#1a4a6e" stroke-width="0.35" stroke-linecap="round">
+    
+    <!-- Wall suggestion -->
+    <path d="M40,40 L40,120" opacity="0.3"/>
+    <path d="M160,35 L160,118" opacity="0.3"/>
+    
+    <!-- Window frame -->
+    <rect x="50" y="45" width="100" height="70"/>
+    
+    <!-- Cross frame -->
+    <line x1="100" y1="45" x2="100" y2="115"/>
+    <line x1="50" y1="80" x2="150" y2="80"/>
+    
+    <!-- Inner panes - very light suggestion -->
+    <g opacity="0.15">
+      <rect x="55" y="50" width="40" height="25"/>
+      <rect x="105" y="50" width="40" height="25"/>
+      <rect x="55" y="80" width="40" height="30"/>
+      <rect x="105" y="80" width="40" height="30"/>
+    </g>
+    
+    <!-- Shadow under window sill -->
+    <g opacity="0.4" stroke-width="0.22">
+      <line x1="48" y1="115" x2="55" y2="122"/>
+      <line x1="60" y1="115" x2="67" y2="122"/>
+      <line x1="75" y1="115" x2="82" y2="122"/>
+      <line x1="90" y1="115" x2="97" y2="122"/>
+      <line x1="105" y1="115" x2="112" y2="122"/>
+      <line x1="120" y1="115" x2="127" y2="122"/>
+      <line x1="135" y1="115" x2="142" y2="122"/>
+      <line x1="145" y1="115" x2="152" y2="122"/>
+    </g>
+    
+  </g>
+</svg>
