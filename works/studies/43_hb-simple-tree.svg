@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <title>HB 43 - Simple Tree</title>
+  <g fill="none" stroke="#2a2a2a" stroke-width="0.35" stroke-linecap="round">
+    
+    <!-- Trunk -->
+    <path d="M95,190 Q100,150 98,100 Q95,50 100,10"/>
+    
+    <!-- Branches - simple spread -->
+    <path d="M98,120 Q80,110 60,105"/>
+    <path d="M99,100 Q85,85 70,75"/>
+    <path d="M98,130 Q115,120 135,115"/>
+    <path d="M99,90 Q115,80 130,70"/>
+    
+    <!-- Foliage clusters - loose hatching -->
+    <g opacity="0.5" stroke-width="0.25">
+      <line x1="55" y1="100" x2="65" y2="95"/>
+      <line x1="60" y1="108" x2="70" y2="103"/>
+      <line x1="58" y1="95" x2="68" y2="90"/>
+      
+      <line x1="68" y1="72" x2="78" y2="67"/>
+      <line x1="72" y1="80" x2="82" y2="75"/>
+      
+      <line x1="132" y1="110" x2="142" y2="105"/>
+      <line x1="128" y1="118" x2="138" y2="113"/>
+      
+      <line x1="128" y1="67" x2="138" y2="62"/>
+      <line x1="132" y1="75" x2="142" y2="70"/>
+    </g>
+    
+  </g>
+</svg>
