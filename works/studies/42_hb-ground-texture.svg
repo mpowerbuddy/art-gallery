@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" width="300" height="200">
+  <title>HB - Ground Texture</title>
+  <g fill="none" stroke="#2a2a2a" stroke-width="0.35" stroke-linecap="round">
+    
+    <!-- Ground line - slight undulation -->
+    <path d="M0,180 Q75,175 150,182 T300,178"/>
+    
+    <!-- Texture - loose diagonal hatching -->
+    <g opacity="0.5">
+      <line x1="20" y1="182" x2="50" y2="190"/>
+      <line x1="40" y1="180" x2="70" y2="188"/>
+      <line x1="60" y1="184" x2="90" y2="192"/>
+      <line x1="80" y1="178" x2="110" y2="186"/>
+      <line x1="100" y1="182" x2="130" y2="190"/>
+      <line x1="120" y1="180" x2="150" y2="188"/>
+      <line x1="140" y1="184" x2="170" y2="192"/>
+      <line x1="160" y1="178" x2="190" y2="186"/>
+      <line x1="180" y1="182" x2="210" y2="190"/>
+      <line x1="200" y1="180" x2="230" y2="188"/>
+      <line x1="220" y1="184" x2="250" y2="192"/>
+      <line x1="240" y1="178" x2="270" y2="186"/>
+      <line x1="260" y1="182" x2="290" y2="190"/>
+    </g>
+    
+    <!-- Occasional grass-like marks -->
+    <g opacity="0.4" stroke-width="0.25">
+      <path d="M35,188 Q32,175 30,168"/>
+      <path d="M75,186 Q78,172 82,165"/>
+      <path d="M125,190 Q122,176 118,168"/>
+      <path d="M185,184 Q190,170 195,162"/>
+      <path d="M245,188 Q242,174 238,166"/>
+    </g>
+    
+  </g>
+</svg>
