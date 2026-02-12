@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" width="200" height="150">
+  <title>HB 52 - Tree Foliage Mass</title>
+  <g fill="none" stroke="#1a4a6e" stroke-width="0.35" stroke-linecap="round">
+    
+    <!-- Trunk -->
+    <path d="M95,145 Q100,110 98,70 Q95,40 100,10" stroke-width="0.4"/>
+    
+    <!-- Main branches -->
+    <path d="M98,80 Q75,65 55,60" stroke-width="0.32"/>
+    <path d="M98,60 Q120,45 140,40" stroke-width="0.32"/>
+    <path d="M99,100 Q130,90 155,85" stroke-width="0.3"/>
+    <path d="M97,90 Q70,80 45,75" stroke-width="0.28"/>
+    
+    <!-- Foliage masses - amorphous blobs -->
+    <g opacity="0.5">
+      <!-- Left mass -->
+      <path d="M45,70 Q35,55 50,40 Q65,30 75,45 Q80,60 70,75 Q55,80 45,70"/>
+      <!-- Top mass -->
+      <path d="M70,35 Q85,15 105,20 Q125,18 135,35 Q140,50 125,60 Q105,65 85,55 Q70,45 70,35"/>
+      <!-- Right mass -->
+      <path d="M140,40 Q160,30 170,50 Q175,70 160,80 Q145,85 135,70 Q130,55 140,40"/>
+      <!-- Lower right mass -->
+      <path d="M155,85 Q175,75 180,95 Q175,115 155,120 Q135,118 140,100 Q145,88 155,85"/>
+    </g>
+    
+    <!-- Vertical hatching suggestion inside masses -->
+    <g opacity="0.35" stroke-width="0.22">
+      <!-- Left -->
+      <line x1="48" y1="55" x2="50" y2="68"/>
+      <line x1="58" y1="48" x2="60" y2="62"/>
+      <line x1="68" y1="52" x2="70" y2="65"/>
+      <!-- Top -->
+      <line x1="82" y1="30" x2="85" y2="45"/>
+      <line x1="95" y1="25" x2="98" y2="40"/>
+      <line x1="110" y1="28" x2="113" y2="43"/>
+      <line x1="125" y1="32" x2="128" y2="48"/>
+      <!-- Right -->
+      <line x1="148" y1="48" x2="150" y2="62"/>
+      <line x1="160" y1="55" x2="162" y2="70"/>
+      <!-- Lower right -->
+      <line x1="152" y1="90" x2="155" y2="105"/>
+      <line x1="165" y1="88" x2="168" y2="102"/>
+    </g>
+    
+  </g>
+</svg>
