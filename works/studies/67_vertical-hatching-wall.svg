@@ -1,0 +1,234 @@
+<svg viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="grain" x="0%" y="0%" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="4" result="noise"/>
+      <feDiffuseLighting in="noise" lighting-color="#f5f0e6" surfaceScale="1.4" result="diffLight">
+        <feDistantLight azimuth="45" elevation="55"/>
+      </feDiffuseLighting>
+      <feBlend in="SourceGraphic" in2="diffLight" mode="multiply"/>
+    </filter>
+  </defs>
+  
+  <!-- Paper background -->
+  <rect width="400" height="500" fill="#f5f0e6"/>
+  
+  <!-- Title -->
+  <text x="200" y="35" font-family="Georgia, serif" font-size="16" fill="#1a3a5c" text-anchor="middle" font-style="italic">Study 67: Vertical Hatching</text>
+  
+  <!-- Subject: Old stone wall with cracks -->
+  <g filter="url(#grain)">
+    <!-- Stone wall structure -->
+    <rect x="40" y="80" width="320" height="350" fill="#d8cfc2"/>
+    
+    <!-- Individual stone blocks -->
+    <!-- Row 1 (top) -->
+    <rect x="45" y="85" width="70" height="50" fill="#d5cbb8"/>
+    <rect x="120" y="85" width="60" height="50" fill="#d0c5b2"/>
+    <rect x="185" y="85" width="80" height="50" fill="#d5cbb8"/>
+    <rect x="270" y="85" width="80" height="50" fill="#d0c5b2"/>
+    
+    <!-- Row 2 -->
+    <rect x="45" y="140" width="55" height="55" fill="#d0c5b2"/>
+    <rect x="105" y="140" width="75" height="55" fill="#d5cbb8"/>
+    <rect x="185" y="140" width="65" height="55" fill="#d0c5b2"/>
+    <rect x="259" y="140" width="90" height="55" fill="#d5cbb8"/>
+    
+    <!-- Row 3 -->
+    <rect x="45" y="200" width="80" height="60" fill="#d5cbb8"/>
+    <rect x="130" y="200" width="55" height="60" fill="#d0c5b2"/>
+    <rect x="190" y="200" width="70" height="60" fill="#d8cfc2"/>
+    <rect x="265" y="200" width="85" height="60" fill="#d5cbb8"/>
+    
+    <!-- Row 4 -->
+    <rect x="45" y="265" width="65" height="55" fill="#d0c5b2"/>
+    <rect x="115" y="265" width="85" height="55" fill="#d5cbb8"/>
+    <rect x="205" y="265" width="60" height="55" fill="#d0c5b2"/>
+    <rect x="270" y="265" width="80" height="55" fill="#d8cfc2"/>
+    
+    <!-- Row 5 -->
+    <rect x="45" y="325" width="75" height="55" fill="#d5cbb8"/>
+    <rect x="125" y="325" width="60" height="55" fill="#d0c5b2"/>
+    <rect x="190" y="325" width="80" height="55" fill="#d5cbb8"/>
+    <rect x="275" y="325" width="75" height="55" fill="#d0c5b2"/>
+    
+    <!-- Row 6 (bottom) -->
+    <rect x="45" y="385" width="70" height="45" fill="#d0c5b2"/>
+    <rect x="120" y="385" width="65" height="45" fill="#d5cbb8"/>
+    <rect x="190" y="385" width="75" height="45" fill="#d0c5b2"/>
+    <rect x="270" y="385" width="80" height="45" fill="#d5cbb8"/>
+    
+    <!-- Vertical hatching for stone texture -->
+    <g stroke="#1a3a5c" stroke-width="0.8" stroke-linecap="round">
+      <!-- Row 1 stones -->
+      <line x1="55" y1="95" x2="55" y2="125"/>
+      <line x1="65" y1="90" x2="65" y2="130"/>
+      <line x1="75" y1="95" x2="75" y2="128"/>
+      <line x1="85" y1="92" x2="85" y2="125"/>
+      <line x1="95" y1="98" x2="95" y2="130"/>
+      <line x1="105" y1="94" x2="105" y2="128"/>
+      
+      <line x1="130" y1="90" x2="130" y2="128"/>
+      <line x1="145" y1="95" x2="145" y2="125"/>
+      <line x1="160" y1="92" x2="160" y2="130"/>
+      
+      <line x1="200" y1="95" x2="200" y2="128"/>
+      <line x1="220" y1="90" x2="220" y2="130"/>
+      <line x1="240" y1="94" x2="240" y2="125"/>
+      
+      <!-- Row 2 -->
+      <line x1="55" y1="150" x2="55" y2="185"/>
+      <line x1="65" y1="155" x2="65" y2="190"/>
+      <line x1="75" y1="152" x2="75" y2="188"/>
+      <line x1="85" y1="148" x2="85" y2="190"/>
+      
+      <line x1="115" y1="150" x2="115" y2="190"/>
+      <line x1="130" y1="155" x2="130" y2="188"/>
+      <line x1="145" y1="152" x2="145" y2="190"/>
+      <line x1="160" y1="148" x2="160" y2="185"/>
+      
+      <line x1="200" y1="150" x2="200" y2="190"/>
+      <line x1="220" y1="155" x2="220" y2="188"/>
+      
+      <!-- Row 3 -->
+      <line x1="55" y1="210" x2="55" y2="250"/>
+      <line x1="70" y1="215" x2="70" y2="255"/>
+      <line x1="85" y1="212" x2="85" y2="252"/>
+      <line x1="100" y1="218" x2="100" y2="258"/>
+      
+      <line x1="140" y1="210" x2="140" y2="255"/>
+      <line x1="155" y1="215" x2="155" y2="252"/>
+      
+      <line x1="200" y1="212" x2="200" y2="258"/>
+      <line x1="220" y1="218" x2="220" y2="255"/>
+      <line x1="240" y1="215" x2="240" y2="252"/>
+      
+      <!-- Row 4 -->
+      <line x1="55" y1="275" x2="55" y2="312"/>
+      <line x1="70" y1="280" x2="70" y2="315"/>
+      <line x1="85" y1="278" x2="85" y2="312"/>
+      
+      <line x1="125" y1="275" x2="125" y2="315"/>
+      <line x1="145" y1="280" x2="145" y2="312"/>
+      <line x1="165" y1="278" x2="165" y2="315"/>
+      <line x1="185" y1="282" x2="185" y2="318"/>
+      
+      <!-- Row 5 -->
+      <line x1="55" y1="335" x2="55" y2="375"/>
+      <line x1="70" y1="340" x2="70" y2="378"/>
+      <line x1="85" y1="338" x2="85" y2="375"/>
+      <line x1="100" y1="342" x2="100" y2="380"/>
+      
+      <line x1="135" y1="335" x2="135" y2="375"/>
+      <line x1="155" y1="340" x2="155" y2="378"/>
+      
+      <line x1="200" y1="338" x2="200" y2="378"/>
+      <line x1="220" y1="342" x2="220" y2="380"/>
+      <line x1="240" y1="340" x2="240" y2="375"/>
+      <line x1="260" y1="335" x2="260" y2="372"/>
+      
+      <!-- Row 6 -->
+      <line x1="55" y1="395" x2="55" y2="425"/>
+      <line x1="70" y1="400" x2="70" y2="428"/>
+      <line x1="85" y1="398" x2="85" y2="425"/>
+      <line x1="100" y1="402" x2="100" y2="430"/>
+      
+      <line x1="130" y1="395" x2="130" y2="428"/>
+      <line x1="150" y1="400" x2="150" y2="425"/>
+      <line x1="170" y1="398" x2="170" y2="428"/>
+      
+      <line x1="200" y1="400" x2="200" y2="430"/>
+      <line x1="220" y1="395" x2="220" y2="428"/>
+      <line x1="240" y1="402" x2="240" y2="430"/>
+      
+      <line x1="280" y1="398" x2="280" y2="428"/>
+      <line x1="300" y1="400" x2="300" y2="425"/>
+      <line x1="320" y1="395" x2="320" y2="428"/>
+    </g>
+    
+    <!-- Mortar lines (darker gaps between stones) -->
+    <g stroke="#8a7a6a" stroke-width="2">
+      <line x1="45" y1="135" x2="115" y2="135"/>
+      <line x1="120" y1="135" x2="185" y2="135"/>
+      <line x1="185" y1="135" x2="270" y2="135"/>
+      <line x1="270" y1="135" x2="350" y2="135"/>
+      
+      <line x1="45" y1="195" x2="105" y2="195"/>
+      <line x1="105" y1="195" x2="185" y2="195"/>
+      <line x1="185" y1="195" x2="259" y2="195"/>
+      <line x1="259" y1="195" x2="350" y2="195"/>
+      
+      <line x1="45" y1="260" x2="115" y2="260"/>
+      <line x1="115" y1="260" x2="205" y2="260"/>
+      <line x1="205" y1="260" x2="270" y2="260"/>
+      <line x1="270" y1="260" x2="350" y2="260"/>
+      
+      <line x1="45" y1="325" x2="125" y2="325"/>
+      <line x1="125" y1="325" x2="190" y2="325"/>
+      <line x1="190" y1="325" x2="275" y2="325"/>
+      <line x1="275" y1="325" x2="350" y2="325"/>
+      
+      <line x1="45" y1="385" x2="120" y2="385"/>
+      <line x1="120" y1="385" x2="190" y2="385"/>
+      <line x1="190" y1="385" x2="270" y2="385"/>
+      <line x1="270" y1="385" x2="350" y2="385"/>
+    </g>
+    
+    <!-- Vertical mortar -->
+    <g stroke="#8a7a6a" stroke-width="2">
+      <line x1="115" y1="85" x2="115" y2="140"/>
+      <line x1="185" y1="85" x2="185" y2="140"/>
+      <line x1="270" y1="85" x2="270" y2="140"/>
+      
+      <line x1="105" y1="140" x2="105" y2="195"/>
+      <line x1="185" y1="140" x2="185" y2="200"/>
+      <line x1="259" y1="140" x2="259" y2="195"/>
+      
+      <line x1="130" y1="200" x2="130" y2="260"/>
+      <line x1="190" y1="200" x2="190" y2="265"/>
+      <line x1="265" y1="200" x2="265" y2="260"/>
+      
+      <line x1="115" y1="265" x2="115" y2="325"/>
+      <line x1="205" y1="265" x2="205" y2="325"/>
+      <line x1="270" y1="265" x2="270" y2="325"/>
+      
+      <line x1="125" y1="325" x2="125" y2="385"/>
+      <line x1="190" y1="325" x2="190" y2="385"/>
+      <line x1="275" y1="325" x2="275" y2="385"/>
+    </g>
+    
+    <!-- Cracks in stone -->
+    <g stroke="#1a3a5c" stroke-width="0.5" fill="none" opacity="0.5">
+      <path d="M75 90 Q78 110 72 130"/>
+      <path d="M220 145 Q225 165 218 180"/>
+      <path d="M140 210 Q145 235 138 250"/>
+      <path d="M260 280 Q255 305 265 325"/>
+      <path d="M55 350 Q60 370 52 385"/>
+    </g>
+    
+    <!-- Vegetation growing from wall -->
+    <g stroke="#2a4a3c" stroke-width="0.6" stroke-linecap="round">
+      <path d="M60 85 Q65 70 55 55" fill="none"/>
+      <path d="M55 65 Q50 55 60 45" fill="none"/>
+      <path d="M310 85 Q315 65 305 50" fill="none"/>
+      <path d="M305 70 Q295 60 308 48" fill="none"/>
+    </g>
+  </g>
+  
+  <!-- Ground at base -->
+  <rect x="0" y="430" width="400" height="70" fill="#e0d8c8"/>
+  <g stroke="#2a4a6c" stroke-width="0.4" stroke-linecap="round" opacity="0.25">
+    <line x1="20" y1="440" x2="23" y2="470"/>
+    <line x1="60" y1="445" x2="63" y2="480"/>
+    <line x1="100" y1="438" x2="103" y2="468"/>
+    <line x1="140" y1="442" x2="143" y2="475"/>
+    <line x1="180" y1="440" x2="183" y2="470"/>
+    <line x1="220" y1="445" x2="223" y2="480"/>
+    <line x1="260" y1="438" x2="263" y2="468"/>
+    <line x1="300" y1="442" x2="303" y2="475"/>
+    <line x1="340" y1="440" x2="343" y2="470"/>
+    <line x1="380" y1="445" x2="383" y2="478"/>
+  </g>
+  
+  <!-- Technique notes -->
+  <text x="200" y="465" font-family="Georgia, serif" font-size="11" fill="#4a6a8c" text-anchor="middle">vertical hatching · stone wall · contour breaks</text>
+</svg>
