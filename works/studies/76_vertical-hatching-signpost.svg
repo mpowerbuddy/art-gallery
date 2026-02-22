@@ -1,0 +1,126 @@
+<svg viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="grain" x="0%" y="0%" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="4" result="noise"/>
+      <feDiffuseLighting in="noise" lighting-color="#f5f0e6" surfaceScale="1.4" result="diffLight">
+        <feDistantLight azimuth="45" elevation="55"/>
+      </feDiffuseLighting>
+      <feBlend in="SourceGraphic" in2="diffLight" mode="multiply"/>
+    </filter>
+  </defs>
+  
+  <!-- Paper background -->
+  <rect width="400" height="500" fill="#f5f0e6"/>
+  
+  <!-- Title -->
+  <text x="200" y="35" font-family="Georgia, serif" font-size="16" fill="#1a3a5c" text-anchor="middle" font-style="italic">Study 76: Vertical Hatching</text>
+  
+  <!-- Subject: Old wooden signpost -->
+  <g filter="url(#grain)">
+    <!-- Ground -->
+    <path d="M0 430 Q100 420 200 430 Q300 440 400 425 L400 500 L0 500 Z" fill="#e0d8c8"/>
+    
+    <!-- Post -->
+    <rect x="185" y="120" width="30" height="310" fill="#b8a890"/>
+    
+    <!-- Post vertical hatching -->
+    <g stroke="#1a3a5c" stroke-width="1.2" stroke-linecap="round">
+      <!-- Left side (shadow) - dense -->
+      <line x1="190" y1="130" x2="190" y2="175"/>
+      <line x1="190" y1="190" x2="190" y2="250"/>
+      <line x1="190" y1="265" x2="190" y2="330"/>
+      <line x1="190" y1="345" x2="190" y2="420"/>
+      
+      <line x1="197" y1="130" x2="197" y2="170"/>
+      <line x1="197" y1="185" x2="197" y2="245"/>
+      <line x1="197" y1="260" x2="197" y2="325"/>
+      <line x1="197" y1="340" x2="197" y2="420"/>
+      
+      <!-- Right side (lighter) - sparser -->
+      <g stroke-width="0.8" opacity="0.6">
+        <line x1="204" y1="130" x2="204" y2="170"/>
+        <line x1="204" y1="185" x2="204" y2="245"/>
+        <line x1="204" y1="260" x2="204" y2="325"/>
+        <line x1="204" y1="340" x2="204" y2="420"/>
+        
+        <line x1="211" y1="130" x2="211" y2="175"/>
+        <line x1="211" y1="190" x2="211" y2="250"/>
+        <line x1="211" y1="265" x2="211" y2="330"/>
+        <line x1="211" y1="345" x2="211" y2="420"/>
+      </g>
+    </g>
+    
+    <!-- Sign board -->
+    <rect x="100" y="60" width="200" height="70" rx="3" fill="#c8b898"/>
+    
+    <!-- Sign border -->
+    <rect x="100" y="60" width="200" height="70" rx="3" fill="none" stroke="#1a3a5c" stroke-width="2"/>
+    
+    <!-- Sign vertical hatching -->
+    <g stroke="#1a3a5c" stroke-width="0.8" stroke-linecap="round">
+      <!-- Top section -->
+      <line x1="110" y1="70" x2="110" y2="95"/>
+      <line x1="125" y1="70" x2="125" y2="95"/>
+      <line x1="140" y1="70" x2="140" y2="95"/>
+      <line x1="155" y1="70" x2="155" y2="95"/>
+      <line x1="170" y1="70" x2="170" y2="95"/>
+      <line x1="185" y1="70" x2="185" y2="95"/>
+      <line x1="200" y1="70" x2="200" y2="95"/>
+      <line x1="215" y1="70" x2="215" y2="95"/>
+      <line x1="230" y1="70" x2="230" y2="95"/>
+      <line x1="245" y1="70" x2="245" y2="95"/>
+      <line x1="260" y1="70" x2="260" y2="95"/>
+      <line x1="275" y1="70" x2="275" y2="95"/>
+      <line x1="290" y1="70" x2="290" y2="95"/>
+      
+      <!-- Bottom section -->
+      <line x1="110" y1="100" x2="110" y2="125"/>
+      <line x1="125" y1="100" x2="125" y2="125"/>
+      <line x1="140" y1="100" x2="140" y2="125"/>
+      <line x1="155" y1="100" x2="155" y2="125"/>
+      <line x1="170" y1="100" x2="170" y2="125"/>
+      <line x1="185" y1="100" x2="185" y2="125"/>
+      <line x1="200" y1="100" x2="200" y2="125"/>
+      <line x1="215" y1="100" x2="215" y2="125"/>
+      <line x1="230" y1="100" x2="230" y2="125"/>
+      <line x1="245" y1="100" x2="245" y2="125"/>
+      <line x1="260" y1="100" x2="260" y2="125"/>
+      <line x1="275" y1="100" x2="275" y2="125"/>
+      <line x1="290" y1="100" x2="290" y2="125"/>
+    </g>
+    
+    <!-- Sign post attachment -->
+    <rect x="185" y="120" width="30" height="15" fill="#a89880"/>
+    <g stroke="#1a3a5c" stroke-width="0.6" stroke-linecap="round">
+      <line x1="192" y1="123" x2="192" y2="132"/>
+      <line x1="200" y1="123" x2="200" y2="132"/>
+      <line x1="208" y1="123" x2="208" y2="132"/>
+    </g>
+    
+    <!-- Mounting nails on sign -->
+    <circle cx="130" cy="95" r="2" fill="#6a5a40"/>
+    <circle cx="270" cy="95" r="2" fill="#6a5a40"/>
+    
+    <!-- Post base detail -->
+    <path d="M180 420 L185 430 L215 430 L220 420 Z" fill="#a89880"/>
+    <g stroke="#1a3a5c" stroke-width="0.5" stroke-linecap="round">
+      <line x1="185" y1="422" x2="185" y2="428"/>
+      <line x1="200" y1="423" x2="200" y2="429"/>
+      <line x1="215" y1="422" x2="215" y2="428"/>
+    </g>
+  </g>
+  
+  <!-- Ground texture -->
+  <g stroke="#2a4a6c" stroke-width="0.4" stroke-linecap="round" opacity="0.25">
+    <line x1="100" y1="440" x2="103" y2="470"/>
+    <line x1="140" y1="445" x2="143" y2="478"/>
+    <line x1="180" y1="438" x2="183" y2="465"/>
+    <line x1="220" y1="442" x2="223" y2="475"/>
+    <line x1="260" y1="440" x2="263" y2="468"/>
+    <line x1="300" y1="445" x2="303" y2="480"/>
+    <line x1="340" y1="438" x2="343" y2="465"/>
+  </g>
+  
+  <!-- Technique notes -->
+  <text x="200" y="465" font-family="Georgia, serif" font-size="11" fill="#4a6a8c" text-anchor="middle">vertical hatching · signpost · contour breaks</text>
+</svg>
