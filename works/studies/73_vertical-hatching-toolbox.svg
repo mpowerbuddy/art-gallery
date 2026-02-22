@@ -1,0 +1,196 @@
+<svg viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="grain" x="0%" y="0%" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="4" result="noise"/>
+      <feDiffuseLighting in="noise" lighting-color="#f5f0e6" surfaceScale="1.4" result="diffLight">
+        <feDistantLight azimuth="45" elevation="55"/>
+      </feDiffuseLighting>
+      <feBlend in="SourceGraphic" in2="diffLight" mode="multiply"/>
+    </filter>
+  </defs>
+  
+  <!-- Paper background -->
+  <rect width="400" height="500" fill="#f5f0e6"/>
+  
+  <!-- Title -->
+  <text x="200" y="35" font-family="Georgia, serif" font-size="16" fill="#1a3a5c" text-anchor="middle" font-style="italic">Study 73: Vertical Hatching</text>
+  
+  <!-- Subject: Old wooden toolbox -->
+  <g filter="url(#grain)">
+    <!-- Ground shadow -->
+    <ellipse cx="200" cy="430" rx="100" ry="15" fill="#d0c8b8" opacity="0.5"/>
+    
+    <!-- Toolbox body -->
+    <path d="M100 200 L100 400 L300 400 L300 200 Q200 180 100 200" fill="#c8b898"/>
+    
+    <!-- Vertical hatching on toolbox body -->
+    <g stroke="#1a3a5c" stroke-width="1" stroke-linecap="round">
+      <!-- Left side (shadow) - dense -->
+      <line x1="108" y1="210" x2="108" y2="250"/>
+      <line x1="108" y1="265" x2="108" y2="320"/>
+      <line x1="108" y1="335" x2="108" y2="390"/>
+      <line x1="108" y1="405" x2="108" y2="415"/>
+      
+      <line x1="116" y1="210" x2="116" y2="245"/>
+      <line x1="116" y1="260" x2="116" y2="315"/>
+      <line x1="116" y1="330" x2="116" y2="385"/>
+      <line x1="116" y1="400" x2="116" y2="415"/>
+      
+      <line x1="124" y1="205" x2="124" y2="240"/>
+      <line x1="124" y1="255" x2="124" y2="310"/>
+      <line x1="124" y1="325" x2="124" y2="380"/>
+      <line x1="124" y1="395" x2="124" y2="415"/>
+      
+      <!-- Mid section -->
+      <line x1="132" y1="205" x2="132" y2="235"/>
+      <line x1="132" y1="250" x2="132" y2="305"/>
+      <line x1="132" y1="320" x2="132" y2="375"/>
+      <line x1="132" y1="390" x2="132" y2="415"/>
+      
+      <line x1="140" y1="200" x2="140" y2="230"/>
+      <line x1="140" y1="245" x2="140" y2="300"/>
+      <line x1="140" y1="315" x2="140" y2="370"/>
+      <line x1="140" y1="385" x2="140" y2="415"/>
+      
+      <line x1="148" y1="198" x2="148" y2="225"/>
+      <line x1="148" y1="240" x2="148" y2="295"/>
+      <line x1="148" y1="310" x2="148" y2="365"/>
+      <line x1="148" y1="380" x2="148" y2="415"/>
+      
+      <line x1="156" y1="195" x2="156" y2="220"/>
+      <line x1="156" y1="235" x2="156" y2="290"/>
+      <line x1="156" y1="305" x2="156" y2="360"/>
+      <line x1="156" y1="375" x2="156" y2="415"/>
+      
+      <line x1="164" y1="193" x2="164" y2="215"/>
+      <line x1="164" y1="230" x2="164" y2="285"/>
+      <line x1="164" y1="300" x2="164" y2="355"/>
+      <line x1="164" y1="370" x2="164" y2="415"/>
+      
+      <line x1="172" y1="190" x2="172" y2="210"/>
+      <line x1="172" y1="225" x2="172" y2="280"/>
+      <line x1="172" y1="295" x2="172" y2="350"/>
+      <line x1="172" y1="365" x2="172" y2="415"/>
+      
+      <!-- Right side (lighter) - sparser -->
+      <g stroke-width="0.7" opacity="0.6">
+        <line x1="180" y1="190" x2="180" y2="210"/>
+        <line x1="180" y1="225" x2="180" y2="280"/>
+        <line x1="180" y1="295" x2="180" y2="350"/>
+        <line x1="180" y1="365" x2="180" y2="415"/>
+        
+        <line x1="188" y1="193" x2="188" y2="215"/>
+        <line x1="188" y1="230" x2="188" y2="285"/>
+        <line x1="188" y1="300" x2="188" y2="355"/>
+        <line x1="188" y1="370" x2="188" y2="415"/>
+        
+        <line x1="196" y1="195" x2="196" y2="220"/>
+        <line x1="196" y1="235" x2="196" y2="290"/>
+        <line x1="196" y1="305" x2="196" y2="360"/>
+        <line x1="196" y1="375" x2="196" y2="415"/>
+        
+        <line x1="204" y1="198" x2="204" y2="225"/>
+        <line x1="204" y1="240" x2="204" y2="295"/>
+        <line x1="204" y1="310" x2="204" y2="365"/>
+        <line x1="204" y1="380" x2="204" y2="415"/>
+        
+        <line x1="212" y1="200" x2="212" y2="230"/>
+        <line x1="212" y1="245" x2="212" y2="300"/>
+        <line x1="212" y1="315" x2="212" y2="370"/>
+        <line x1="212" y1="385" x2="212" y2="415"/>
+        
+        <line x1="220" y1="205" x2="220" y2="235"/>
+        <line x1="220" y1="250" x2="220" y2="305"/>
+        <line x1="220" y1="320" x2="220" y2="375"/>
+        <line x1="220" y1="390" x2="220" y2="415"/>
+        
+        <line x1="228" y1="205" x2="228" y2="240"/>
+        <line x1="228" y1="255" x2="228" y2="310"/>
+        <line x1="228" y1="325" x2="228" y2="380"/>
+        <line x1="228" y1="395" x2="228" y2="415"/>
+        
+        <line x1="236" y1="210" x2="236" y2="245"/>
+        <line x1="236" y1="260" x2="236" y2="315"/>
+        <line x1="236" y1="330" x2="236" y2="385"/>
+        <line x1="236" y1="400" x2="236" y2="415"/>
+        
+        <line x1="244" y1="210" x2="244" y2="250"/>
+        <line x1="244" y1="265" x2="244" y2="320"/>
+        <line x1="244" y1="335" x2="244" y2="390"/>
+        <line x1="244" y1="405" x2="244" y2="415"/>
+        
+        <line x1="252" y1="215" x2="252" y2="255"/>
+        <line x1="252" y1="270" x2="252" y2="325"/>
+        <line x1="252" y1="340" x2="252" y2="395"/>
+        <line x1="252" y1="410" x2="252" y2="415"/>
+        
+        <line x1="260" y1="215" x2="260" y2="260"/>
+        <line x1="260" y1="275" x2="260" y2="330"/>
+        <line x1="260" y1="345" x2="260" y2="400"/>
+        <line x1="260" y1="415" x2="260" y2="415"/>
+        
+        <line x1="268" y1="220" x2="268" y2="265"/>
+        <line x1="268" y1="280" x2="268" y2="335"/>
+        <line x1="268" y1="350" x2="268" y2="405"/>
+        
+        <line x1="276" y1="225" x2="276" y2="270"/>
+        <line x1="276" y1="285" x2="276" y2="340"/>
+        <line x1="276" y1="355" x2="276" y2="408"/>
+        
+        <line x1="284" y1="225" x2="284" y2="275"/>
+        <line x1="284" y1="290" x2="284" y2="345"/>
+        <line x1="284" y1="360" x2="284" y2="410"/>
+        
+        <line x1="292" y1="230" x2="292" y2="280"/>
+        <line x1="292" y1="295" x2="292" y2="350"/>
+        <line x1="292" y1="365" x2="292" y2="412"/>
+      </g>
+    </g>
+    
+    <!-- Lid -->
+    <path d="M95 200 Q200 175 305 200 L300 200 Q200 180 100 200 Z" fill="#b8a890"/>
+    <g stroke="#1a3a5c" stroke-width="0.8" stroke-linecap="round">
+      <line x1="110" y1="195" x2="110" y2="200"/>
+      <line x1="130" y1="190" x2="130" y2="200"/>
+      <line x1="150" y1="185" x2="150" y2="200"/>
+      <line x1="170" y1="182" x2="170" y2="200"/>
+      <line x1="190" y1="180" x2="190" y2="200"/>
+      <line x1="210" y1="180" x2="210" y2="200"/>
+      <line x1="230" y1="182" x2="230" y2="200"/>
+      <line x1="250" y1="185" x2="250" y2="200"/>
+      <line x1="270" y1="190" x2="270" y2="200"/>
+      <line x1="290" y1="195" x2="290" y2="200"/>
+    </g>
+    
+    <!-- Handle -->
+    <path d="M170 200 L170 175 Q170 155 200 155 Q230 155 230 175 L230 200" fill="none" stroke="#6a5a40" stroke-width="8"/>
+    <path d="M170 200 L170 175 Q170 155 200 155 Q230 155 230 175 L230 200" fill="none" stroke="#8a7a60" stroke-width="4"/>
+    
+    <!-- Handle mounting brackets -->
+    <rect x="165" y="190" width="12" height="20" fill="#5a4a30"/>
+    <rect x="223" y="190" width="12" height="20" fill="#5a4a30"/>
+    
+    <!-- Lid hinge detail -->
+    <rect x="180" y="198" width="40" height="6" fill="#6a5a40"/>
+    <rect x="185" y="200" width="30" height="3" fill="#8a7a60"/>
+    
+    <!-- Front clasp/lock -->
+    <rect x="185" y="280" width="30" height="20" fill="#6a5a40"/>
+    <circle cx="200" cy="290" r="5" fill="#8a7a60"/>
+    <circle cx="200" cy="290" r="2" fill="#1a3a5c"/>
+  </g>
+  
+  <!-- Ground texture -->
+  <g stroke="#2a4a6c" stroke-width="0.4" stroke-linecap="round" opacity="0.25">
+    <line x1="80" y1="440" x2="83" y2="470"/>
+    <line x1="120" y1="445" x2="123" y2="478"/>
+    <line x1="160" y1="438" x2="163" y2="465"/>
+    <line x1="200" y1="442" x2="203" y2="475"/>
+    <line x1="240" y1="440" x2="243" y2="468"/>
+    <line x1="280" y1="445" x2="283" y2="480"/>
+    <line x1="320" y1="438" x2="323" y2="465"/>
+  </g>
+  
+  <!-- Technique notes -->
+  <text x="200" y="465" font-family="Georgia, serif" font-size="11" fill="#4a6a8c" text-anchor="middle">vertical hatching · wooden toolbox · contour breaks</text>
+</svg>
