@@ -1,0 +1,58 @@
+<svg viewBox="0 0 400 550" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Cross-hatching patterns at different angles -->
+    <pattern id="cross-light" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#2d1b4e" stroke-width="0.4" opacity="0.25"/>
+    </pattern>
+    <pattern id="cross-medium" patternUnits="userSpaceOnUse" width="4" height="4" patternTransform="rotate(-45)">
+      <line x1="0" y1="0" x2="0" y2="4" stroke="#2d1b4e" stroke-width="0.6" opacity="0.5"/>
+    </pattern>
+    <pattern id="cross-dense" patternUnits="userSpaceOnUse" width="3" height="3" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="3" stroke="#2d1b4e" stroke-width="0.8" opacity="0.8"/>
+    </pattern>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="550" fill="#faf8f5"/>
+  
+  <!-- Main organic form - botanical/seed pod shape -->
+  <g transform="translate(200, 260)">
+    <!-- Outer shape - light cross-hatch -->
+    <path d="M-70,-120 Q-100,-60 -80,0 Q-100,60 -70,120 Q-30,100 0,60 Q30,100 70,120 Q100,60 80,0 Q100,-60 70,-120 Q30,-100 0,-60 Q-30,-100 -70,-120 Z" 
+          fill="url(#cross-light)" stroke="#2d1b4e" stroke-width="1.2"/>
+    
+    <!-- Mid-layer - medium cross-hatch -->
+    <path d="M-45,-80 Q-65,-40 -50,0 Q-65,40 -45,80 Q-20,60 0,30 Q20,60 45,80 Q65,40 50,0 Q65,-40 45,-80 Q20,-60 0,-30 Q-20,-60 -45,-80 Z" 
+          fill="url(#cross-medium)" stroke="#2d1b4e" stroke-width="1"/>
+    
+    <!-- Core - dense cross-hatch -->
+    <path d="M-25,-45 Q-35,-20 -25,5 Q-35,30 -25,55 Q-10,40 0,20 Q10,40 25,55 Q35,30 25,5 Q35,-20 25,-45 Q10,-30 0,-15 Q-10,-30 -25,-45 Z" 
+          fill="url(#cross-dense)"/>
+    
+    <!-- Central highlight - no fill -->
+    <ellipse cx="0" cy="0" rx="12" ry="15" fill="none" stroke="#2d1b4e" stroke-width="0.8" opacity="0.6"/>
+  </g>
+  
+  <!-- Outer texture strokes -->
+  <g stroke="#2d1b4e" stroke-width="0.6" fill="none" opacity="0.5">
+    <!-- Radiating lines from center -->
+    <line x1="120" y1="200" x2="100" y2="150"/>
+    <line x1="130" y1="210" x2="115" y2="160"/>
+    <line x1="280" y1="200" x2="300" y2="150"/>
+    <line x1="270" y1="210" x2="285" y2="160"/>
+    <line x1="150" y1="380" x2="130" y2="420"/>
+    <line x1="160" y1="375" x2="145" y2="410"/>
+    <line x1="250" y1="380" x2="270" y2="420"/>
+    <line x1="240" y1="375" x2="255" y2="410"/>
+  </g>
+  
+  <!-- Bottom ground texture -->
+  <rect x="60" y="430" width="280" height="80" fill="url(#cross-light)" stroke="#2d1b4e" stroke-width="0.8"/>
+  
+  <!-- Top decorative contour -->
+  <path d="M100,100 Q140,85 200,95 Q260,85 300,100" 
+        stroke="#2d1b4e" stroke-width="1.2" fill="none" opacity="0.4"/>
+  
+  <!-- Signature -->
+  <line x1="320" y1="500" x2="370" y2="500" stroke="#2d1b4e" stroke-width="0.8" opacity="0.4"/>
+</svg>
