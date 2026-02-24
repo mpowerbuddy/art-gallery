@@ -1,0 +1,93 @@
+<svg viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Hatching patterns for tone -->
+    <pattern id="hatch-light" patternUnits="userSpaceOnUse" width="4" height="4" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="4" stroke="#1a1a2e" stroke-width="0.5" opacity="0.3"/>
+    </pattern>
+    <pattern id="hatch-medium" patternUnits="userSpaceOnUse" width="3" height="3" patternTransform="rotate(-45)">
+      <line x1="0" y1="0" x2="0" y2="3" stroke="#1a1a2e" stroke-width="0.7" opacity="0.6"/>
+    </pattern>
+    <pattern id="hatch-dense" patternUnits="userSpaceOnUse" width="2" height="2" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="2" stroke="#1a1a2e" stroke-width="0.8" opacity="0.85"/>
+    </pattern>
+  </defs>
+  
+  <!-- Background - deep blue -->
+  <rect width="400" height="500" fill="#0a1628"/>
+  
+  <!-- Head shape -->
+  <g transform="translate(200, 220)">
+    <!-- Face outline -->
+    <path d="M-70,-80 Q-90,-20 -70,40 Q-60,100 -40,130 Q0,150 40,130 Q60,100 70,40 Q90,-20 70,-80 Q40,-110 0,-120 Q-40,-110 -70,-80 Z" 
+          fill="url(#hatch-light)" stroke="#c9d4e0" stroke-width="1.5"/>
+    
+    <!-- Forehead shadow -->
+    <path d="M-50,-90 Q0,-70 50,-90 Q40,-40 0,-30 Q-40,-40 -50,-90 Z" 
+          fill="url(#hatch-medium)" opacity="0.5"/>
+    
+    <!-- Eye area - left -->
+    <ellipse cx="-30" cy="-20" rx="20" ry="12" fill="none" stroke="#c9d4e0" stroke-width="1.2"/>
+    <circle cx="-28" cy="-18" r="4" fill="#c9d4e0"/>
+    
+    <!-- Eye area - right -->
+    <ellipse cx="30" cy="-20" rx="20" ry="12" fill="none" stroke="#c9d4e0" stroke-width="1.2"/>
+    <circle cx="28" cy="-18" r="4" fill="#c9d4e0"/>
+    
+    <!-- Glasses - wire frames -->
+    <ellipse cx="-30" cy="-20" rx="25" ry="15" fill="none" stroke="#d4af37" stroke-width="1.5"/>
+    <ellipse cx="30" cy="-20" rx="25" ry="15" fill="none" stroke="#d4af37" stroke-width="1.5"/>
+    <line x1="-5" y1="-20" x2="5" y2="-20" stroke="#d4af37" stroke-width="1.2"/>
+    
+    <!-- Nose -->
+    <path d="M0,-10 Q-5,20 0,35 Q5,40 8,35" fill="none" stroke="#c9d4e0" stroke-width="1" opacity="0.6"/>
+    
+    <!-- Mustache -->
+    <path d="M-25,45 Q-15,40 0,42 Q15,40 25,45 Q15,52 0,50 Q-15,52 -25,45 Z" 
+          fill="url(#hatch-medium)" stroke="#c9d4e0" stroke-width="0.8"/>
+    
+    <!-- Beard/stubble area -->
+    <path d="M-30,55 Q0,65 30,55 Q20,80 0,85 Q-20,80 -30,55 Z" 
+          fill="url(#hatch-light)" stroke="#c9d4e0" stroke-width="0.8"/>
+    
+    <!-- Mouth -->
+    <path d="M-10,52 Q0,55 10,52" fill="none" stroke="#c9d4e0" stroke-width="1"/>
+  </g>
+  
+  <!-- Flat cap/beret -->
+  <path d="M120,120 Q200,60 280,120 Q290,150 280,160 Q200,170 120,160 Q110,150 120,120 Z" 
+        fill="url(#hatch-medium)" stroke="#c9d4e0" stroke-width="1.5"/>
+  
+  <!-- Cap brim detail -->
+  <path d="M100,155 Q200,175 300,155" fill="none" stroke="#c9d4e0" stroke-width="1" opacity="0.5"/>
+  
+  <!-- Hair - curly, visible at sides -->
+  <g stroke="#c9d4e0" stroke-width="1" fill="none" opacity="0.7">
+    <path d="M130,130 Q115,140 120,160"/>
+    <path d="M140,125 Q120,135 125,155"/>
+    <path d="M260,130 Q280,140 275,160"/>
+    <path d="M260,125 Q280,135 275,155"/>
+  </g>
+  
+  <!-- Sweater texture - cable knit suggestion -->
+  <g stroke="#c9d4e0" stroke-width="0.6" opacity="0.3">
+    <path d="M120,220 Q200,230 280,220"/>
+    <path d="M125,240 Q200,250 275,240"/>
+    <path d="M130,260 Q200,270 270,260"/>
+    <path d="M135,280 Q200,290 265,280"/>
+    <path d="M140,300 Q200,310 260,300"/>
+    <!-- Vertical cable lines -->
+    <line x1="160" y1="200" x2="165" y2="350"/>
+    <line x1="200" y1="195" x2="200" y2="360"/>
+    <line x1="240" y1="200" x2="235" y2="350"/>
+  </g>
+  
+  <!-- Cool blue lighting reflection on face -->
+  <g fill="#4a90d9" opacity="0.1">
+    <ellipse cx="150" cy="200" rx="30" ry="60"/>
+    <ellipse cx="250" cy="200" rx="25" ry="50"/>
+  </g>
+  
+  <!-- Atmospheric edges -->
+  <rect x="0" y="0" width="400" height="30" fill="url(#hatch-dense)" opacity="0.3"/>
+  <rect x="0" y="470" width="400" height="30" fill="url(#hatch-dense)" opacity="0.3"/>
+</svg>
