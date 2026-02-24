@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<rect width="200" height="200" fill="white"/>
+<polygon points="30,15 55,22 55,38 30,45 5,38 5,22" fill="none" stroke="black" stroke-width="0.5"/>
+<polygon points="80,35 105,42 105,58 80,65 55,58 55,42" fill="none" stroke="black" stroke-width="0.5"/>
+<polygon points="130,15 155,22 155,38 130,45 105,38 105,22" fill="none" stroke="black" stroke-width="0.5"/>
+<polygon points="180,35 205,42 205,58 180,65 155,58 155,42" fill="none" stroke="black" stroke-width="0.5"/>
+<polygon points="30,55 55,62 55,78 30,85 5,78 5,62" fill="none" stroke="black" stroke-width="0.5"/>
+<polygon points="80,75 105,82 105,98 80,105 55,98 55,82" fill="none" stroke="black" stroke-width="0.5"/>
+<polygon points="130,55 155,62 155,78 130,85 105,78 105,62" fill="none" stroke="black" stroke-width="0.5"/>
+<polygon points="180,75 205,82 205,98 180,105 155,98 155,82" fill="none" stroke="black" stroke-width="0.5"/>
+<polygon points="30,95 55,102 55,118 30,125 5,118 5,102" fill="none" stroke="black" stroke-width="0.5"/>
+<polygon points="80,115 105,122 105,138 80,145 55,138 55,122" fill="none" stroke="black" stroke-width="0.5"/>
+<polygon points="130,95 155,102 155,118 130,125 105,118 105,102" fill="none" stroke="black" stroke-width="0.5"/>
+<polygon points="180,115 205,122 205,138 180,145 155,138 155,122" fill="none" stroke="black" stroke-width="0.5"/>
+<polygon points="30,135 55,142 55,158 30,165 5,158 5,142" fill="none" stroke="black" stroke-width="0.5"/>
+<polygon points="80,155 105,162 105,178 80,185 55,178 55,162" fill="none" stroke="black" stroke-width="0.5"/>
+<polygon points="130,135 155,142 155,158 130,165 105,158 105,142" fill="none" stroke="black" stroke-width="0.5"/>
+<polygon points="180,155 205,162 205,178 180,185 155,178 155,162" fill="none" stroke="black" stroke-width="0.5"/>
+<polygon points="30,175 55,182 55,198 30,205 5,198 5,182" fill="none" stroke="black" stroke-width="0.5"/>
+<polygon points="80,195 105,202 105,218 80,225 55,218 55,202" fill="none" stroke="black" stroke-width="0.5"/>
+<polygon points="130,175 155,182 155,198 130,205 105,198 105,182" fill="none" stroke="black" stroke-width="0.5"/>
+<polygon points="180,195 205,202 205,218 180,225 155,218 155,202" fill="none" stroke="black" stroke-width="0.5"/>
+</svg>

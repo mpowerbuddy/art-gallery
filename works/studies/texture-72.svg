@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<rect width="200" height="200" fill="white"/>
+<path d="M20,20 Q37,5 55,20 Q37,35 20,20" fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M55,20 Q72,5 90,20 Q72,35 55,20" fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M90,20 Q107,5 125,20 Q107,35 90,20" fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M125,20 Q142,5 160,20 Q142,35 125,20" fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M160,20 Q177,5 195,20 Q177,35 160,20" fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M195,20 Q212,5 230,20 Q212,35 195,20" fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M20,50 Q37,35 55,50 Q37,65 20,50" fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M55,50 Q72,35 90,50 Q72,65 55,50" fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M90,50 Q107,35 125,50 Q107,65 90,50" fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M125,50 Q142,35 160,50 Q142,65 125,50" fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M160,50 Q177,35 195,50 Q177,65 160,50" fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M195,50 Q212,35 230,50 Q212,65 195,50" fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M20,80 Q37,65 55,80 Q37,95 20,80" fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M55,80 Q72,65 90,80 Q72,95 55,80" fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M90,80 Q107,65 125,80 Q107,95 90,80" fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M125,80 Q142,65 160,80 Q142,95 125,80" fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M160,80 Q177,65 195,80 Q177,95 160,80" fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M195,80 Q212,65 230,80 Q212,95 195,80" fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M20,110 Q37,95 55,110 Q37,125 20,110" fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M55,110 Q72,95 90,110 Q72,125 55,110" fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M90,110 Q107,95 125,110 Q107,125 90,110" fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M125,110 Q142,95 160,110 Q142,125 125,110" fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M160,110 Q177,95 195,110 Q177,125 160,110" fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M195,110 Q212,95 230,110 Q212,125 195,110" fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M20,140 Q37,125 55,140 Q37,155 20,140" fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M55,140 Q72,125 90,140 Q72,155 55,140" fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M90,140 Q107,125 125,140 Q107,155 90,140" fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M125,140 Q142,125 160,140 Q142,155 125,140" fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M160,140 Q177,125 195,140 Q177,155 160,140" fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M195,140 Q212,125 230,140 Q212,155 195,140" fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M20,170 Q37,155 55,170 Q37,185 20,170" fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M55,170 Q72,155 90,170 Q72,185 55,170" fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M90,170 Q107,155 125,170 Q107,185 90,170" fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M125,170 Q142,155 160,170 Q142,185 125,170" fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M160,170 Q177,155 195,170 Q177,185 160,170" fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M195,170 Q212,155 230,170 Q212,185 195,170" fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M20,200 Q37,185 55,200 Q37,215 20,200" fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M55,200 Q72,185 90,200 Q72,215 55,200" fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M90,200 Q107,185 125,200 Q107,215 90,200" fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M125,200 Q142,185 160,200 Q142,215 125,200" fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M160,200 Q177,185 195,200 Q177,215 160,200" fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M195,200 Q212,185 230,200 Q212,215 195,200" fill="none" stroke="black" stroke-width="0.5"/>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<rect width="200" height="200" fill="white"/>
+<path d="M0,15 Q50,5 100,15 T200,15" fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M0,35 Q50,25 100,35 T200,35" fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M0,55 Q50,45 100,55 T200,55" fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M0,75 Q50,65 100,75 T200,75" fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M0,95 Q50,85 100,95 T200,95" fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M0,115 Q50,105 100,115 T200,115" fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M0,135 Q50,125 100,135 T200,135" fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M0,155 Q50,145 100,155 T200,155" fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M0,175 Q50,165 100,175 T200,175" fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M0,195 Q50,185 100,195 T200,195" fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M15,0 Q25 100 15,200 T15,0" fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M35,0 Q45 100 35,200 T35,0" fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M55,0 Q65 100 55,200 T55,0" fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M75,0 Q85 100 75,200 T75,0" fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M95,0 Q105 100 95,200 T95,0" fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M115,0 Q125 100 115,200 T115,0" fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M135,0 Q145 100 135,200 T135,0" fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M155,0 Q165 100 155,200 T155,0" fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M175,0 Q185 100 175,200 T175,0" fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M195,0 Q205 100 195,200 T195,0" fill="none" stroke="black" stroke-width="0.5"/>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<rect width="200" height="200" fill="white"/>
+<path d="M20,10 Q10,100 20,190" fill="none" stroke="black" stroke-width="1"/>
+<path d="M40,10 Q30,100 40,190" fill="none" stroke="black" stroke-width="1"/>
+<path d="M60,10 Q50,100 60,190" fill="none" stroke="black" stroke-width="1"/>
+<path d="M80,10 Q70,100 80,190" fill="none" stroke="black" stroke-width="1"/>
+<path d="M100,10 Q90,100 100,190" fill="none" stroke="black" stroke-width="1"/>
+<path d="M120,10 Q110,100 120,190" fill="none" stroke="black" stroke-width="1"/>
+<path d="M140,10 Q130,100 140,190" fill="none" stroke="black" stroke-width="1"/>
+<path d="M160,10 Q150,100 160,190" fill="none" stroke="black" stroke-width="1"/>
+<path d="M180,10 Q170,100 180,190" fill="none" stroke="black" stroke-width="1"/>
+<path d="M55,40 Q70,60 55,80" fill="none" stroke="black" stroke-width="0.3"/>
+<path d="M55,100 Q45,120 55,140" fill="none" stroke="black" stroke-width="0.3"/>
+<path d="M80,40 Q95,60 80,80" fill="none" stroke="black" stroke-width="0.3"/>
+<path d="M80,100 Q70,120 80,140" fill="none" stroke="black" stroke-width="0.3"/>
+<path d="M105,40 Q120,60 105,80" fill="none" stroke="black" stroke-width="0.3"/>
+<path d="M105,100 Q95,120 105,140" fill="none" stroke="black" stroke-width="0.3"/>
+<path d="M130,40 Q145,60 130,80" fill="none" stroke="black" stroke-width="0.3"/>
+<path d="M130,100 Q120,120 130,140" fill="none" stroke="black" stroke-width="0.3"/>
+<path d="M155,40 Q170,60 155,80" fill="none" stroke="black" stroke-width="0.3"/>
+<path d="M155,100 Q145,120 155,140" fill="none" stroke="black" stroke-width="0.3"/>
+</svg>
