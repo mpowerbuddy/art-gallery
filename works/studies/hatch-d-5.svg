@@ -1,0 +1,6 @@
+<svg viewBox="0 0 200 300" xmlns="http://www.w3.org/2000/svg">
+  <defs><pattern id="p5" patternUnits="userSpaceOnUse" width="3" height="3" patternTransform="rotate(5)"><line x1="0" y1="0" x2="0" y2="3" stroke="#1a1a2e" stroke-width="0.3" opacity="0.30"/></pattern></defs>
+  <rect width="200" height="300" fill="#faf8f5"/>
+  <circle cx="100" cy="120" r="40" fill="url(#p5)" stroke="#1a1a2e" stroke-width="1.5"/>
+  <circle cx="100" cy="200" r="30" fill="url(#p5)" stroke="#1a1a2e" stroke-width="1.2"/>
+</svg>
