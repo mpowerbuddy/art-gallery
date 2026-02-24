@@ -1,0 +1,50 @@
+<svg viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Light to dark gradients -->
+    <linearGradient id="light-fall" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#faf8f5"/>
+      <stop offset="30%" stop-color="#d4cfc4"/>
+      <stop offset="70%" stop-color="#6b5f50"/>
+      <stop offset="100%" stop-color="#2a2a2e"/>
+    </linearGradient>
+    <radialGradient id="spotlight" cx="30%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#faf8f5"/>
+      <stop offset="50%" stop-color="#c9c4b8"/>
+      <stop offset="100%" stop-color="#3a3530"/>
+    </radialGradient>
+  </defs>
+  
+  <rect width="400" height="500" fill="#1a1a2e"/>
+  
+  <!-- Light source from upper left -->
+  <g transform="translate(200, 250)">
+    <!-- Background gradient -->
+    <rect x="-180" y="-220" width="360" height="440" fill="url(#light-fall)"/>
+    
+    <!-- Simple geometric form receiving light -->
+    <path d="M-80,-100 L80,-100 L80,100 L-80,100 Z" fill="url(#spotlight)" stroke="#faf8f5" stroke-width="1"/>
+    
+    <!-- Highlight edge - top left -->
+    <line x1="-80" y1="-100" x2="-80" y2="100" stroke="#faf8f5" stroke-width="2"/>
+    <line x1="-80" y1="-100" x2="80" y2="-100" stroke="#faf8f5" stroke-width="2"/>
+    
+    <!-- Shadow edge - bottom right -->
+    <line x1="80" y1="-100" x2="80" y2="100" stroke="#1a1a2e" stroke-width="3"/>
+    <line x1="-80" y1="100" x2="80" y2="100" stroke="#1a1a2e" stroke-width="3"/>
+    
+    <!-- Midtone suggestion -->
+    <line x1="-20" y1="-80" x2="-20" y2="80" stroke="#faf8f5" stroke-width="0.5" opacity="0.3"/>
+  </g>
+  
+  <!-- Cast shadow on ground -->
+  <path d="M150,350 Q200,380 250,350 Q280,370 200,400 Q120,370 150,350" fill="#0a0a0e" opacity="0.8"/>
+  
+  <!-- Atmospheric light rays -->
+  <g stroke="#faf8f5" stroke-width="0.3" opacity="0.1">
+    <line x1="80" y1="0" x2="0" y2="500"/>
+    <line x1="120" y1="0" x2="60" y2="500"/>
+    <line x1="160" y1="0" x2="120" y2="500"/>
+  </g>
+  
+  <text x="200" y="470" text-anchor="middle" font-family="Georgia" font-size="12" fill="#faf8f5" opacity="0.4">Light Study</text>
+</svg>

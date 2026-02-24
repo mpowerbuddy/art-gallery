@@ -1,0 +1,45 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="dots" patternUnits="userSpaceOnUse" width="10" height="10">
+      <circle cx="5" cy="5" r="1" fill="#1a1a2e" opacity="0.2"/>
+    </pattern>
+  </defs>
+  
+  <rect width="400" height="400" fill="#f5f0e8"/>
+  
+  <!-- Rule of thirds grid -->
+  <g stroke="#d4af37" stroke-width="0.5" opacity="0.4">
+    <line x1="133" y1="0" x2="133" y2="400"/>
+    <line x1="267" y1="0" x2="267" y2="400"/>
+    <line x1="0" y1="133" x2="400" y2="133"/>
+    <line x1="0" y1="267" x2="400" y2="267"/>
+  </g>
+  
+  <!-- Strong focal point - upper left intersection -->
+  <circle cx="133" cy="133" r="25" fill="#1a1a2e"/>
+  <circle cx="133" cy="133" r="15" fill="#f5f0e8"/>
+  <circle cx="133" cy="133" r="5" fill="#1a1a2e"/>
+  
+  <!-- Secondary element - lower right -->
+  <rect x="290" y="290" width="40" height="40" fill="none" stroke="#1a1a2e" stroke-width="1.5" transform="rotate(15, 310, 310)"/>
+  
+  <!-- Leading lines from bottom right toward focal point -->
+  <path d="M380,380 Q300,320 200,250" stroke="#1a1a2e" stroke-width="0.8" fill="none" opacity="0.5"/>
+  <path d="M350,400 Q280,340 220,270" stroke="#1a1a2e" stroke-width="0.5" fill="none" opacity="0.3"/>
+  
+  <!-- Diagonal tension from upper right -->
+  <line x1="400" y1="50" x2="200" y2="200" stroke="#1a1a2e" stroke-width="0.6" opacity="0.3"/>
+  
+  <!-- Fill elements - lower left quadrant (less important) -->
+  <circle cx="60" cy="340" r="15" fill="url(#dots)" stroke="#1a1a2e" stroke-width="0.8"/>
+  <circle cx="100" cy="360" r="8" fill="none" stroke="#1a1a2e" stroke-width="0.6" opacity="0.5"/>
+  
+  <!-- Atmospheric layers -->
+  <rect x="0" y="0" width="400" height="100" fill="url(#dots)" opacity="0.3"/>
+  
+  <!-- Golden spiral suggestion -->
+  <path d="M80,80 Q80,60 100,60 Q120,60 120,80 Q120,100 100,100 Q80,100 80,80" 
+        fill="none" stroke="#d4af37" stroke-width="0.5" opacity="0.3"/>
+  
+  <text x="200" y="385" text-anchor="middle" font-family="Georgia" font-size="10" fill="#1a1a2e" opacity="0.4">Composition: Rule of Thirds</text>
+</svg>
