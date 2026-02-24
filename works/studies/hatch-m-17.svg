@@ -1,0 +1,5 @@
+<svg viewBox="0 0 200 300" xmlns="http://www.w3.org/2000/svg">
+  <defs><pattern id="p17" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(47)"><line x1="0" y1="0" x2="0" y2="6" stroke="#1a1a2e" stroke-width="0.1" opacity="0.21"/></pattern></defs>
+  <rect width="200" height="300" fill="#faf8f5"/>
+  <rect x="45" y="75" width="110" height="150" rx="15" fill="url(#p17)" stroke="#1a1a2e" stroke-width="1.5"/>
+</svg>
