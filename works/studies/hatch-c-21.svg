@@ -1,0 +1,5 @@
+<svg viewBox="0 0 200 300" xmlns="http://www.w3.org/2000/svg">
+  <defs><pattern id="p21" patternUnits="userSpaceOnUse" width="4" height="4" patternTransform="rotate(33)"><line x1="0" y1="0" x2="0" y2="4" stroke="#1a1a2e" stroke-width="0.5" opacity="0.41"/></pattern></defs>
+  <rect width="200" height="300" fill="#faf8f5"/>
+  <path d="M40,122 Q100,81 160,122 Q180,171 160,178 Q100,261 40,178 Q20,171 40,122 Z" fill="url(#p21)" stroke="#1a1a2e" stroke-width="1.5"/>
+</svg>
