@@ -1,0 +1,6 @@
+<svg viewBox="0 0 200 300" xmlns="http://www.w3.org/2000/svg">
+  <defs><pattern id="p13" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(41)"><line x1="0" y1="0" x2="0" y2="5" stroke="#1a1a2e" stroke-width="0.5" opacity="0.3"/></pattern></defs>
+  <rect width="200" height="300" fill="#faf8f5"/>
+  <ellipse cx="100" cy="150" rx="58" ry="68" fill="url(#p13)" stroke="#1a1a2e" stroke-width="1.5"/>
+  <path d="M40,103 Q100,83 160,103" stroke="#1a1a2e" stroke-width="2" fill="none"/>
+</svg>
