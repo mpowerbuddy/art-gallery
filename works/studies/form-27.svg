@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<rect width="200" height="200" fill="white"/>
+<path d="M100,100 m-5,-5 a5,5 0 0,1 10,10 a5,5 0 0,1 -10,10" fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M100,100 m-10,-10 a10,10 0 0,1 20,20 a10,10 0 0,1 -20,20" fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M100,100 m-15,-15 a15,15 0 0,1 30,30 a15,15 0 0,1 -30,30" fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M100,100 m-20,-20 a20,20 0 0,1 40,40 a20,20 0 0,1 -40,40" fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M100,100 m-25,-25 a25,25 0 0,1 50,50 a25,25 0 0,1 -50,50" fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M100,100 m-30,-30 a30,30 0 0,1 60,60 a30,30 0 0,1 -60,60" fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M100,100 m-35,-35 a35,35 0 0,1 70,70 a35,35 0 0,1 -70,70" fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M100,100 m-40,-40 a40,40 0 0,1 80,80 a40,40 0 0,1 -80,80" fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M100,100 m-45,-45 a45,45 0 0,1 90,90 a45,45 0 0,1 -90,90" fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M100,100 m-50,-50 a50,50 0 0,1 100,100 a50,50 0 0,1 -100,100" fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M100,100 m-55,-55 a55,55 0 0,1 110,110 a55,55 0 0,1 -110,110" fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M100,100 m-60,-60 a60,60 0 0,1 120,120 a60,60 0 0,1 -120,120" fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M100,100 m-65,-65 a65,65 0 0,1 130,130 a65,65 0 0,1 -130,130" fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M100,100 m-70,-70 a70,70 0 0,1 140,140 a70,70 0 0,1 -140,140" fill="none" stroke="black" stroke-width="0.5"/>
+</svg>

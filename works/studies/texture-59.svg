@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<rect width="200" height="200" fill="white"/>
+<polyline points="10,15 30,5 50,15 70,5 90,15 110,5 130,15 150,5 170,15 190,5" fill="none" stroke="black" stroke-width="1"/>
+<polyline points="10,40 30,30 50,40 70,30 90,40 110,30 130,40 150,30 170,40 190,30" fill="none" stroke="black" stroke-width="1"/>
+<polyline points="10,65 30,55 50,65 70,55 90,65 110,55 130,65 150,55 170,65 190,55" fill="none" stroke="black" stroke-width="1"/>
+<polyline points="10,90 30,80 50,90 70,80 90,90 110,80 130,90 150,80 170,90 190,80" fill="none" stroke="black" stroke-width="1"/>
+<polyline points="10,115 30,105 50,115 70,105 90,115 110,105 130,115 150,105 170,115 190,105" fill="none" stroke="black" stroke-width="1"/>
+<polyline points="10,140 30,130 50,140 70,130 90,140 110,130 130,140 150,130 170,140 190,130" fill="none" stroke="black" stroke-width="1"/>
+<polyline points="10,165 30,155 50,165 70,155 90,165 110,155 130,165 150,155 170,165 190,155" fill="none" stroke="black" stroke-width="1"/>
+</svg>

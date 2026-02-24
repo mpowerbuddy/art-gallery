@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<rect width="200" height="200" fill="white"/>
+<path d="M20,40 Q60,25 100,40 Q140,55 180,40" fill="none" stroke="black" stroke-width="1"/>
+<path d="M20,70 Q60,55 100,70 Q140,85 180,70" fill="none" stroke="black" stroke-width="1"/>
+<path d="M20,100 Q60,85 100,100 Q140,115 180,100" fill="none" stroke="black" stroke-width="1"/>
+<path d="M20,130 Q60,115 100,130 Q140,145 180,130" fill="none" stroke="black" stroke-width="1"/>
+<path d="M20,160 Q60,145 100,160 Q140,175 180,160" fill="none" stroke="black" stroke-width="1"/>
+</svg>

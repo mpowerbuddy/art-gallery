@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<rect width="200" height="200" fill="white"/>
+<line x1="97" y1="139" x2="180" y2="48" stroke="black" stroke-width="0.5"/>
+<line x1="39" y1="43" x2="134" y2="32" stroke="black" stroke-width="0.5"/>
+<line x1="130" y1="121" x2="78" y2="41" stroke="black" stroke-width="0.5"/>
+<line x1="57" y1="109" x2="86" y2="93" stroke="black" stroke-width="0.5"/>
+<line x1="126" y1="27" x2="109" y2="118" stroke="black" stroke-width="0.5"/>
+<line x1="136" y1="80" x2="27" y2="115" stroke="black" stroke-width="0.5"/>
+<line x1="102" y1="12" x2="164" y2="95" stroke="black" stroke-width="0.5"/>
+<line x1="32" y1="180" x2="34" y2="52" stroke="black" stroke-width="0.5"/>
+<line x1="96" y1="36" x2="153" y2="112" stroke="black" stroke-width="0.5"/>
+<line x1="71" y1="45" x2="46" y2="31" stroke="black" stroke-width="0.5"/>
+</svg>
