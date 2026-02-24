@@ -1,0 +1,67 @@
+<svg viewBox="0 0 400 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Contour hatching pattern -->
+    <pattern id="contour" patternUnits="userSpaceOnUse" width="3" height="3">
+      <line x1="0" y1="1.5" x2="3" y2="1.5" stroke="#1a1a2e" stroke-width="0.4" opacity="0.5"/>
+    </pattern>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="600" fill="#faf8f5"/>
+  
+  <!-- Gesture figure - quick contour drawing -->
+  <g transform="translate(200, 300)">
+    <!-- Head - simple oval -->
+    <ellipse cx="0" cy="-180" rx="35" ry="45" fill="none" stroke="#1a1a2e" stroke-width="1.5"/>
+    
+    <!-- Neck -->
+    <line x1="0" y1="-135" x2="0" y2="-110" stroke="#1a1a2e" stroke-width="1.5"/>
+    
+    <!-- Shoulders - fluid curve -->
+    <path d="M-80,-110 Q-90,-105 -95,-90 Q-80,-85 -60,-95" fill="none" stroke="#1a1a2e" stroke-width="1.5"/>
+    <path d="M80,-110 Q90,-105 95,-90 Q80,-85 60,-95" fill="none" stroke="#1a1a2e" stroke-width="1.5"/>
+    
+    <!-- Torso - flowing contour -->
+    <path d="M-60,-95 Q-70,-50 -50,0 Q-40,50 -45,100" fill="none" stroke="#1a1a2e" stroke-width="1.5"/>
+    <path d="M60,-95 Q70,-50 50,0 Q40,50 45,100" fill="none" stroke="#1a1a2e" stroke-width="1.5"/>
+    
+    <!-- Spine suggestion -->
+    <path d="M0,-110 Q5,-50 0,0 Q-5,50 0,100" fill="none" stroke="#1a1a2e" stroke-width="1" opacity="0.4"/>
+    
+    <!-- Left arm - reaching gesture -->
+    <path d="M-60,-95 Q-100,-80 -120,-40 Q-140,0 -130,30" fill="none" stroke="#1a1a2e" stroke-width="1.5"/>
+    <path d="M-130,30 L-125,50" stroke="#1a1a2e" stroke-width="1.2"/>
+    
+    <!-- Right arm - at side -->
+    <path d="M60,-95 Q90,-70 100,-30 Q110,10 95,40" fill="none" stroke="#1a1a2e" stroke-width="1.5"/>
+    <path d="M95,40 L100,60" stroke="#1a1a2e" stroke-width="1.2"/>
+    
+    <!-- Hips -->
+    <path d="M-45,100 Q-55,120 -45,140 Q0,150 45,140 Q55,120 45,100" fill="none" stroke="#1a1a2e" stroke-width="1.5"/>
+    
+    <!-- Left leg - walking gesture -->
+    <path d="M-45,140 Q-50,200 -40,260 Q-35,300 -45,340" fill="none" stroke="#1a1a2e" stroke-width="1.5"/>
+    <path d="M-45,340 L-55,380" stroke="#1a1a2e" stroke-width="1.2"/>
+    <path d="M-55,380 L-45,385" stroke="#1a1a2e" stroke-width="1"/>
+    
+    <!-- Right leg - stepping -->
+    <path d="M45,140 Q55,200 65,260 Q75,300 60,340" fill="none" stroke="#1a1a2e" stroke-width="1.5"/>
+    <path d="M60,340 L75,380" stroke="#1a1a2e" stroke-width="1.2"/>
+    <path d="M75,380 L80,385" stroke="#1a1a2e" stroke-width="1"/>
+  </g>
+  
+  <!-- Weight indicators - showing contact with ground -->
+  <ellipse cx="175" cy="560" rx="25" ry="8" fill="none" stroke="#1a1a2e" stroke-width="0.8" opacity="0.3"/>
+  <ellipse cx="255" cy="550" rx="20" ry="6" fill="none" stroke="#1a1a2e" stroke-width="0.8" opacity="0.3"/>
+  
+  <!-- Energy lines - suggest movement -->
+  <g stroke="#1a1a2e" stroke-width="0.5" opacity="0.2">
+    <line x1="100" y1="400" x2="80" y2="450"/>
+    <line x1="110" y1="410" x2="95" y2="455"/>
+    <line x1="300" y1="400" x2="320" y2="450"/>
+    <line x1="290" y1="410" x2="305" y2="455"/>
+  </g>
+  
+  <!-- Signature -->
+  <line x1="330" y1="570" x2="380" y2="570" stroke="#1a1a2e" stroke-width="0.8" opacity="0.4"/>
+</svg>
