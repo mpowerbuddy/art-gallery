@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<rect width="200" height="200" fill="white"/>
+<line x1="-170" y1="0" x2="-370" y2="200" stroke="black" stroke-width="0.3"/>
+<line x1="-95" y1="0" x2="-295" y2="200" stroke="black" stroke-width="0.3"/>
+<line x1="-20" y1="0" x2="-220" y2="200" stroke="black" stroke-width="0.3"/>
+<line x1="55" y1="0" x2="-145" y2="200" stroke="black" stroke-width="0.3"/>
+<line x1="130" y1="0" x2="-70" y2="200" stroke="black" stroke-width="0.3"/>
+<line x1="205" y1="0" x2="5" y2="200" stroke="black" stroke-width="0.3"/>
+<line x1="280" y1="0" x2="80" y2="200" stroke="black" stroke-width="0.3"/>
+<line x1="355" y1="0" x2="155" y2="200" stroke="black" stroke-width="0.3"/>
+<line x1="-170" y1="0" x2="30" y2="200" stroke="black" stroke-width="0.3"/>
+<line x1="-95" y1="0" x2="105" y2="200" stroke="black" stroke-width="0.3"/>
+<line x1="-20" y1="0" x2="180" y2="200" stroke="black" stroke-width="0.3"/>
+<line x1="55" y1="0" x2="255" y2="200" stroke="black" stroke-width="0.3"/>
+<line x1="130" y1="0" x2="330" y2="200" stroke="black" stroke-width="0.3"/>
+<line x1="205" y1="0" x2="405" y2="200" stroke="black" stroke-width="0.3"/>
+<line x1="280" y1="0" x2="480" y2="200" stroke="black" stroke-width="0.3"/>
+<line x1="355" y1="0" x2="555" y2="200" stroke="black" stroke-width="0.3"/>
+</svg>
