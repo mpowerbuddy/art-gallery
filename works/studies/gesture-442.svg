@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<rect width="200" height="200" fill="white"/>
+<line x1="100" y1="100" x2="100" y2="180" stroke="black" stroke-width="1.5"/>
+<line x1="100" y1="100" x2="105" y2="175" stroke="black" stroke-width="1.5"/>
+<line x1="100" y1="100" x2="111" y2="169" stroke="black" stroke-width="1.5"/>
+<line x1="100" y1="100" x2="116" y2="164" stroke="black" stroke-width="1.5"/>
+<line x1="100" y1="100" x2="122" y2="158" stroke="black" stroke-width="1.5"/>
+<line x1="100" y1="100" x2="128" y2="152" stroke="black" stroke-width="1.5"/>
+<line x1="100" y1="100" x2="134" y2="146" stroke="black" stroke-width="1.5"/>
+<line x1="100" y1="100" x2="140" y2="140" stroke="black" stroke-width="1.5"/>
+<line x1="100" y1="100" x2="145" y2="135" stroke="black" stroke-width="1.5"/>
+<line x1="100" y1="100" x2="151" y2="129" stroke="black" stroke-width="1.5"/>
+<line x1="100" y1="100" x2="157" y2="123" stroke="black" stroke-width="1.5"/>
+<line x1="100" y1="100" x2="163" y2="117" stroke="black" stroke-width="1.5"/>
+<line x1="100" y1="100" x2="168" y2="112" stroke="black" stroke-width="1.5"/>
+<line x1="100" y1="100" x2="174" y2="106" stroke="black" stroke-width="1.5"/>
+<line x1="100" y1="100" x2="180" y2="100" stroke="black" stroke-width="1.5"/>
+</svg>
