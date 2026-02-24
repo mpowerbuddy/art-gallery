@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<rect width="200" height="200" fill="white"/>
+<path d="M5,10 Q55,-2 100,10 Q145,22 195,10" fill="none" stroke="black" stroke-width="1"/>
+<path d="M5,30 Q55,18 100,30 Q145,42 195,30" fill="none" stroke="black" stroke-width="1"/>
+<path d="M5,50 Q55,38 100,50 Q145,62 195,50" fill="none" stroke="black" stroke-width="1"/>
+<path d="M5,70 Q55,58 100,70 Q145,82 195,70" fill="none" stroke="black" stroke-width="1"/>
+<path d="M5,90 Q55,78 100,90 Q145,102 195,90" fill="none" stroke="black" stroke-width="1"/>
+<path d="M5,110 Q55,98 100,110 Q145,122 195,110" fill="none" stroke="black" stroke-width="1"/>
+<path d="M5,130 Q55,118 100,130 Q145,142 195,130" fill="none" stroke="black" stroke-width="1"/>
+<path d="M5,150 Q55,138 100,150 Q145,162 195,150" fill="none" stroke="black" stroke-width="1"/>
+<path d="M5,170 Q55,158 100,170 Q145,182 195,170" fill="none" stroke="black" stroke-width="1"/>
+<path d="M5,190 Q55,178 100,190 Q145,202 195,190" fill="none" stroke="black" stroke-width="1"/>
+</svg>
